@@ -77,27 +77,42 @@ export function ExperiencePage(){
   );
 }
 export function ServicesPage(){
-  const s=[
-    ["\🚀","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
-    ["\🔌","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
-    ["\U0001F6E1\","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
-    ["\U0001F5C4\","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
-    ["\u2601\","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
-    ["\🎨","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
-  ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SERVICES</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-2">MY SERVICES</h2>
       <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a MERN Full Stack Developer, I deliver end-to-end production-ready solutions.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
-        {s.map((x,i)=>(
-          <div key={i} className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-            <div className="text-3xl mb-3">{x[0]}</div>
-            <h3 className="font-bold text-[15px]">{x[1]}</h3>
-            <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">{x[2]}</p>
-          </div>
-        ))}
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-2xl mb-4">R</div>
+          <h3 className="font-bold text-[15px]">MERN Full-Stack Development</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered.</p>
+        </div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-2xl mb-4">A</div>
+          <h3 className="font-bold text-[15px]">REST API Development</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.</p>
+        </div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center text-2xl mb-4">S</div>
+          <h3 className="font-bold text-[15px]">Authentication & Security</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.</p>
+        </div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-2xl mb-4">D</div>
+          <h3 className="font-bold text-[15px]">Database Design</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.</p>
+        </div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center text-2xl mb-4">C</div>
+          <h3 className="font-bold text-[15px]">Deployment & DevOps</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup.</p>
+        </div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+          <div className="w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center text-2xl mb-4">U</div>
+          <h3 className="font-bold text-[15px]">Responsive UI/UX</h3>
+          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive.</p>
+        </div>
       </div>
     </div>
   );
