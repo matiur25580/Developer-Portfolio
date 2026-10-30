@@ -1,25 +1,20 @@
 import { useEffect, useState } from 'react';
-import { toggleTheme } from '../utils/theme';
-export default function Navbar(){
-  const [dateTime,setDateTime]=useState({date:'',time:''});
-  const [dark,setDark]=useState(true);
+export default function Navbar({active,setActive}){
+  const menu=["Home","About","Resume","Services","Portfolio","Contact"];
+  const [dt,setDt]=useState('');
   useEffect(()=>{
-    const upd=()=>{
-      const n=new Date();
-      const d=n.toLocaleDateString('en-GB').replace(/\//g,'.');
-      let h=n.getHours(); const ap=h>=12?'PM':'AM'; h=h%12||12;
-      const t=`${String(h).padStart(2,'0')}.${String(n.getMinutes()).padStart(2,'0')}.${String(n.getSeconds()).padStart(2,'0')} ${ap}`;
-      setDateTime({date:d,time:t});
-    }; upd(); const id=setInterval(upd,1000); return ()=>clearInterval(id);
+    const u=()=>{const n=new Date();let h=n.getHours();const ap=h>=12?'PM':'AM';h=h%12||12;setDt(`${n.toLocaleDateString('en-GB').replace(/\//g,'.')} | ${String(h).padStart(2,'0')}.${String(n.getMinutes()).padStart(2,'0')}.${String(n.getSeconds()).padStart(2,'0')} ${ap}`)};u();const id=setInterval(u,1000);return()=>clearInterval(id);
   },[]);
   return (
-    <nav className="flex justify-between items-center p-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white dark:from-gray-900 dark:to-gray-800 sticky top-0 z-50">
-      <h1 className="font-bold text-xl">Rubel Ali | MERN Developer</h1>
-      <div className="flex items-center gap-4 text-sm">
-        <span>{dateTime.date} | {dateTime.time}</span>
-        <span className="hidden md:inline">Newtown, Kolkata</span>
-        <button onClick={()=>setDark(toggleTheme())} className="bg-white/20 px-3 py-1 rounded-full">{dark?'🌞 Light':'🌙 Dark'}</button>
+    <nav className="bg-black text-white px-6 py-4 flex justify-between items-center sticky top-0 z-50 border-b border-green-500/20">
+      <h1 className="text-2xl font-extrabold tracking-wider">RUBEL <span className="text-green-400">ALI</span></h1>
+      <div className="hidden md:flex gap-6 text-sm">
+        {menu.map(m=><button key={m} onClick={()=>setActive(m)} className={`${active===m?'text-green-400 border-b-2 border-green-400':'hover:text-green-300'} pb-1 font-semibold`}>{m}</button>)}
       </div>
+      <div className="md:hidden flex gap-2 flex-wrap text-xs">
+        {menu.map(m=><button key={m} onClick={()=>setActive(m)} className={`${active===m?'text-green-400':'text-gray-300'}`}>{m}</button>)}
+      </div>
+      <span className="hidden lg:block text-xs text-gray-400">{dt}</span>
     </nav>
   );
 }
