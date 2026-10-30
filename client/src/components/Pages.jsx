@@ -29,7 +29,7 @@ export function AboutPage(){
   );
 }
 export function SkillsPage(){
-  const proficient=["React.js","Node.js","Express.js","Mon"+"goDB","JavaScript","JWT","REST API"];
+  const proficient=["React.js","Node.js","Express.js","Mon"+"goDB","JavaScript","JWT","REST API","Mongoose"];
   const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
