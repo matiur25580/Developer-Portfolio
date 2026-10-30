@@ -20,7 +20,7 @@ export default function Contact(){
       <p className="text-center text-sm text-gray-400 mb-2">Open to <span className="text-green-400 font-bold">MNC / Startup</span> MERN Full Stack Developer roles</p>
       <div className="flex justify-center mb-8"><span className="text-[11px] bg-green-500/10 text-green-400 border border-green-500/30 px-4 py-1.5 rounded-full font-bold">● Available for full-time roles</span></div>
 
-      <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto mb-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto mb-8">
         <a href="mailto:rahamanmatiur397@gmail.com" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
           <div className="w-12 h-12 mx-auto bg-green-500 rounded-xl flex items-center justify-center text-xl font-bold text-black mb-3">E</div>
           <h3 className="font-bold text-sm">Email Me</h3>
@@ -38,6 +38,12 @@ export default function Contact(){
           <h3 className="font-bold text-sm">GitHub</h3>
           <p className="text-xs text-green-400 mt-1">github.com/matiur25580</p>
           <p className="text-[10px] text-gray-600 mt-1">6 enterprise projects</p>
+        </a>
+        <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
+          <div className="w-12 h-12 mx-auto bg-blue-600 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">in</div>
+          <h3 className="font-bold text-sm">LinkedIn</h3>
+          <p className="text-xs text-green-400 mt-1">Connect with me</p>
+          <p className="text-[10px] text-gray-600 mt-1">MERN Developer</p>
         </a>
       </div>
 
