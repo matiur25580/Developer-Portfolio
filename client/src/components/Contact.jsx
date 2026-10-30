@@ -25,13 +25,13 @@ export default function Contact(){
 
       <div className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-4 max-w-4xl mx-auto mb-8">
         <a href="mailto:rahamanmatiur397@gmail.com" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <img src="https://cdn.simpleicons.org/gmail/white" className="w-12 h-12 mx-auto mb-3" alt="Email"/>
+          <img src="https://cdn.simpleicons.org/gmail/EA4335" className="w-12 h-12 mx-auto mb-3" alt="Email"/>
           <h3 className="font-bold text-sm">Email Me</h3>
           <p className="text-[11px] text-green-400 mt-1 break-all px-1">rahamanmatiur397@gmail.com</p>
           <p className="text-[10px] text-gray-600 mt-1">Replies within 24 hours</p>
         </a>
         <a href="https://maps.app.goo.gl/mMmRsyXMTnkmGRrF7" target="_blank" rel="noopener noreferrer" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <img src="https://cdn.simpleicons.org/googlemaps/white" className="w-12 h-12 mx-auto mb-3" alt="Map"/>
+          <img src="https://cdn.simpleicons.org/googlemaps/EA4335" className="w-12 h-12 mx-auto mb-3" alt="Map"/>
           <h3 className="font-bold text-sm">My Location</h3>
           <p className="text-xs text-green-400 mt-1">Newtown, Kolkata, India</p>
           <p className="text-[10px] text-gray-600 mt-1">Click to open map</p>
@@ -43,7 +43,7 @@ export default function Contact(){
           <p className="text-[10px] text-gray-600 mt-1">6 enterprise projects</p>
         </a>
         <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <img src="https://cdn.simpleicons.org/linkedin/white" className="w-12 h-12 mx-auto mb-3" alt="LinkedIn"/>
+          <img src="https://cdn.simpleicons.org/linkedin/0A66C2" className="w-12 h-12 mx-auto mb-3" alt="LinkedIn"/>
           <h3 className="font-bold text-sm">LinkedIn</h3>
           <p className="text-xs text-green-400 mt-1">Connect with me</p>
           <p className="text-[10px] text-gray-600 mt-1">MERN Developer</p>
