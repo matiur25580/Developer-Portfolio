@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -7,7 +6,15 @@ import Contact from './components/Contact';
 import Admin from './pages/Admin';
 import { initTheme } from './utils/theme';
 
-function HomePage(){
+export default function App(){
+  const [isAdmin,setIsAdmin]=useState(window.location.hash==='#/admin');
+  useEffect(()=>{
+    initTheme();
+    const h=()=>setIsAdmin(window.location.hash==='#/admin');
+    window.addEventListener('hashchange',h);
+    return ()=>window.removeEventListener('hashchange',h);
+  },[]);
+  if(isAdmin) return <Admin />;
   return (
     <div className="dark:bg-black">
       <Navbar />
@@ -23,19 +30,8 @@ function HomePage(){
         </div>
       </section>
       <Contact />
+      <div className="text-center p-2 bg-black"><a href="#/admin" className="text-xs text-gray-500 underline">Admin</a></div>
       <footer className="text-center p-4 bg-black text-white">© 2026 Rubel Ali | Built with MERN Passion on Android</footer>
     </div>
-  );
-}
-
-export default function App(){
-  useEffect(()=>{ initTheme(); },[]);
-  return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/admin" element={<Admin />} />
-      </Routes>
-    </HashRouter>
   );
 }
