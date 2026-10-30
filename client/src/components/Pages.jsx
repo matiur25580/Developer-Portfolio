@@ -29,8 +29,13 @@ export function AboutPage(){
   );
 }
 export function SkillsPage(){
-  const languages=["JavaScript","React.js","Node.js","Express.js","Tailwind CSS"];
-  const tools=["Mon"+"goDB","JWT","REST API","Git & GitHub","Postman"];
+  const groups=[
+    ["LANGUAGE",["HTML","CSS","JavaScript"]],
+    ["FRONTEND",["React.js","Tailwind CSS"]],
+    ["BACKEND",["Node.js","Express.js","REST API","JWT"]],
+    ["DATABASE",["Mon"+"goDB","Mongoose"]],
+    ["TOOLS & DEVOPS",["Git & GitHub","Postman","Vercel","Render","GitHub Actions"]],
+  ];
   const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
@@ -38,22 +43,16 @@ export function SkillsPage(){
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
       <div className="max-w-4xl mx-auto">
         <h3 className="font-bold text-green-400 mb-4">⭐ Proficient</h3>
-        <div className="grid grid-cols-2 gap-4">
-          <div>
-            <p className="text-center text-[11px] tracking-[0.2em] text-gray-400 mb-3 font-bold">LANGUAGE</p>
-            <div className="grid gap-3">
-              {languages.map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
+        {groups.map((g,gi)=>(
+          <div key={gi} className="mb-5">
+            <p className="text-[11px] tracking-[0.2em] text-gray-400 mb-3 font-bold">{g[0]}</p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {g[1].map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
             </div>
           </div>
-          <div>
-            <p className="text-center text-[11px] tracking-[0.2em] text-gray-400 mb-3 font-bold">TOOLS</p>
-            <div className="grid gap-3">
-              {tools.map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
-            </div>
-          </div>
-        </div>
+        ))}
         <h3 className="font-bold text-yellow-400 mt-8 mb-4">📚 Familiar / Working Knowledge</h3>
-        <div className="grid grid-cols-2 gap-3 text-[13px]">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-[13px]">
           {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl px-3 py-3.5 text-center"><span className="text-yellow-400">○</span> {sk}</div>))}
         </div>
       </div>
