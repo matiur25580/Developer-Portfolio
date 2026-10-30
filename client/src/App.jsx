@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Admin from './pages/Admin';
-import { HomePage, AboutPage, ResumePage, ServicesPage, PortfolioPage } from './components/Pages';
+import { HomePage, AboutPage, SkillsPage, ExperiencePage, ServicesPage, ProjectsPage } from './components/Pages';
 import Contact from './components/Contact';
 import { initTheme } from './utils/theme';
 export default function App(){
@@ -14,11 +14,12 @@ export default function App(){
       <Navbar active={active} setActive={setActive} />
       {active==='Home' && <HomePage setActive={setActive}/>}
       {active==='About' && <AboutPage/>}
-      {active==='Resume' && <ResumePage/>}
+      {active==='Skills' && <SkillsPage/>}
+      {active==='Experience' && <ExperiencePage/>}
       {active==='Services' && <ServicesPage/>}
-      {active==='Portfolio' && <PortfolioPage/>}
+      {active==='Projects' && <ProjectsPage/>}
       {active==='Contact' && <Contact/>}
-      <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Rubel Ali | Designed by Rubel Ali | <a href="#/admin" className="underline">Admin</a></footer>
+      <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Rubel Ali | <a href="#/admin" className="underline">Admin</a></footer>
     </div>
   );
 }
