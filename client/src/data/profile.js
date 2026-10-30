@@ -6,9 +6,9 @@ export const profile = {
   addresses: { homeTown: "Vill: Surangapur, P.O: Samashpur, P.S: Hemtabad, Dist: Uttar Dinajpur (Raiganj), West Bengal, India", current: "Newtown, Kolkata, West Bengal, India" },
   knowledge: ["MERN Stack Architecture","Role-Based Dashboards","Real OTP Verification","MongoDB Atlas","API Deployment","Git Workflow","Responsive UI"],
   experience: [
-    { title: "MERN FULL STACK DEVELOPER (SELF PROJECTS)", period: "2023 - Present", desc: "6 Enterprise systems built from scratch: HR & Payroll, Hospital, RealEstate, FleetCommand, TrustShield Bank, Marketplace." },
-    { title: "MERN WEB DEVELOPMENT INTERN", period: "2023 - 6 Months", desc: "Full-stack training, REST API, MongoDB, React." },
-    { title: "B.TECH CSE STUDENT", period: "2019 - 2023", desc: "Bengal Institute of Technology, Kolkata under MAKAUT." }
+    { title: "MERN FULL STACK DEVELOPER (SELF PROJECTS)", period: "2023 - Present", desc: "Built 6 enterprise-grade, production-ready MERN applications from 0% scratch entirely on Android (Termux + GitHub Codespaces).\n\n• Real auth: 6-digit OTP (Brevo/Gmail), JWT, role-based dashboards (Admin/HR/Employee/Doctor/Nurse/Driver etc.)\n• Backend: REST APIs with Node.js + Express.js, Mon" + "goDB Atlas + Mongoose, Nodemailer OTP, audit logging\n• Frontend: React.js + Vite + Tailwind CSS, fully responsive, dark/light theme\n• DevOps: Git & GitHub workflow, Vercel (frontend) + Render (backend) CI/CD, Postman API testing\n• Projects: Smart HR & Payroll, CityCare Hospital (ABDM-ready), RealEstate, FleetCommand Logistics, TrustShield Bank (fraud detection), Multi-Vendor Marketplace" },
+    { title: "MERN WEB DEVELOPMENT INTERN", period: "2023 - 6 Months", desc: "Intensive full-stack training program.\n\n• Mastered MERN stack: React.js, Node.js, Express.js, Mon" + "goDB\n• Built REST APIs with JWT authentication, learned OTP verification flow\n• Git & GitHub version control, Postman API testing, Vercel/Render deployment basics" },
+    { title: "B.TECH - COMPUTER SCIENCE & ENGINEERING", period: "2019 - 2023", desc: "Bengal Institute of Technology, Kolkata (Under MAKAUT).\n\n• Relevant coursework: Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks\n• Built strong programming foundation in JavaScript, HTML, CSS" }
   ],
   languages: ["Bangla (Native)","Hindi (Fluent)","English (Professional)"],
   hobbies: ["Coding","New Tech Explore","Morning Walk","Healthy Lifestyle"],
