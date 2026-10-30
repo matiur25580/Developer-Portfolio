@@ -74,7 +74,28 @@ export function AboutPage(){
           </div>
         ))}
       </div>
-      <h3 className="text-center font-bold mt-10 mb-4 text-sm tracking-[0.2em] text-gray-400">WHAT I DO</h3>
+      <h3 className="text-center font-bold mt-10 mb-6 text-sm tracking-[0.2em] text-gray-400">MY JOURNEY</h3>
+<div className="max-w-3xl mx-auto">
+  {[
+    ["2019","Started B.Tech in CSE","Joined Bengal Institute of Technology, Kolkata under MAKAUT - built my foundation in programming and computer science."],
+    ["2023","Graduated + MERN Internship","Completed B.Tech and a 6-month MERN web development internship. Received a 35k/month MNC offer via campus placement."],
+    ["2023 - 2025","Self-driven mastery","Mastered the full MERN stack by building real projects end-to-end - entirely on an Android phone with Termux and GitHub Codespaces."],
+    ["2026","6 enterprise systems shipped","Built and deployed 6 production-grade MERN applications with real OTP/JWT auth, role-based dashboards and live Vercel + Render deployments."],
+  ].map((j,i,arr)=>(
+    <div key={i} className="flex gap-4">
+      <div className="flex flex-col items-center">
+        <div className="w-3 h-3 rounded-full bg-green-400 mt-2 shrink-0"></div>
+        {i < arr.length-1 && <div className="w-[2px] flex-1 bg-gray-800"></div>}
+      </div>
+      <div className="bg-[#111] border border-gray-800 rounded-2xl p-5 mb-4 flex-1">
+        <span className="text-[10px] font-bold bg-green-500/15 text-green-400 px-3 py-1 rounded-full">{j[0]}</span>
+        <h4 className="font-bold text-[14px] mt-2">{j[1]}</h4>
+        <p className="text-[12px] text-gray-500 mt-1 leading-relaxed">{j[2]}</p>
+      </div>
+    </div>
+  ))}
+</div>
+<h3 className="text-center font-bold mt-10 mb-4 text-sm tracking-[0.2em] text-gray-400">WHAT I DO</h3>
       <div className="grid md:grid-cols-2 gap-4 max-w-6xl mx-auto">
         {points.map((x,i)=>(
           <div key={i} className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-5 transition">
@@ -127,6 +148,27 @@ export function AboutPage(){
       <a href="https://share.google/O2CMuA2b5zBNJuYFU" target="_blank" rel="noreferrer" className="inline-block mt-3 bg-green-500 hover:bg-green-400 text-black font-bold text-[13px] px-6 py-2 rounded-full">Get Directions</a>
     </div>
     <iframe title="map" src="https://maps.google.com/maps?q=Maulana%20Abul%20Kalam%20Azad%20University%20of%20Technology%20Salt%20Lake%20Kolkata&t=&z=15&ie=UTF8&iwloc=&output=embed" className="w-full h-56 rounded-xl border border-gray-800" loading="lazy"></iframe>
+  </div>
+</div>
+<h3 className="text-center font-bold mt-12 mb-4 text-sm tracking-[0.2em] text-gray-400">LANGUAGES & INTERESTS</h3>
+<div className="grid md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+  <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+    <h4 className="font-bold text-[14px] text-green-400 mb-4">Languages I Speak</h4>
+    {[["Bangla","Native","100%"],["Hindi","Fluent","90%"],["English","Professional","85%"]].map((l,k)=>(
+      <div key={k} className="mb-4">
+        <div className="flex justify-between text-[12px] mb-1"><span className="font-bold">{l[0]}</span><span className="text-gray-500">{l[1]}</span></div>
+        <div className="h-2 bg-gray-800 rounded-full overflow-hidden"><div className="h-full bg-gradient-to-r from-green-400 to-blue-500 rounded-full" style={{width:l[2]}}></div></div>
+      </div>
+    ))}
+  </div>
+  <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
+    <h4 className="font-bold text-[14px] text-green-400 mb-4">Interests & Hobbies</h4>
+    <div className="flex flex-wrap gap-2">
+      {["Coding","Exploring New Tech","Morning Walk","Healthy Lifestyle","Open Source","UI Design","Problem Solving"].map((h,k)=>(
+        <span key={k} className="text-[12px] bg-[#0a0a0a] border border-gray-800 hover:border-green-500 px-4 py-2 rounded-full text-gray-300 transition">{h}</span>
+      ))}
+    </div>
+    <p className="text-[12px] text-gray-500 mt-4 leading-relaxed">I believe consistency beats intensity - small daily habits in code, health and learning compound into big results.</p>
   </div>
 </div>
 <p className="text-center text-[11px] text-gray-600 mt-8 px-4">Hometown: Vill Surangapur, P.O Samashpur, P.S Hemtabad, Dist Uttar Dinajpur (Raiganj), West Bengal</p>
