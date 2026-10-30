@@ -43,16 +43,23 @@ export function AboutPage(){
   );
 }
 export function SkillsPage(){
+  const proficient=["React.js","Node.js","Express.js","【entity-MongoDB¦canonical_name=MongoDB】","JavaScript","JWT","REST API"];
+  const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto text-[13px]">
-        {["【entity-MongoDB¦canonical_name=MongoDB】","Express.js","React.js","Node.js","JavaScript","Tailwind CSS","JWT / OTP","Vercel / Render","Git & 【entity-GitHub¦canonical_name=GitHub】","Mongoose","REST API","Postman"].map((sk,i)=><div key={i} className="bg-[#111] border border-gray-800 rounded-xl p-4 text-center hover:border-green-500"><span className={green}>●</span> {sk}</div>)}
+      <div className="max-w-5xl mx-auto">
+        <h3 className="font-bold text-green-400 mb-4">⭐ Proficient (Expert - project korecho)</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
+          {proficient.map((sk,i)=><div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center"><span className={green}>●</span> {sk}</div>)}
+        </div>
+        <h3 className="font-bold text-yellow-400 mt-8 mb-4">📚 Familiar / Working Knowledge</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
+          {familiar.map((sk,i)=><div key={i} className="bg-[#111] border border-gray-800 rounded-xl p-4 text-center"><span className="text-yellow-400">○</span> {sk}</div>)}
+        </div>
       </div>
-      <h3 className="text-center font-bold mt-8 mb-4 text-sm tracking-widest">🧠 KNOWLEDGE</h3>
-      <p className="text-center text-[13px] text-gray-400 max-w-3xl mx-auto">{profile.knowledge.join(', ')}</p>
-      <h3 className="text-center font-bold mt-8 mb-4 text-sm tracking-widest">🗣️ LANGUAGES</h3>
+      <h3 className="text-center font-bold mt-10 mb-4 text-sm tracking-widest">🗣️ LANGUAGES</h3>
       <p className="text-center text-[13px] text-gray-400">Bangla (Native) | Hindi (Fluent) | English (Professional)</p>
     </div>
   );
