@@ -42,18 +42,18 @@ export function SkillsPage(){
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
       <div className="max-w-4xl mx-auto">
-        <h3 className="font-bold text-green-400 mb-4">⭐ Proficient</h3>
+        <h3 className="font-bold text-green-400 mb-4">â­ Proficient</h3>
         {groups.map((g,gi)=>(
           <div key={gi} className="mb-5">
             <p className="text-[11px] tracking-[0.2em] text-gray-400 mb-3 font-bold">{g[0]}</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {g[1].map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
+              {g[1].map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>â</span> {sk}</div>))}
             </div>
           </div>
         ))}
-        <h3 className="font-bold text-yellow-400 mt-8 mb-4">📚 Familiar / Working Knowledge</h3>
+        <h3 className="font-bold text-yellow-400 mt-8 mb-4">ð Familiar / Working Knowledge</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-[13px]">
-          {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl px-3 py-3.5 text-center"><span className="text-yellow-400">○</span> {sk}</div>))}
+          {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl px-3 py-3.5 text-center"><span className="text-yellow-400">â</span> {sk}</div>))}
         </div>
       </div>
     </div>
@@ -77,42 +77,27 @@ export function ExperiencePage(){
   );
 }
 export function ServicesPage(){
+  const s=[
+    ["R","bg-green-500","🚀 MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
+    ["A","bg-blue-500","🔌 REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
+    ["S","bg-purple-500","🛡️ Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
+    ["D","bg-orange-500","🗄️ Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
+    ["C","bg-cyan-500","☁️ Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
+    ["U","bg-pink-500","🎨 Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
+  ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SERVICES</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-2">MY SERVICES</h2>
       <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a MERN Full Stack Developer, I deliver end-to-end production-ready solutions.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-2xl mb-4">R</div>
-          <h3 className="font-bold text-[15px]">MERN Full-Stack Development</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered.</p>
-        </div>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-2xl mb-4">A</div>
-          <h3 className="font-bold text-[15px]">REST API Development</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.</p>
-        </div>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center text-2xl mb-4">S</div>
-          <h3 className="font-bold text-[15px]">Authentication & Security</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.</p>
-        </div>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-2xl mb-4">D</div>
-          <h3 className="font-bold text-[15px]">Database Design</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.</p>
-        </div>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center text-2xl mb-4">C</div>
-          <h3 className="font-bold text-[15px]">Deployment & DevOps</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup.</p>
-        </div>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <div className="w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center text-2xl mb-4">U</div>
-          <h3 className="font-bold text-[15px]">Responsive UI/UX</h3>
-          <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive.</p>
-        </div>
+        {s.map((x,i)=>(
+          <div key={i} className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 transition">
+            <div className={"w-12 h-12 "+x[1]+" rounded-xl flex items-center justify-center text-xl font-bold text-white mb-4"}>{x[0]}</div>
+            <h3 className="font-bold text-[15px]">{x[2]}</h3>
+            <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">{x[3]}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
