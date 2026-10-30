@@ -36,7 +36,7 @@ export function SkillsPage(){
     ["DATABASE",["Mon"+"goDB","Mongoose"]],
     ["TOOLS & DEVOPS",["Git & GitHub","Postman","Vercel","Render","GitHub Actions","Docker"]],
   ];
-  const familiar=["Vue.js","Angular","PostgreSQL","Next.js","SQL"];
+  const familiar=["Vue.js","Angular","PostgreSQL","Next.js","SQL","Prisma"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
