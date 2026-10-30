@@ -78,12 +78,12 @@ export function ExperiencePage(){
 }
 export function ServicesPage(){
   const s=[
-    ["\U0001F680","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
-    ["\U0001F50C","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
-    ["\U0001F6E1\U0000FE0F","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
-    ["\U0001F5C4\U0000FE0F","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
-    ["\u2601\U0000FE0F","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
-    ["\U0001F3A8","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
+    ["\🚀","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
+    ["\🔌","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
+    ["\U0001F6E1\","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
+    ["\U0001F5C4\","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
+    ["\u2601\","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
+    ["\🎨","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
   ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
