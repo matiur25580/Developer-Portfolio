@@ -1,31 +1,36 @@
 import { useState } from 'react';
-const API = "https://developer-portfolio-9c5f.onrender.com/api/contact";
+const API="https://developer-portfolio-9c5f.onrender.com/api/contact";
 export default function Contact(){
   const [form,setForm]=useState({name:'',email:'',msg:''});
-  const [ok,setOk]=useState(''); const [err,setErr]=useState('');
+  const [ok,setOk]=useState('');
   const submit=async(e)=>{
-    e.preventDefault(); setOk(''); setErr('');
+    e.preventDefault(); setOk('');
     try{
       const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(form)});
       const d=await r.json();
-      if(d.success){ setOk('✅ Message sent successfully! I will reply within 24 hours.'); setForm({name:'',email:'',msg:''}); }
-      else setErr('❌ Failed: '+(d.error||'try again'));
-    }catch(e){ setErr('❌ Backend waking up... 50s wait kore abar try koro (free instance)'); }
-    setTimeout(()=>{setOk('');setErr('')},5000);
+      if(d.success){ setOk('✅ Message sent successfully!'); setForm({name:'',email:'',msg:''}); }
+    }catch(e){ setOk('❌ Backend waking up, try again in 30s'); }
+    setTimeout(()=>setOk(''),4000);
   };
   return (
-    <section id="contact" className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 dark:text-white">
-      <h2 className="text-4xl font-bold text-center mb-6">📩 Contact Me</h2>
-      <form onSubmit={submit} className="max-w-lg mx-auto bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl">
-        <input className="w-full border p-3 rounded mb-3 dark:bg-gray-700 dark:text-white" placeholder="Your Name" value={form.name} onChange={e=>setForm({...form,name:e.target.value})} required />
-        <input className="w-full border p-3 rounded mb-3 dark:bg-gray-700 dark:text-white" placeholder="Your Email" type="email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} required />
-        <textarea className="w-full border p-3 rounded mb-3 dark:bg-gray-700 dark:text-white" placeholder="Message for HR / Interview" rows="4" value={form.msg} onChange={e=>setForm({...form,msg:e.target.value})} required />
-        <button className="w-full bg-blue-600 text-white py-3 rounded-full font-bold">Send Message</button>
-        {ok && <p className="mt-3 text-green-600 bg-green-50 p-2 rounded text-center">{ok}</p>}
-        {err && <p className="mt-3 text-red-600 bg-red-50 p-2 rounded text-center">{err}</p>}
+    <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
+      <p className="text-[11px] tracking-[0.3em] text-gray-500 text-center">CONTACT</p>
+      <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8">CONTACT ME</h2>
+      <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto mb-8 text-center">
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6"><p className="text-2xl">📍</p><h3 className="font-bold text-sm mt-2">My Address</h3><p className="text-xs text-gray-500 mt-1">Newtown, Kolkata, India</p></div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6"><p className="text-2xl">📧</p><h3 className="font-bold text-sm mt-2">Email Me</h3><p className="text-xs text-gray-500 mt-1">rahamanmatiur397@gmail.com</p></div>
+        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6"><p className="text-2xl">📞</p><h3 className="font-bold text-sm mt-2">Call Me</h3><p className="text-xs text-gray-500 mt-1">Available on request</p></div>
+      </div>
+      <form onSubmit={submit} className="max-w-2xl mx-auto bg-[#111] border border-gray-800 p-6 rounded-2xl">
+        <div className="grid md:grid-cols-2 gap-3">
+          <input className="bg-black border border-gray-700 p-3 rounded-lg text-sm" placeholder="Your Name" value={form.name} onChange={e=>setForm({...form,name:e.target.value})} required />
+          <input className="bg-black border border-gray-700 p-3 rounded-lg text-sm" placeholder="Your Email" type="email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} required />
+        </div>
+        <input className="w-full bg-black border border-gray-700 p-3 rounded-lg text-sm mt-3" placeholder="Subject" />
+        <textarea className="w-full bg-black border border-gray-700 p-3 rounded-lg text-sm mt-3" placeholder="Message for HR / Interview" rows="5" value={form.msg} onChange={e=>setForm({...form,msg:e.target.value})} required />
+        <button className="w-full bg-green-500 text-black font-bold py-3 rounded-full mt-4 text-sm hover:bg-green-400">Send Message</button>
+        {ok && <p className="text-center text-green-400 text-sm mt-3">{ok}</p>}
       </form>
-      <p className="text-center mt-6">📧 rahamanmatiur397@gmail.com | 📍 Newtown, Kolkata</p>
-      <p className="text-center mt-2 text-sm opacity-70">Tumi nije dekhte chaile: <a className="text-blue-600 underline" href="https://developer-portfolio-9c5f.onrender.com/api/contact" target="_blank">View Messages (JSON)</a></p>
-    </section>
+    </div>
   );
 }
