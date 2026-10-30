@@ -50,7 +50,7 @@ export function SkillsPage(){
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
       <div className="max-w-5xl mx-auto">
-        <h3 className="font-bold text-green-400 mb-4">⭐ Proficient (Expert - project korecho)</h3>
+        <h3 className="font-bold text-green-400 mb-4">⭐ Proficient</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
           {proficient.map((sk,i)=><div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center"><span className={green}>●</span> {sk}</div>)}
         </div>
