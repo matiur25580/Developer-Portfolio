@@ -25,37 +25,37 @@ export default function Contact(){
 
       <div className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-4 max-w-4xl mx-auto mb-8">
         <a href="mailto:rahamanmatiur397@gmail.com" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto bg-green-500 rounded-xl flex items-center justify-center text-xl font-bold text-black mb-3">E</div>
+          <img src="https://cdn.simpleicons.org/gmail/white" className="w-12 h-12 mx-auto mb-3" alt="Email"/>
           <h3 className="font-bold text-sm">Email Me</h3>
           <p className="text-[11px] text-green-400 mt-1 break-all px-1">rahamanmatiur397@gmail.com</p>
           <p className="text-[10px] text-gray-600 mt-1">Replies within 24 hours</p>
         </a>
         <a href="https://maps.app.goo.gl/mMmRsyXMTnkmGRrF7" target="_blank" rel="noopener noreferrer" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto bg-blue-500 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">L</div>
+          <img src="https://cdn.simpleicons.org/googlemaps/white" className="w-12 h-12 mx-auto mb-3" alt="Map"/>
           <h3 className="font-bold text-sm">My Location</h3>
           <p className="text-xs text-green-400 mt-1">Newtown, Kolkata, India</p>
           <p className="text-[10px] text-gray-600 mt-1">Click to open map</p>
         </a>
         <a href="https://github.com/matiur25580" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto bg-purple-500 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">G</div>
+          <img src="https://cdn.simpleicons.org/github/white" className="w-12 h-12 mx-auto mb-3" alt="GitHub"/>
           <h3 className="font-bold text-sm">GitHub</h3>
           <p className="text-xs text-green-400 mt-1">github.com/matiur25580</p>
           <p className="text-[10px] text-gray-600 mt-1">6 enterprise projects</p>
         </a>
         <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto bg-blue-600 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">in</div>
+          <img src="https://cdn.simpleicons.org/linkedin/white" className="w-12 h-12 mx-auto mb-3" alt="LinkedIn"/>
           <h3 className="font-bold text-sm">LinkedIn</h3>
           <p className="text-xs text-green-400 mt-1">Connect with me</p>
           <p className="text-[10px] text-gray-600 mt-1">MERN Developer</p>
         </a>
         <a href="https://www.instagram.com/rubel87598" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3" style={{background:'linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)'}}>ig</div>
+          <div className="w-12 h-12 mx-auto rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3" style={{background:"linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)"}}><img src="https://cdn.simpleicons.org/instagram/white" className="w-7 h-7" alt="Instagram"/></div>
           <h3 className="font-bold text-sm">Instagram</h3>
           <p className="text-xs text-green-400 mt-1">@rubel87598</p>
           <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
         </a>
         <a href="https://x.com/MatiurR20638496" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto bg-black border border-gray-700 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">X</div>
+          <img src="https://cdn.simpleicons.org/x/white" className="w-12 h-12 mx-auto mb-3" alt="X"/>
           <h3 className="font-bold text-sm">X (Twitter)</h3>
           <p className="text-xs text-green-400 mt-1">@MatiurR20638496</p>
           <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
