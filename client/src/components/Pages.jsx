@@ -10,7 +10,7 @@ export function HomePage(){
       <p className="text-2xl mt-3 text-purple-600 dark:text-purple-400">MERN Full Stack Developer</p>
       <p className="max-w-2xl mt-4 opacity-80">{profile.about}</p>
       <div className="flex gap-4 mt-6">
-        <a href="https://github.com/matiur25580" className="bg-black text-white px-6 py-2 rounded-full dark:bg-white dark:text-black">【entity-GitHub¦canonical_name=GitHub】</a>
+        <a href="https://github.com/matiur25580" className="bg-black text-white px-6 py-2 rounded-full dark:bg-white dark:text-black">GitHub</a>
         <button onClick={()=>window.dispatchEvent(new CustomEvent('go-portfolio'))} className="bg-blue-600 text-white px-6 py-2 rounded-full">View Work</button>
       </div>
       <div className="grid grid-cols-3 gap-8 mt-10">
