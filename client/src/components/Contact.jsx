@@ -27,12 +27,12 @@ export default function Contact(){
           <p className="text-xs text-green-400 mt-1">rahamanmatiur397@gmail.com</p>
           <p className="text-[10px] text-gray-600 mt-1">Replies within 24 hours</p>
         </a>
-        <div className="bg-[#111] border border-gray-800 rounded-2xl p-6 text-center">
+        <a href="https://maps.app.goo.gl/mMmRsyXMTnkmGRrF7" target="_blank" rel="noopener noreferrer" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
           <div className="w-12 h-12 mx-auto bg-blue-500 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">L</div>
           <h3 className="font-bold text-sm">My Location</h3>
-          <p className="text-xs text-gray-400 mt-1">Newtown, Kolkata, India</p>
-          <p className="text-[10px] text-gray-600 mt-1">Open to remote / relocate</p>
-        </div>
+          <p className="text-xs text-green-400 mt-1">Newtown, Kolkata, India</p>
+          <p className="text-[10px] text-gray-600 mt-1">Click to open map</p>
+        </a>
         <a href="https://github.com/matiur25580" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
           <div className="w-12 h-12 mx-auto bg-purple-500 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">G</div>
           <h3 className="font-bold text-sm">GitHub</h3>
