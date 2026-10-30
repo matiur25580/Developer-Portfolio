@@ -5,13 +5,16 @@ export default function Contact(){
   const [ok,setOk]=useState(''); const [sending,setSending]=useState(false);
   const submit=async(e)=>{
     e.preventDefault(); setOk(''); setSending(true);
+    const ctrl = new AbortController();
+    const timer = setTimeout(()=>ctrl.abort(), 15000);
     try{
-      const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:form.name,email:form.email,msg:form.subject+': '+form.msg})});
+      const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:form.name,email:form.email,msg:form.subject+': '+form.msg}),signal:ctrl.signal});
+      clearTimeout(timer);
       const d=await r.json();
       if(d.success){ setOk('Thank you! Your message has been sent. I will reply within 24 hours.'); setForm({name:'',email:'',msg:'',subject:''}); }
-      else setOk('Something went wrong. Please email me directly.');
-    }catch(e){ setOk('Server waking up, please try again in 30 seconds.'); }
-    setSending(false); setTimeout(()=>setOk(''),6000);
+      else setOk('Something went wrong. Please email me directly at rahamanmatiur397@gmail.com');
+    }catch(e){ clearTimeout(timer); setOk('Server is waking up (Render free tier). Please try again in 30 seconds or email me directly.'); }
+    setSending(false); setTimeout(()=>setOk(''),8000);
   };
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
@@ -24,7 +27,7 @@ export default function Contact(){
         <a href="mailto:rahamanmatiur397@gmail.com" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
           <div className="w-12 h-12 mx-auto bg-green-500 rounded-xl flex items-center justify-center text-xl font-bold text-black mb-3">E</div>
           <h3 className="font-bold text-sm">Email Me</h3>
-          <p className="text-xs text-green-400 mt-1">rahamanmatiur397@gmail.com</p>
+          <p className="text-[11px] text-green-400 mt-1 break-all px-1">rahamanmatiur397@gmail.com</p>
           <p className="text-[10px] text-gray-600 mt-1">Replies within 24 hours</p>
         </a>
         <a href="https://maps.app.goo.gl/mMmRsyXMTnkmGRrF7" target="_blank" rel="noopener noreferrer" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
