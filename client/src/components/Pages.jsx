@@ -1,18 +1,46 @@
 import { profile } from '../data/profile';
 import Contact from './Contact';
 const green="text-green-400";
-export function HomePage({setActive}){
+export function HomePage(props){
+  const _nav = props.go || props.setPage || props.nav || props.navigate || props.onNavigate || function(){};
+  const roles = ["MERN Full Stack Developer","React.js Specialist","Node.js + Express.js Developer","MongoDB Database Designer","REST API Architect"];
+  const [ri,setRi] = useState(0);
+  useEffect(()=>{ const id=setInterval(()=>setRi(v=>(v+1)%roles.length),2200); return ()=>clearInterval(id); },[]);
+  const techs = ["React.js","Node.js","Express.js","MongoDB","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker"];
   return (
-    <div className="bg-black text-white min-h-[85vh] flex flex-col justify-center px-6 md:px-16">
-      <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">RUBEL ALI</h1>
-      <p className="text-lg mt-3 text-gray-300">I am a passionate <span className={green+" font-semibold"}>MERN Full Stack Developer</span> from Kolkata</p>
-      <div className="flex gap-3 mt-6">
-        <button onClick={()=>setActive('About')} className="bg-green-500 text-black px-6 py-2 rounded-full font-bold text-sm">About Me</button>
-        <button onClick={()=>setActive('Projects')} className="border border-green-500/50 px-6 py-2 rounded-full text-sm">My Works</button>
+    <div className="bg-[#0a0a0a] text-white min-h-screen flex flex-col">
+      <div className="flex-1 flex flex-col justify-center items-center text-center px-6 py-14">
+        <span className="flex items-center gap-2 text-[11px] font-bold bg-green-500/10 border border-green-500/30 text-green-400 px-4 py-1.5 rounded-full mb-6">
+          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> AVAILABLE FOR OPPORTUNITIES
+        </span>
+        <p className="text-gray-400 text-sm tracking-[0.25em] mb-2">HELLO, I'M</p>
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">RUBEL <span className="text-green-400">ALI</span></h1>
+        <p className="text-lg md:text-2xl mt-4 text-gray-300 h-8">I build <span className="text-green-400 font-bold">{roles[ri]}</span><span className="animate-pulse text-green-400 font-bold">|</span></p>
+        <p className="text-[13px] md:text-[14px] text-gray-500 max-w-xl mt-4 leading-relaxed">Enterprise-grade MERN applications from 0% scratch - real OTP/JWT authentication, role-based dashboards and live deployments, crafted entirely on an Android phone.</p>
+        <div className="flex flex-wrap justify-center gap-3 mt-8">
+          <button onClick={()=>_nav('about')} className="bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-3 rounded-full text-[14px] transition">About Me</button>
+          <button onClick={()=>_nav('projects')} className="border border-gray-700 hover:border-green-500 px-8 py-3 rounded-full text-[14px] font-bold transition">My Works</button>
+        </div>
+        <div className="flex gap-8 mt-10">
+          {[["6+","Projects"],["15+","Skills"],["3+","Years"]].map((s,k)=>(
+            <div key={k} className="text-center">
+              <p className="text-2xl font-extrabold text-green-400">{s[0]}</p>
+              <p className="text-[11px] text-gray-500">{s[1]}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="border-t border-gray-900 py-4 overflow-hidden">
+        <div className="flex gap-3 w-max whitespace-nowrap" style={{animation:'marquee 25s linear infinite'}}>
+          {techs.concat(techs).map((x,k)=>(
+            <span key={k} className="text-[11px] font-bold bg-[#111] border border-gray-800 text-gray-400 px-4 py-2 rounded-full">{x}</span>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
+
 export function AboutPage(){
   const info=[
     ["Degree","B.Tech in CSE"],
