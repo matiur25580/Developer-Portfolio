@@ -42,18 +42,18 @@ export function SkillsPage(){
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
       <div className="max-w-4xl mx-auto">
-        <h3 className="font-bold text-green-400 mb-4">â­ Proficient</h3>
+        <h3 className="font-bold text-green-400 mb-4">Ã¢Â­Â Proficient</h3>
         {groups.map((g,gi)=>(
           <div key={gi} className="mb-5">
             <p className="text-[11px] tracking-[0.2em] text-gray-400 mb-3 font-bold">{g[0]}</p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {g[1].map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>â</span> {sk}</div>))}
+              {g[1].map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/30 rounded-xl px-3 py-3.5 text-center text-[13px]"><span className={green}>Ã¢ÂÂ</span> {sk}</div>))}
             </div>
           </div>
         ))}
-        <h3 className="font-bold text-yellow-400 mt-8 mb-4">ð Familiar / Working Knowledge</h3>
+        <h3 className="font-bold text-yellow-400 mt-8 mb-4">Ã°ÂÂÂ Familiar / Working Knowledge</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-[13px]">
-          {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl px-3 py-3.5 text-center"><span className="text-yellow-400">â</span> {sk}</div>))}
+          {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl px-3 py-3.5 text-center"><span className="text-yellow-400">Ã¢ÂÂ</span> {sk}</div>))}
         </div>
       </div>
     </div>
@@ -78,12 +78,12 @@ export function ExperiencePage(){
 }
 export function ServicesPage(){
   const s=[
-    ["R","bg-green-500","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered.",["React","Node.js","Express","MongoDB"]],
-    ["A","bg-blue-500","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.",["Express","JWT","OTP","Postman"]],
-    ["S","bg-purple-500","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.",["JWT","Bcrypt","Brevo"]],
-    ["D","bg-orange-500","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.",["MongoDB","Mongoose","Atlas"]],
-    ["C","bg-cyan-500","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup.",["Vercel","Render","GitHub"]],
-    ["U","bg-pink-500","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive.",["Tailwind","Vite","Figma"]],
+    ["R","bg-green-500","🚀 MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered.",["React","Node.js","Express","MongoDB"]],
+    ["A","bg-blue-500","🔌 REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.",["Express","JWT","OTP","Postman"]],
+    ["S","bg-purple-500","🛡️ Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.",["JWT","Bcrypt","Brevo"]],
+    ["D","bg-orange-500","🗄️ Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.",["MongoDB","Mongoose","Atlas"]],
+    ["C","bg-cyan-500","☁️ Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup.",["Vercel","Render","GitHub"]],
+    ["U","bg-pink-500","🎨 Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive.",["Tailwind","Vite","Figma"]],
   ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
