@@ -14,20 +14,80 @@ export function HomePage({setActive}){
   );
 }
 export function AboutPage(){
+  const info=[
+    ["Degree","B.Tech in CSE"],
+    ["College","BIT Kolkata"],
+    ["University","MAKAUT"],
+    ["Passout Year","2023"],
+    ["City","Newtown, Kolkata"],
+    ["Email","rahamanmatiur397@gmail.com"],
+    ["Freelance","Available"],
+    ["Languages","Bangla, Hindi, English"],
+  ];
+  const stats=[
+    ["6+","Enterprise Projects"],
+    ["15+","Tech Skills"],
+    ["3+","Years Hands-on"],
+    ["100%","Responsive UI"],
+  ];
+  const points=[
+    ["End-to-end MERN builds","6 production-grade apps from 0% scratch - React frontend, Node + Express backend, MongoDB Atlas."],
+    ["Real authentication","6-digit OTP (Brevo/Gmail), JWT, bcrypt hashing, role-based dashboards. No demo logins."],
+    ["Live deployments","Vercel (frontend) + Render (backend) CI/CD with 【entity-GitHub¦canonical_name=GitHub】 workflow and Postman-tested APIs."],
+    ["Enterprise UI/UX","Tailwind CSS, dark/light themes, fully responsive dashboards for Admin, HR, Doctor, Driver and more."],
+  ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">ABOUT</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mt-1 mb-8">LEARN MORE ABOUT ME</h2>
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        <div className="bg-gradient-to-br from-green-400 to-blue-600 rounded-2xl h-72 flex items-center justify-center text-5xl font-extrabold text-white">RA</div>
+        <div className="bg-gradient-to-br from-green-400 to-blue-600 rounded-2xl min-h-[280px] flex flex-col items-center justify-center text-white p-6">
+          <p className="text-5xl font-extrabold">RA</p>
+          <p className="text-sm font-bold mt-3">Rubel Ali</p>
+          <p className="text-[11px] opacity-80 mt-1 text-center">MERN Full Stack Developer<br/>Kolkata, India</p>
+          <span className="text-[10px] bg-white/20 px-3 py-1 rounded-full mt-4 font-bold">Open to Work</span>
+        </div>
         <div className="md:col-span-2 bg-[#111] border border-gray-800 rounded-2xl p-6">
-          <h3 className={green+" font-bold"}>MERN Full Stack Developer</h3>
-          <p className="text-[13px] text-gray-300 mt-4">B.Tech CSE (2019-2023), BIT Kolkata (MAKAUT). Newtown, Kolkata.</p>
+          <h3 className="text-green-400 font-bold text-lg">MERN Full Stack Developer</h3>
+          <p className="text-[13px] text-gray-300 mt-3 leading-relaxed">
+            I am Rubel Ali, a MERN Full Stack Developer from Kolkata, India. I build enterprise-grade,
+            production-ready web applications from 0% scratch - entirely on an Android phone using
+            Termux and 【entity-GitHub¦canonical_name=GitHub】 Codespaces.
+          </p>
+          <p className="text-[13px] text-gray-300 mt-2 leading-relaxed">
+            My 6 large-scale systems - Smart HR and Payroll, CityCare Hospital, RealEstate, FleetCommand
+            Logistics, TrustShield Bank and Multi-Vendor Marketplace - feature real OTP/JWT authentication,
+            role-based dashboards and live Vercel + Render deployments.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mt-5 text-[13px]">
+            {info.map((x,i)=>(
+              <p key={i} className="text-gray-300 break-all"><span className="text-green-400 font-bold">▸ </span><b className="text-white">{x[0]}:</b> {x[1]}</p>
+            ))}
+          </div>
         </div>
       </div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-6xl mx-auto mt-6">
+        {stats.map((s,i)=>(
+          <div key={i} className="bg-[#111] border border-gray-800 rounded-xl p-5 text-center">
+            <p className="text-2xl font-extrabold text-green-400">{s[0]}</p>
+            <p className="text-[11px] text-gray-500 mt-1">{s[1]}</p>
+          </div>
+        ))}
+      </div>
+      <h3 className="text-center font-bold mt-10 mb-4 text-sm tracking-[0.2em] text-gray-400">WHAT I DO</h3>
+      <div className="grid md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+        {points.map((x,i)=>(
+          <div key={i} className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-5 transition">
+            <h4 className="font-bold text-[14px] text-green-400">{x[0]}</h4>
+            <p className="text-[12px] text-gray-500 mt-2 leading-relaxed">{x[1]}</p>
+          </div>
+        ))}
+      </div>
+      <p className="text-center text-[11px] text-gray-600 mt-8 px-4">Hometown: Vill Surangapur, P.O Samashpur, P.S Hemtabad, Dist Uttar Dinajpur (Raiganj), West Bengal</p>
     </div>
   );
 }
+
 export function SkillsPage(){
   const groups=[
     ["LANGUAGE",["HTML","CSS","JavaScript","TypeScript"]],
