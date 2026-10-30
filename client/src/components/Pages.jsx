@@ -78,48 +78,31 @@ export function ExperiencePage(){
 }
 export function ServicesPage(){
   const s=[
-    ["🚀","MERN Full-Stack Development","Complete enterprise web apps from 0% scratch.
-• React.js + Vite frontend
-• Node.js + Express.js backend
-• 6 production projects delivered"],
-    ["🔌","REST API Development","Secure, scalable backend APIs.
-• JWT + 6-digit OTP auth
-• Role-based access control
-• Postman tested, documented"],
-    ["🛡️","Authentication & Security","Real-world auth systems, no demo logins.
-• Brevo / Gmail OTP, 5-min expiry
-• Bcrypt password hashing
-• Protected routes & middleware"],
-    ["🗄️","Database Design & Management","Efficient NoSQL data modeling.
-• Mon"+"goDB Atlas + Mongoose
-• Schema design, indexing
-• Aggregation & audit logging"],
-    ["☁️","Deployment & DevOps","Live production deployments.
-• Vercel (frontend) + Render (backend)
-• Git & GitHub CI/CD workflow
-• Environment & Atlas setup"],
-    ["🎨","Responsive UI/UX Design","Modern, mobile-first interfaces.
-• Tailwind CSS + dark/light theme
-• Fully responsive (mobile/tablet/laptop)
-• HR & client-friendly dashboards"],
+    ["\U0001F680","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
+    ["\U0001F50C","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
+    ["\U0001F6E1\U0000FE0F","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
+    ["\U0001F5C4\U0000FE0F","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
+    ["\u2601\U0000FE0F","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
+    ["\U0001F3A8","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
   ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SERVICES</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-2">MY SERVICES</h2>
-      <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a MERN Full Stack Developer, I deliver end-to-end production-ready solutions — from database design to live deployment.</p>
+      <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a MERN Full Stack Developer, I deliver end-to-end production-ready solutions.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {s.map((x,i)=>(
-          <div key={i} className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 transition group">
+          <div key={i} className="bg-[#111] border border-gray-800 rounded-2xl p-6">
             <div className="text-3xl mb-3">{x[0]}</div>
-            <h3 className="font-bold text-[15px] group-hover:text-green-400">{x[1]}</h3>
-            <p className="text-[12px] text-gray-500 mt-3 whitespace-pre-line leading-relaxed">{x[2]}</p>
+            <h3 className="font-bold text-[15px]">{x[1]}</h3>
+            <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">{x[2]}</p>
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 export function ProjectsPage(){
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
