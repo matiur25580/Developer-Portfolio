@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './pages/Home';
+import Admin from './pages/Admin';
 import { initTheme } from './utils/theme';
 export default function App(){
   useEffect(()=>{ initTheme(); },[]);
@@ -22,6 +23,7 @@ export default function App(){
         </div>
       </section>
       <Contact />
+      <div className="text-center p-4"><a href="#/admin" className="text-sm opacity-50 underline">Admin</a></div>
       <footer className="text-center p-4 bg-black text-white">© 2026 Rubel Ali | Built with MERN Passion on Android</footer>
     </div>
   );
