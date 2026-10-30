@@ -20,7 +20,7 @@ export default function Contact(){
       <p className="text-center text-sm text-gray-400 mb-2">Open to <span className="text-green-400 font-bold">MNC / Startup</span> MERN Full Stack Developer roles</p>
       <div className="flex justify-center mb-8"><span className="text-[11px] bg-green-500/10 text-green-400 border border-green-500/30 px-4 py-1.5 rounded-full font-bold">● Available for full-time roles</span></div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 max-w-6xl mx-auto mb-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-8">
         <a href="mailto:rahamanmatiur397@gmail.com" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
           <div className="w-12 h-12 mx-auto bg-green-500 rounded-xl flex items-center justify-center text-xl font-bold text-black mb-3">E</div>
           <h3 className="font-bold text-sm">Email Me</h3>
@@ -49,6 +49,12 @@ export default function Contact(){
           <div className="w-12 h-12 mx-auto rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3" style={{background:'linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)'}}>ig</div>
           <h3 className="font-bold text-sm">Instagram</h3>
           <p className="text-xs text-green-400 mt-1">@rubel87598</p>
+          <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
+        </a>
+        <a href="https://x.com/MatiurR20638496" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
+          <div className="w-12 h-12 mx-auto bg-black border border-gray-700 rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3">X</div>
+          <h3 className="font-bold text-sm">X (Twitter)</h3>
+          <p className="text-xs text-green-400 mt-1">@MatiurR20638496</p>
           <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
         </a>
       </div>
