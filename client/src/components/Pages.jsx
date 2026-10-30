@@ -30,13 +30,13 @@ export function AboutPage(){
 }
 export function SkillsPage(){
   const groups=[
-    ["LANGUAGE",["HTML","CSS","JavaScript"]],
+    ["LANGUAGE",["HTML","CSS","JavaScript","TypeScript"]],
     ["FRONTEND",["React.js","Tailwind CSS"]],
     ["BACKEND",["Node.js","Express.js","REST API","JWT"]],
     ["DATABASE",["Mon"+"goDB","Mongoose"]],
-    ["TOOLS & DEVOPS",["Git & GitHub","Postman","Vercel","Render","GitHub Actions"]],
+    ["TOOLS & DEVOPS",["Git & GitHub","Postman","Vercel","Render","GitHub Actions","Docker"]],
   ];
-  const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
+  const familiar=["Vue.js","Angular","PostgreSQL","Next.js","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SKILLS</p>
