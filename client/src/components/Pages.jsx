@@ -168,7 +168,7 @@ export function AboutPage(){
       <h3 className="text-center font-bold mt-12 mb-4 text-sm tracking-[0.2em] text-gray-400">MY UNIVERSITY</h3>
 <div className="max-w-6xl mx-auto bg-[#111] border border-gray-800 rounded-2xl overflow-hidden">
   <div className="p-6 flex items-center gap-4 border-b border-gray-800">
-    <img src="/unilogo.jpg" alt="MAKAUT logo" className="w-16 h-16 rounded-full object-cover bg-white border border-gray-700" onError={(e)=>{e.target.style.display="none"}}/>
+    <img src="/unilogo.svg" alt="MAKAUT logo" className="w-16 h-16 rounded-full object-cover bg-white border border-gray-700" onError={(e)=>{e.target.style.display="none"}}/>
     <div>
       <h4 className="font-extrabold text-lg">Maulana Abul Kalam Azad University of Technology</h4>
       <p className="text-green-400 text-[13px] font-bold">Affiliating University of my B.Tech (2019 - 2023)</p>
