@@ -1,10 +1,8 @@
 export const toggleTheme = () => {
-  const html = document.documentElement;
-  const isDark = html.classList.toggle('dark');
-  localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  return isDark;
+  const isLight = document.documentElement.classList.toggle('light-mode');
+  localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  return !isLight;
 };
 export const initTheme = () => {
-  const t = localStorage.getItem('theme');
-  if(t==='dark' || !t) document.documentElement.classList.add('dark');
+  if(localStorage.getItem('theme')==='light') document.documentElement.classList.add('light-mode');
 };

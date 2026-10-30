@@ -7,12 +7,7 @@ import { initTheme } from './utils/theme';
 export default function App(){
   const [isAdmin,setIsAdmin]=useState(window.location.hash==='#/admin');
   const [active,setActive]=useState('Home');
-  useEffect(()=>{
-    initTheme();
-    const h=()=>setIsAdmin(window.location.hash==='#/admin');
-    window.addEventListener('hashchange',h);
-    return ()=>window.removeEventListener('hashchange',h);
-  },[]);
+  useEffect(()=>{ initTheme(); const h=()=>setIsAdmin(window.location.hash==='#/admin'); window.addEventListener('hashchange',h); return ()=>window.removeEventListener('hashchange',h); },[]);
   if(isAdmin) return <Admin />;
   return (
     <div className="bg-black min-h-screen">
@@ -22,7 +17,7 @@ export default function App(){
       {active==='Resume' && <ResumePage/>}
       {active==='Services' && <ServicesPage/>}
       {active==='Portfolio' && <PortfolioPage/>}
-      {active==='Contact' && <div className="bg-black text-white"><Contact/></div>}
+      {active==='Contact' && <Contact/>}
       <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Rubel Ali | Designed by Rubel Ali | <a href="#/admin" className="underline">Admin</a></footer>
     </div>
   );
