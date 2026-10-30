@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Admin from './pages/Admin';
+import ExtraSections from './components/ExtraSections';
 import { initTheme } from './utils/theme';
 
 export default function App(){
@@ -29,6 +30,7 @@ export default function App(){
           <p>💼 Actively looking for MNC/Startup MERN roles</p>
         </div>
       </section>
+      <ExtraSections />
       <Contact />
       <div className="text-center p-2 bg-black"><a href="#/admin" className="text-xs text-gray-500 underline">Admin</a></div>
       <footer className="text-center p-4 bg-black text-white">© 2026 Rubel Ali | Built with MERN Passion on Android</footer>
