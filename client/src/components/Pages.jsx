@@ -12,7 +12,7 @@ export function HomePage({setActive}){
         <button onClick={()=>setActive('Projects')} className="border border-green-500/50 px-6 py-2 rounded-full text-sm hover:bg-green-500/10">My Works</button>
       </div>
       <div className="flex gap-5 mt-6 text-sm text-gray-400">
-        <a href="https://github.com/matiur25580" className="hover:text-green-400">【entity-GitHub¦canonical_name=GitHub】</a>
+          {proficient.map((sk,i)=><div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center"><span className={green}>●</span> {sk}</div>)}
         <a href="https://linkedin.com" className="hover:text-green-400">LinkedIn</a>
         <a href="https://x.com" className="hover:text-green-400">Twitter</a>
       </div>
@@ -43,7 +43,7 @@ export function AboutPage(){
   );
 }
 export function SkillsPage(){
-  const proficient=["React.js","Node.js","Express.js","【entity-MongoDB¦canonical_name=MongoDB】","JavaScript","JWT","REST API"];
+          {proficient.map((sk,i)=><div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center"><span className={green}>●</span> {sk}</div>)}
   const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
