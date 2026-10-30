@@ -108,7 +108,28 @@ export function AboutPage(){
           <iframe title="BIT location map" src="https://maps.google.com/maps?q=Bengal%20Institute%20of%20Technology%20Basanti%20Highway%20Hadia%20Kolkata%20700150&t=&z=15&ie=UTF8&iwloc=&output=embed" className="w-full h-56 rounded-xl border border-gray-800" loading="lazy"></iframe>
         </div>
       </div>
-      <p className="text-center text-[11px] text-gray-600 mt-8 px-4">Hometown: Vill Surangapur, P.O Samashpur, P.S Hemtabad, Dist Uttar Dinajpur (Raiganj), West Bengal</p>
+      <h3 className="text-center font-bold mt-12 mb-4 text-sm tracking-[0.2em] text-gray-400">MY UNIVERSITY</h3>
+<div className="max-w-6xl mx-auto bg-[#111] border border-gray-800 rounded-2xl overflow-hidden">
+  <div className="p-6 flex items-center gap-4 border-b border-gray-800">
+    <img src="/unilogo.jpg" alt="MAKAUT logo" className="w-16 h-16 rounded-full object-cover bg-white border border-gray-700" onError={(e)=>{e.target.style.display="none"}}/>
+    <div>
+      <h4 className="font-extrabold text-lg">Maulana Abul Kalam Azad University of Technology</h4>
+      <p className="text-green-400 text-[13px] font-bold">Affiliating University of my B.Tech (2019 - 2023)</p>
+      <p className="text-gray-500 text-[12px]">State Technological University, West Bengal</p>
+    </div>
+  </div>
+  <div className="grid grid-cols-3 gap-2 p-4"><img src="/uni1.jpg" alt="MAKAUT campus" className="rounded-xl h-32 md:h-48 w-full object-cover" onError={(e)=>{e.target.style.display="none"}}/><img src="/uni2.jpg" alt="MAKAUT building" className="rounded-xl h-32 md:h-48 w-full object-cover" onError={(e)=>{e.target.style.display="none"}}/><img src="/uni3.jpg" alt="MAKAUT campus view" className="rounded-xl h-32 md:h-48 w-full object-cover" onError={(e)=>{e.target.style.display="none"}}/></div>
+  <div className="grid md:grid-cols-2 gap-4 p-6 pt-2">
+    <div className="text-[13px] text-gray-300">
+      <p className="mb-2"><span className="text-green-400 font-bold">▸ </span><b className="text-white">Established:</b> 2001 (formerly WBUT)</p>
+      <p className="mb-2"><span className="text-green-400 font-bold">▸ </span><b className="text-white">Campus:</b> Salt Lake, Kolkata, West Bengal</p>
+      <p className="mb-2"><span className="text-green-400 font-bold">▸ </span><b className="text-white">Affiliation:</b> 200+ engineering and management colleges across West Bengal</p>
+      <a href="https://share.google/O2CMuA2b5zBNJuYFU" target="_blank" rel="noreferrer" className="inline-block mt-3 bg-green-500 hover:bg-green-400 text-black font-bold text-[13px] px-6 py-2 rounded-full">Get Directions</a>
+    </div>
+    <iframe title="map" src="https://maps.google.com/maps?q=Maulana%20Abul%20Kalam%20Azad%20University%20of%20Technology%20Salt%20Lake%20Kolkata&t=&z=15&ie=UTF8&iwloc=&output=embed" className="w-full h-56 rounded-xl border border-gray-800" loading="lazy"></iframe>
+  </div>
+</div>
+<p className="text-center text-[11px] text-gray-600 mt-8 px-4">Hometown: Vill Surangapur, P.O Samashpur, P.S Hemtabad, Dist Uttar Dinajpur (Raiganj), West Bengal</p>
     </div>
   );
 }
