@@ -3,7 +3,7 @@ export const profile = {
   role: "MERN Full Stack Software Developer",
   location: "Newtown, Kolkata, West Bengal, India",
   email: "rahamanmatiur397@gmail.com",
-  【entity-github¦canonical_name=GitHub】: "https://github.com/matiur25580",
+  github: "https://github.com/matiur25580",
   githubUsername: "matiur25580",
   website: "https://developer-portfolio-client.vercel.app",
   about: "Enterprise-grade MERN developer. 6 large-scale production-ready systems built from 0% scratch on Android phone using Termux + Codespaces. Expert in real auth (OTP, JWT), role-based dashboards, and Vercel + Render deployment.",
@@ -34,7 +34,7 @@ export const profile = {
   ],
   languages: ["Bangla (Native)","Hindi (Fluent)","English (Professional)"],
   socialMedia: {
-    【entity-github¦canonical_name=GitHub】: "https://github.com/matiur25580",
+    github: "https://github.com/matiur25580",
     linkedin: "https://linkedin.com/in/matiur25580",
     twitter: "https://x.com/matiur25580",
     portfolio: "https://developer-portfolio-client.vercel.app"

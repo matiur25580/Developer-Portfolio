@@ -32,7 +32,7 @@ export default function ExtraSections(){
       <section className="p-8 bg-white dark:bg-gray-900 text-center">
         <h2 className="text-3xl font-bold mb-6">🌐 Website & Social Media</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <a href={profile.socialMedia.【entity-github¦canonical_name=GitHub】} className="bg-black text-white px-6 py-2 rounded-full dark:bg-white dark:text-black">GitHub</a>
+          <a href={profile.socialMedia.github} className="bg-black text-white px-6 py-2 rounded-full dark:bg-white dark:text-black">GitHub</a>
           <a href={profile.socialMedia.linkedin} className="bg-blue-700 text-white px-6 py-2 rounded-full">LinkedIn</a>
           <a href={profile.socialMedia.twitter} className="bg-black text-white px-6 py-2 rounded-full">Twitter / X</a>
           <a href={profile.website} className="bg-green-600 text-white px-6 py-2 rounded-full">Portfolio Website</a>
