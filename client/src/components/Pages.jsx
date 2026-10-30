@@ -78,12 +78,12 @@ export function ExperiencePage(){
 }
 export function ServicesPage(){
   const s=[
-    ["R","bg-green-500","🚀 MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered."],
-    ["A","bg-blue-500","🔌 REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested."],
-    ["S","bg-purple-500","🛡️ Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes."],
-    ["D","bg-orange-500","🗄️ Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging."],
-    ["C","bg-cyan-500","☁️ Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup."],
-    ["U","bg-pink-500","🎨 Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive."],
+    ["R","bg-green-500","MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 6 production projects delivered.",["React","Node.js","Express","MongoDB"]],
+    ["A","bg-blue-500","REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.",["Express","JWT","OTP","Postman"]],
+    ["S","bg-purple-500","Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.",["JWT","Bcrypt","Brevo"]],
+    ["D","bg-orange-500","Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.",["MongoDB","Mongoose","Atlas"]],
+    ["C","bg-cyan-500","Deployment & DevOps","Live production deploys. Vercel + Render CI/CD, GitHub workflow, Atlas setup.",["Vercel","Render","GitHub"]],
+    ["U","bg-pink-500","Responsive UI/UX","Modern mobile-first design. Tailwind CSS, dark/light theme, fully responsive.",["Tailwind","Vite","Figma"]],
   ];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
@@ -96,6 +96,9 @@ export function ServicesPage(){
             <div className={"w-12 h-12 "+x[1]+" rounded-xl flex items-center justify-center text-xl font-bold text-white mb-4"}>{x[0]}</div>
             <h3 className="font-bold text-[15px]">{x[2]}</h3>
             <p className="text-[12px] text-gray-500 mt-3 leading-relaxed">{x[3]}</p>
+            <div className="flex flex-wrap gap-1.5 mt-4">
+              {x[4].map((tag,ti)=>(<span key={ti} className="text-[10px] bg-green-500/10 text-green-400 border border-green-500/20 px-2 py-1 rounded-full font-semibold">{tag}</span>))}
+            </div>
           </div>
         ))}
       </div>
