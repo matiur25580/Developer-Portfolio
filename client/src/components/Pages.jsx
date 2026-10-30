@@ -29,7 +29,8 @@ export function AboutPage(){
   );
 }
 export function SkillsPage(){
-  const proficient=["React.js","Node.js","Express.js","Mon"+"goDB","JavaScript","JWT","REST API","Tailwind CSS","Git & GitHub","Postman"];
+  const languages=["JavaScript","React.js","Node.js","Express.js","Tailwind CSS"];
+  const tools=["Mon"+"goDB","JWT","REST API","Git & GitHub","Postman"];
   const familiar=["Vue.js","Angular","PostgreSQL","Next.js","TypeScript","SQL"];
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
@@ -37,11 +38,22 @@ export function SkillsPage(){
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">MY SKILLS</h2>
       <div className="max-w-5xl mx-auto">
         <h3 className="font-bold text-green-400 mb-4">⭐ Proficient</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
-          {proficient.map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center"><span className={green}>●</span> {sk}</div>))}
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <p className="text-xs text-gray-500 mb-2 tracking-widest">LANGUAGES</p>
+            <div className="space-y-3">
+              {languages.map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
+            </div>
+          </div>
+          <div>
+            <p className="text-xs text-gray-500 mb-2 tracking-widest">TOOLS</p>
+            <div className="space-y-3">
+              {tools.map((sk,i)=>(<div key={i} className="bg-[#111] border border-green-500/40 rounded-xl p-4 text-center text-[13px]"><span className={green}>●</span> {sk}</div>))}
+            </div>
+          </div>
         </div>
         <h3 className="font-bold text-yellow-400 mt-8 mb-4">📚 Familiar / Working Knowledge</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-[13px]">
           {familiar.map((sk,i)=>(<div key={i} className="bg-[#111] border border-gray-800 rounded-xl p-4 text-center"><span className="text-yellow-400">○</span> {sk}</div>))}
         </div>
       </div>
