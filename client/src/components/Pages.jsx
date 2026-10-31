@@ -291,19 +291,68 @@ export function ServicesPage(){
   );
 }
 
+const projectDetails = [
+  { overview: "Complete HR and payroll platform built from 0% scratch. Three role-based dashboards (Admin, HR, Employee), real 6-digit email OTP, JWT auth, automatic unique employee IDs, payroll processing and downloadable payslips. Deployed on Vercel + Render.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","Mongoose","JWT","Nodemailer","Tailwind CSS"],
+    features: ["Admin/HR/Employee role-based dashboards","6-digit email OTP with 5-min expiry + resend timer","Auto unique employee ID on appointment","Payroll processing + one-click payslip download","6-box OTP UI on login/register/forgot-password","Dark/light theme on every page"],
+    github: "https://github.com/matiur25580", live: "" },
+  { overview: "Full hospital management ERP with five roles (Admin, Doctor, Nurse, Receptionist, Patient), 16 departments, Gmail OTP login, unique IDs, duty rosters, OT booking, blood bank, inventory alerts, ID cards and gate passes.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Nodemailer","Tailwind CSS"],
+    features: ["5 role dashboards, 16 departments, weekly OPD schedules","Duty roster with shift timings","OT booking with staffing + room numbers","Blood bank + inventory expiry alerts","Staff ID cards + visitor gate passes","Patient feedback, ambulance tracking, telemedicine OPD"],
+    github: "https://github.com/matiur25580/hospital-management-system", live: "" },
+  { overview: "Property management platform with rent tracking, lease and booking modules, maintenance requests, tenant reviews, commission tracking, PDF receipts and full audit logging.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Tailwind CSS"],
+    features: ["Rent tracking + lease/booking/maintenance modules","Tenant reviews + agent commission tracking","PDF receipts for every transaction","Full audit logging","Success messages for every action","Vercel frontend + Render backend"],
+    github: "https://github.com/matiur25580/realestate-management-system", live: "" },
+  { overview: "Enterprise logistics platform with six roles (Fleet Manager, Warehouse Manager, Driver, Client and more), trip and warehouse management, booking workflows, analytics dashboards and 6-box OTP auth. Built to a 95+ quality bar.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Brevo","Tailwind CSS"],
+    features: ["6 distinct role dashboards","Trip, vehicle, warehouse + booking management","Driver dashboards with live trip updates","Fleet performance analytics","6-box OTP professional auth pages","Auto-deploy pipeline to Vercel/Render"],
+    github: "https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center", live: "" },
+  { overview: "Digital banking platform with AI-powered fraud detection, secure email-OTP + JWT auth, unique customer IDs and a colourful branded landing page. Backend live on Render.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Nodemailer","Tailwind CSS"],
+    features: ["AI-powered fraud detection on transactions","Unique customer IDs (role+name+DOB pattern)","Secure OTP registration + login","Colourful branded landing page","Same email for every role","Live backend API on Render"],
+    github: "https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center", live: "https://enterprise-ai-powered-digital-banking.onrender.com" },
+  { overview: "Multi-vendor marketplace with seller ecosystem tooling, multi-role registration with unique ID on a dedicated success page, Brevo OTP verification and full buyer/seller workflows. Deployed on Render.",
+    stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Brevo","Tailwind CSS"],
+    features: ["Multi-role registration, unique ID success page","Brevo email OTP verification","Buyer + seller dashboards","Same email for every role","Deployed live on Render"],
+    github: "https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center", live: "" }
+];
+
 export function ProjectsPage(){
+  const [sel, setSel] = useState(null);
+  const d = sel!==null ? projectDetails[sel] : null;
   return (
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">PORTFOLIO</p>
-      <h2 className="text-3xl md:text-4xl font-extrabold mb-6">MY PROJECTS ({profile.projectsCount})</h2>
+      <h2 className="text-3xl md:text-4xl font-extrabold mb-2">MY PROJECTS ({profile.projectsCount})</h2>
+      <p className="text-sm text-gray-500 mb-6">Click any project for full details.</p>
       <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {profile.projects.map((p,i)=>(
-          <a key={i} href={p.repo} className="bg-[#111] border border-gray-800 rounded-2xl overflow-hidden block">
+          <button key={i} onClick={()=>setSel(i)} className="text-left bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl overflow-hidden transition group">
             <div className="h-32 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center text-4xl font-extrabold text-green-500/20">{i+1}</div>
-            <div className="p-4"><h3 className="font-bold text-[13px]">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p></div>
-          </a>
+            <div className="p-4"><h3 className="font-bold text-[13px] group-hover:text-green-400 transition">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p><p className="text-[11px] text-green-400 font-bold mt-2">View Details →</p></div>
+          </button>
         ))}
       </div>
+      {d && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80" onClick={()=>setSel(null)}>
+          <div className="bg-[#111] border border-gray-800 rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 relative" onClick={(e)=>e.stopPropagation()}>
+            <button onClick={()=>setSel(null)} className="absolute top-4 right-4 w-9 h-9 rounded-full bg-[#0a0a0a] border border-gray-700 text-gray-300 font-bold">X</button>
+            <p className="text-[11px] tracking-[0.3em] text-green-400 font-bold">PROJECT 0{sel+1}</p>
+            <h3 className="text-2xl font-extrabold mt-2 pr-10">{profile.projects[sel].name}</h3>
+            <p className="text-green-400 font-bold text-sm mt-1">{profile.projects[sel].tech}</p>
+            <p className="text-gray-300 text-sm leading-relaxed mt-4">{d.overview}</p>
+            <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">TECH STACK</h4>
+            <div className="flex flex-wrap gap-2">{d.stack.map((tc,k)=>(<span key={k} className="text-xs bg-[#0a0a0a] border border-gray-800 px-3 py-1.5 rounded-full text-gray-300">{tc}</span>))}</div>
+            <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">KEY FEATURES</h4>
+            <ul className="space-y-2">{d.features.map((f,k)=>(<li key={k} className="text-gray-300 text-sm flex gap-2"><span className="text-green-500 font-bold">✓</span>{f}</li>))}</ul>
+            <div className="flex flex-wrap gap-3 mt-8">
+              <a href={d.github} target="_blank" rel="noreferrer" className="bg-green-500 text-black font-bold px-6 py-2.5 rounded-full text-sm">GitHub Repo</a>
+              {d.live && (<a href={d.live} target="_blank" rel="noreferrer" className="bg-white text-black font-bold px-6 py-2.5 rounded-full text-sm">Live Demo</a>)}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
