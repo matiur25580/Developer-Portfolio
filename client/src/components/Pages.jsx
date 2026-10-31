@@ -292,27 +292,27 @@ export function ServicesPage(){
 }
 
 const projectDetails = [
-  { overview: "Complete HR and payroll platform built from 0% scratch. Three role-based dashboards (Admin, HR, Employee), real 6-digit email OTP, JWT auth, automatic unique employee IDs, payroll processing and downloadable payslips. Deployed on Vercel + Render.",
+  { img: "/projects/p1.webp", overview: "Complete HR and payroll platform built from 0% scratch. Three role-based dashboards (Admin, HR, Employee), real 6-digit email OTP, JWT auth, automatic unique employee IDs, payroll processing and downloadable payslips. Deployed on Vercel + Render.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","Mongoose","JWT","Nodemailer","Tailwind CSS"],
     features: ["Admin/HR/Employee role-based dashboards","6-digit email OTP with 5-min expiry + resend timer","Auto unique employee ID on appointment","Payroll processing + one-click payslip download","6-box OTP UI on login/register/forgot-password","Dark/light theme on every page"],
     github: "https://github.com/matiur25580", live: "" },
-  { overview: "Full hospital management ERP with five roles (Admin, Doctor, Nurse, Receptionist, Patient), 16 departments, Gmail OTP login, unique IDs, duty rosters, OT booking, blood bank, inventory alerts, ID cards and gate passes.",
+  { img: "/projects/p2.png", overview: "Full hospital management ERP with five roles (Admin, Doctor, Nurse, Receptionist, Patient), 16 departments, Gmail OTP login, unique IDs, duty rosters, OT booking, blood bank, inventory alerts, ID cards and gate passes.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Nodemailer","Tailwind CSS"],
     features: ["5 role dashboards, 16 departments, weekly OPD schedules","Duty roster with shift timings","OT booking with staffing + room numbers","Blood bank + inventory expiry alerts","Staff ID cards + visitor gate passes","Patient feedback, ambulance tracking, telemedicine OPD"],
     github: "https://github.com/matiur25580/hospital-management-system", live: "" },
-  { overview: "Property management platform with rent tracking, lease and booking modules, maintenance requests, tenant reviews, commission tracking, PDF receipts and full audit logging.",
+  { img: "/projects/p3.png", overview: "Property management platform with rent tracking, lease and booking modules, maintenance requests, tenant reviews, commission tracking, PDF receipts and full audit logging.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Tailwind CSS"],
     features: ["Rent tracking + lease/booking/maintenance modules","Tenant reviews + agent commission tracking","PDF receipts for every transaction","Full audit logging","Success messages for every action","Vercel frontend + Render backend"],
     github: "https://github.com/matiur25580/realestate-management-system", live: "" },
-  { overview: "Enterprise logistics platform with six roles (Fleet Manager, Warehouse Manager, Driver, Client and more), trip and warehouse management, booking workflows, analytics dashboards and 6-box OTP auth. Built to a 95+ quality bar.",
+  { img: "/projects/p4.png", overview: "Enterprise logistics platform with six roles (Fleet Manager, Warehouse Manager, Driver, Client and more), trip and warehouse management, booking workflows, analytics dashboards and 6-box OTP auth. Built to a 95+ quality bar.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Brevo","Tailwind CSS"],
     features: ["6 distinct role dashboards","Trip, vehicle, warehouse + booking management","Driver dashboards with live trip updates","Fleet performance analytics","6-box OTP professional auth pages","Auto-deploy pipeline to Vercel/Render"],
     github: "https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center", live: "" },
-  { overview: "Digital banking platform with AI-powered fraud detection, secure email-OTP + JWT auth, unique customer IDs and a colourful branded landing page. Backend live on Render.",
+  { img: "/projects/p5.png", overview: "Digital banking platform with AI-powered fraud detection, secure email-OTP + JWT auth, unique customer IDs and a colourful branded landing page. Backend live on Render.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Nodemailer","Tailwind CSS"],
     features: ["AI-powered fraud detection on transactions","Unique customer IDs (role+name+DOB pattern)","Secure OTP registration + login","Colourful branded landing page","Same email for every role","Live backend API on Render"],
     github: "https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center", live: "https://enterprise-ai-powered-digital-banking.onrender.com" },
-  { overview: "Multi-vendor marketplace with seller ecosystem tooling, multi-role registration with unique ID on a dedicated success page, Brevo OTP verification and full buyer/seller workflows. Deployed on Render.",
+  { img: "/projects/p6.png", overview: "Multi-vendor marketplace with seller ecosystem tooling, multi-role registration with unique ID on a dedicated success page, Brevo OTP verification and full buyer/seller workflows. Deployed on Render.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Brevo","Tailwind CSS"],
     features: ["Multi-role registration, unique ID success page","Brevo email OTP verification","Buyer + seller dashboards","Same email for every role","Deployed live on Render"],
     github: "https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center", live: "" }
@@ -329,7 +329,7 @@ export function ProjectsPage(){
       <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {profile.projects.map((p,i)=>(
           <button key={i} onClick={()=>setSel(i)} className="text-left bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl overflow-hidden transition group">
-            <div className="h-32 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center text-4xl font-extrabold text-green-500/20">{i+1}</div>
+            <img src={projectDetails[i].img} alt={p.name} className="h-40 w-full object-cover" loading="lazy" />
             <div className="p-4"><h3 className="font-bold text-[13px] group-hover:text-green-400 transition">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p></div>
           </button>
         ))}
