@@ -1,6 +1,6 @@
 import { useState } from 'react';
 export default function Navbar({active,setActive}){
-  const menu=["Home","About","Skills","Experience","Services","Projects","Contact"];
+  const menu=["Home","About","Skills","Experience","Services","Projects","Contact","Resume"];
   const [open,setOpen]=useState(false);
   const [dark,setDark]=useState(true);
   return (
