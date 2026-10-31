@@ -330,7 +330,7 @@ export function ProjectsPage(){
         {profile.projects.map((p,i)=>(
           <button key={i} onClick={()=>setSel(i)} className="text-left bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl overflow-hidden transition group">
             <div className="h-32 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center text-4xl font-extrabold text-green-500/20">{i+1}</div>
-            <div className="p-4"><h3 className="font-bold text-[13px] group-hover:text-green-400 transition">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p><p className="text-[11px] text-green-400 font-bold mt-2">View Details →</p></div>
+            <div className="p-4"><h3 className="font-bold text-[13px] group-hover:text-green-400 transition">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p></div>
           </button>
         ))}
       </div>
