@@ -1,4 +1,28 @@
+import { useRef } from 'react';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 export default function Resume(){
+  const cardRef = useRef(null);
+  const savePDF = async () => {
+    const el = cardRef.current;
+    if (!el) return;
+    const canvas = await html2canvas(el, { scale: 2 });
+    const img = canvas.toDataURL("image/png");
+    const pdf = new jsPDF("p", "mm", "a4");
+    const pageW = pdf.internal.pageSize.getWidth();
+    const pageH = pdf.internal.pageSize.getHeight();
+    const imgW = pageW;
+    const imgH = (canvas.height * imgW) / canvas.width;
+    let pos = 0;
+    pdf.addImage(img, "PNG", 0, 0, imgW, imgH);
+    pos += pageH;
+    while (imgH > pos) {
+      pdf.addPage();
+      pdf.addImage(img, "PNG", 0, -pos, imgW, imgH);
+      pos += pageH;
+    }
+    pdf.save("Rubel_Ali_Resume.pdf");
+  };
   const skills=["React.js","Node.js","Express.js","【entity-MongoDB¦canonical_name=MongoDB】","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker","REST APIs"];
   const projects=[
     ["Smart HR & Payroll Management System","Enterprise HRMS with Admin, HR and Employee roles. Real 6-digit OTP + JWT authentication, payroll processing, payslip download and role-based dashboards."],
@@ -14,14 +38,17 @@ export default function Resume(){
   ];
   return (
     <div className="bg-[#0a0a0a] text-white min-h-screen px-6 py-10">
-      <div className="max-w-3xl mx-auto bg-[#111] border border-gray-800 rounded-2xl p-8">
+      <div ref={cardRef} className="max-w-3xl mx-auto bg-[#111] border border-gray-800 rounded-2xl p-8">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h1 className="text-3xl font-extrabold">RUBEL ALI</h1>
             <p className="text-green-400 font-bold mt-1">MERN Full Stack Developer</p>
             <p className="text-gray-400 text-sm mt-2">Newtown, Kolkata, West Bengal, India</p>
           </div>
-          <button onClick={()=>window.print()} className="print:hidden bg-green-500 hover:bg-green-400 text-black font-bold px-5 py-2 rounded-full text-sm transition">Print / Save PDF</button>
+          <div className="print:hidden flex gap-3">
+            <button onClick={()=>window.print()} className="bg-green-500 hover:bg-green-400 text-black font-bold px-5 py-2 rounded-full text-sm transition">Print</button>
+            <button onClick={savePDF} className="bg-white hover:bg-gray-200 text-black font-bold px-5 py-2 rounded-full text-sm transition">Save PDF</button>
+          </div>
         </div>
         <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4 text-sm">
           <a href="mailto:rahamanmatiur397@gmail.com" className="text-gray-300 hover:text-green-400">rahamanmatiur397@gmail.com</a>
