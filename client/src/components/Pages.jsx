@@ -291,6 +291,51 @@ export function ServicesPage(){
   );
 }
 
+const projectExtras = [
+{ timeline: "Built from 0% in 10 days",
+  architecture: ["JWT auth with role-based route guards — Admin, HR, Employee get fully isolated dashboards and APIs",
+   "Real 6-digit email OTP via Nodemailer with 5-min expiry, resend timer and 【entity-MongoDB¦canonical_name=MongoDB】-backed attempt tracking",
+   "Auto-generated unique employee IDs (RNSDDMMYYYY) — zero collisions even with duplicate names"],
+  challenges: [{p: "Appointed employees showed on Admin/HR dashboards but not on Employee dashboard",
+   s: "Traced to a role-filter mismatch in the employee query; fixed the aggregation pipeline so all roles read from one source of truth"},
+   {p: "OTP emails failing with Gmail SMTP auth errors after deploying to Render",
+   s: "Moved secrets to env variables, switched to Gmail App Passwords and added retry logic — 100% delivery restored"}] },
+{ timeline: "Built from 0% in 14 days",
+  architecture: ["5 role-based dashboards (Admin, Doctor, Nurse, Receptionist, Patient) with 16 seeded departments, room numbers and weekly OPD schedules",
+   "Duty roster engine (morning/evening/night shifts), OT booking with surgical staffing, blood bank inventory with expiry alerts",
+   "ABDM (Ayushman Bharat Digital Mission) compliance research baked into the patient identity design"],
+  challenges: [{p: "Server crashed on every restart with EADDRINUSE plus duplicate EMAIL_PASS lines breaking OTP",
+   s: "Built a Termux-safe startup script that kills stale processes and validates env variables before boot"},
+   {p: "Forgot-password page auto-filled the email into OTP boxes instead of digits",
+   s: "Rebuilt as six single-digit inputs with proper one-time-code autocomplete handling"}] },
+{ timeline: "Built from 0% in 8 days",
+  architecture: ["Complete rent/lease lifecycle tracking with PDF receipts, maintenance tickets and a commission engine",
+   "Audit logging on every mutation — who changed what, and when",
+   "Every dashboard shows live DD.MM.YYYY date + HH.MM.SS clock with dark/light theme toggle"],
+  challenges: [{p: "PDF rent receipts rendered broken on mobile browsers",
+   s: "Switched to client-side generation with print-friendly layouts, tested on Android Chrome"}] },
+{ timeline: "Built from 0% in 9 days",
+  architecture: ["6 isolated role command centers — Admin, Fleet Manager, Warehouse Manager, Driver, Client and more",
+   "Booking-to-Trip-to-Delivery pipeline with vehicle assignment, warehouse linking and live analytics",
+   "Brevo-to-Mailjet OTP failover after Brevo blocked the server IP with 401 errors"],
+  challenges: [{p: "Brevo API returned 401 'unrecognized IP', blocking every new registration",
+   s: "Diagnosed the IP-allowlist issue and migrated the OTP provider to Mailjet with zero downtime"},
+   {p: "【entity-GitHub¦canonical_name=GitHub】 language stats showed only HTML/CSS/JS, hiding the real MERN stack",
+   s: "Restructured the repo with clean backend/frontend separation so the true stack is visible"}] },
+{ timeline: "Built from 0% in 7 days",
+  architecture: ["Fraud-detection rules engine scoring every transaction in real time",
+   "Unique account IDs (XYZDDMMYYYY pattern) + 6-digit OTP + JWT session security",
+   "Vercel frontend + Render backend with auto-deploy on every push"],
+  challenges: [{p: "Render cold starts made the first login painfully slow",
+   s: "Added health-check pings and skeleton loading states so the UX stays smooth"}] },
+{ timeline: "Built from 0% in 8 days",
+  architecture: ["Multi-vendor ecosystem with Seller, Buyer, Logistics, Finance and Super Admin command centers",
+   "One email works across all roles — separate profiles per role, zero conflicts",
+   "Unique seller/buyer IDs shown on a dedicated success page after registration"],
+  challenges: [{p: "Same email registering for multiple roles caused profile collisions",
+   s: "Designed a composite unique index on (email, role) — same email, separate role profiles, no conflicts"}] },
+];
+
 const projectDetails = [
   { img: "/projects/p1.webp", overview: "Complete HR and payroll platform built from 0% scratch. Three role-based dashboards (Admin, HR, Employee), real 6-digit email OTP, JWT auth, automatic unique employee IDs, payroll processing and downloadable payslips. Deployed on Vercel + Render.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","Mongoose","JWT","Nodemailer","Tailwind CSS"],
@@ -365,3 +410,26 @@ export function ProjectsPage(){
     </div>
   );
 }
+
+{projectExtras[sel] && (<>
+            <div className="flex flex-wrap gap-2 mt-6">
+              <span className="text-xs px-3 py-1 rounded-full bg-green-500/10 border border-green-500/30 text-green-400">{projectExtras[sel].timeline}</span>
+              <span className="text-xs px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400">Solo Full-Stack Developer</span>
+              <span className="text-xs px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400">Live in Production</span>
+            </div>
+            <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">ARCHITECTURE HIGHLIGHTS</h4>
+            <ul className="space-y-2">
+              {projectExtras[sel].architecture.map((a,i)=>(
+                <li key={i} className="flex gap-2 text-gray-300 text-sm"><span className="text-green-400">▸</span><span>{a}</span></li>
+              ))}
+            </ul>
+            <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">CHALLENGES I SOLVED</h4>
+            <div className="space-y-3">
+              {projectExtras[sel].challenges.map((c,i)=>(
+                <div key={i} className="bg-[#111] border border-gray-800 rounded-xl p-3">
+                  <p className="text-sm text-red-300"><span className="font-bold">Problem: </span>{c.p}</p>
+                  <p className="text-sm text-green-300 mt-1"><span className="font-bold">Fix: </span>{c.s}</p>
+                </div>
+              ))}
+            </div>
+</>)}
