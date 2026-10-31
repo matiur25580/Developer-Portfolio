@@ -23,7 +23,7 @@ export default function Resume(){
     }
     pdf.save("Rubel_Ali_Resume.pdf");
   };
-  const skills=["React.js","Node.js","Express.js","【entity-MongoDB¦canonical_name=MongoDB】","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker","REST APIs"];
+  const skills=["React.js","Node.js","Express.js","MongoDB","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker","REST APIs"];
   const projects=[
     ["Smart HR & Payroll Management System","Enterprise HRMS with Admin, HR and Employee roles. Real 6-digit OTP + JWT authentication, payroll processing, payslip download and role-based dashboards."],
     ["CityCare Hospital Management System","Hospital ERP with 5 roles and 16 departments. Duty roster, OT booking, blood bank, inventory alerts and live Vercel + Render deployment."],
@@ -33,7 +33,7 @@ export default function Resume(){
     ["Multi-Vendor Marketplace","Seller ecosystem command center with multi-role registration, Brevo OTP verification and full marketplace workflows."],
   ];
   const exp=[
-    ["MERN Web Development Intern","2023","Completed a 6-month MERN stack internship building full-stack web applications with React, Node.js, Express and 【entity-MongoDB¦canonical_name=MongoDB】."],
+    ["MERN Web Development Intern","2023","Completed a 6-month MERN stack internship building full-stack web applications with React, Node.js, Express and MongoDB."],
     ["MNC Offer via Campus Placement","2023","Received a 35,000/month MNC offer through college placement."],
   ];
   return (
@@ -47,13 +47,13 @@ export default function Resume(){
           </div>
           <div className="print:hidden flex gap-3">
             <button onClick={()=>window.print()} className="bg-green-500 hover:bg-green-400 text-black font-bold px-5 py-2 rounded-full text-sm transition">Print</button>
-            <button onClick={savePDF} className="bg-white hover:bg-gray-200 text-black font-bold px-5 py-2 rounded-full text-sm transition">Save PDF</button>
+            <button onClick={savePDF} className="bg-green-500 hover:bg-green-400 text-black font-bold px-5 py-2 rounded-full text-sm transition">Save PDF</button>
           </div>
         </div>
         <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4 text-sm">
-          <a href="mailto:rahamanmatiur397@gmail.com" className="text-gray-300 hover:text-green-400">rahamanmatiur397@gmail.com</a>
-          <a href="https://github.com/matiur25580" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">github.com/matiur25580</a>
-          <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">LinkedIn</a>
+          <a href="mailto:rahamanmatiur397@gmail.com"className="text-gray-300 hover:text-green-400">rahamanmatiur397@gmail.com</a>
+          <a href="https://github.com/matiur25580"target="_blank"rel="noreferrer"className="text-gray-300 hover:text-green-400">github.com/matiur25580</a>
+          <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233"target="_blank"rel="noreferrer"className="text-gray-300 hover:text-green-400">LinkedIn</a>
         </div>
         <h2 className="text-green-400 font-bold tracking-widest text-sm mt-8 mb-3">SUMMARY</h2>
         <p className="text-gray-300 text-sm leading-relaxed">MERN Full Stack Developer who builds enterprise-grade, production-ready web applications from 0% scratch, including 6 large-scale systems with real OTP/JWT authentication, role-based dashboards and live deployments. Known for extreme consistency: the entire portfolio was crafted on an Android phone using Termux and GitHub Codespaces.</p>
