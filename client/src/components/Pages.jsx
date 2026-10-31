@@ -391,27 +391,7 @@ export function ProjectsPage(){
             <div className="flex flex-wrap gap-2">{d.stack.map((tc,k)=>(<span key={k} className="text-xs bg-[#0a0a0a] border border-gray-800 px-3 py-1.5 rounded-full text-gray-300">{tc}</span>))}</div>
             <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">KEY FEATURES</h4>
             <ul className="space-y-2">{d.features.map((f,k)=>(<li key={k} className="text-gray-300 text-sm flex gap-2"><span className="text-green-500 font-bold">✓</span>{f}</li>))}</ul>
-            <h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">PROJECT SCREENSHOTS</h4>
-            <div className="flex gap-3 overflow-x-auto pb-3 snap-x">
-              {Array.from({length:12},(_,k)=>k+1).map(n=>(
-                <img key={n} src={`/screenshots/p${sel+1}/${n}.jpg`} alt={`Screenshot ${n}`}
-                  className="h-56 w-auto shrink-0 snap-start rounded-xl border border-gray-700 object-contain bg-[#0a0a0a]"
-                  onError={(e)=>{e.target.style.display='none'}} />
-              ))}
-            </div>
-            <p className="text-gray-500 text-xs">Swipe left / right to see more</p>
-            <div className="flex flex-wrap gap-3 mt-8">
-              <a href={d.github} target="_blank" rel="noreferrer" className="bg-green-500 text-black font-bold px-6 py-2.5 rounded-full text-sm">GitHub Repo</a>
-              {d.live && (<a href={d.live} target="_blank" rel="noreferrer" className="bg-white text-black font-bold px-6 py-2.5 rounded-full text-sm">Live Demo</a>)}
-            </div>
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-{projectExtras[sel] && (<>
+            {projectExtras[sel] && (<>
             <div className="flex flex-wrap gap-2 mt-6">
               <span className="text-xs px-3 py-1 rounded-full bg-green-500/10 border border-green-500/30 text-green-400">{projectExtras[sel].timeline}</span>
               <span className="text-xs px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400">Solo Full-Stack Developer</span>
@@ -433,3 +413,24 @@ export function ProjectsPage(){
               ))}
             </div>
 </>)}
+<h4 className="text-green-400 font-bold tracking-widest text-xs mt-6 mb-3">PROJECT SCREENSHOTS</h4>
+            <div className="flex gap-3 overflow-x-auto pb-3 snap-x">
+              {Array.from({length:12},(_,k)=>k+1).map(n=>(
+                <img key={n} src={`/screenshots/p${sel+1}/${n}.jpg`} alt={`Screenshot ${n}`}
+                  className="h-56 w-auto shrink-0 snap-start rounded-xl border border-gray-700 object-contain bg-[#0a0a0a]"
+                  onError={(e)=>{e.target.style.display='none'}} />
+              ))}
+            </div>
+            <p className="text-gray-500 text-xs">Swipe left / right to see more</p>
+            <div className="flex flex-wrap gap-3 mt-8">
+              <a href={d.github} target="_blank" rel="noreferrer" className="bg-green-500 text-black font-bold px-6 py-2.5 rounded-full text-sm">GitHub Repo</a>
+              {d.live && (<a href={d.live} target="_blank" rel="noreferrer" className="bg-white text-black font-bold px-6 py-2.5 rounded-full text-sm">Live Demo</a>)}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+
