@@ -34,6 +34,83 @@ A collection of full-stack applications, enterprise-style workflow platforms, AI
 
 ---
 
+
+## Project UI Gallery
+
+A single-column gallery of the six featured applications. Each project includes two existing interface previews from the portfolio's screenshot assets.
+
+### 01 · Smart HR & Payroll Management System
+
+![Smart HR and Payroll interface preview 1](client/public/screenshots/p1/1.jpg)
+
+*Workforce administration and role-based HR operations.*
+
+![Smart HR and Payroll interface preview 2](client/public/screenshots/p1/2.jpg)
+
+*An additional view of the HR and employee workflow.*
+
+---
+
+### 02 · CityCare Hospital Management System
+
+![CityCare Hospital interface preview 1](client/public/screenshots/p2/1.jpg)
+
+*Hospital operations and patient-care workflows.*
+
+![CityCare Hospital interface preview 2](client/public/screenshots/p2/2.jpg)
+
+*An additional view of the hospital management experience.*
+
+---
+
+### 03 · RealEstate Management System
+
+![RealEstate interface preview 1](client/public/screenshots/p3/1.jpg)
+
+*Property and rental-management workflows.*
+
+![RealEstate interface preview 2](client/public/screenshots/p3/2.jpg)
+
+*An additional view of the property operations interface.*
+
+---
+
+### 04 · FleetCommand Logistics System
+
+![FleetCommand interface preview 1](client/public/screenshots/p4/1.jpg)
+
+*Fleet, trip and supply-chain operations.*
+
+![FleetCommand interface preview 2](client/public/screenshots/p4/2.jpg)
+
+*An additional view of the logistics command center.*
+
+---
+
+### 05 · TrustShield Bank
+
+![TrustShield Bank interface preview 1](client/public/screenshots/p5/1.jpg)
+
+*Digital banking and fraud-monitoring concepts.*
+
+![TrustShield Bank interface preview 2](client/public/screenshots/p5/2.jpg)
+
+*An additional view of the banking experience.*
+
+---
+
+### 06 · Multi-Vendor Marketplace
+
+![Multi-Vendor Marketplace interface preview 1](client/public/screenshots/p6/1.jpg)
+
+*Buyer and seller marketplace workflows.*
+
+![Multi-Vendor Marketplace interface preview 2](client/public/screenshots/p6/2.jpg)
+
+*An additional view of the seller ecosystem.*
+
+> These are portfolio project previews. Feature availability and implementation status are documented in each linked repository.
+
 ## Technical Skills
 
 - **Frontend:** React, TypeScript, JavaScript, Preact, Vite, Tailwind CSS, HTML, CSS, Bootstrap
