@@ -21,7 +21,7 @@ export default function App(){
       {active==='Projects' && <ProjectsPage/>}
       {active==='Contact' && <Contact/>}
       {active==="Resume" && <Resume/>}
-      <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Rubel Ali | <a href="#/admin" className="underline">Admin</a></footer>
+      <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Matiur Rahaman | <a href="#/admin" className="underline">Admin</a></footer>
     </div>
   );
 }
