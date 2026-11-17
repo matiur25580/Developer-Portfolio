@@ -18,7 +18,7 @@ export function HomePage(props){
         <p className="text-gray-400 text-sm tracking-[0.25em] mb-2">HELLO, I'M</p>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">MATIUR <span className="text-green-400">RAHAMAN</span></h1>
         <p className="text-lg md:text-2xl mt-4 text-gray-300 h-8">I build <span className="text-green-400 font-bold">{roles[ri]}</span><span className="animate-pulse text-green-400 font-bold">|</span></p>
-        <p className="text-[13px] md:text-[14px] text-gray-500 max-w-xl mt-4 leading-relaxed">Enterprise-grade MERN applications from 0% scratch - real OTP/JWT authentication, role-based dashboards and live deployments, crafted entirely on an Android phone.</p>
+        <p className="text-[13px] md:text-[14px] text-gray-500 max-w-xl mt-4 leading-relaxed">I build full-stack products with secure authentication, role-based workflows, responsive interfaces and practical integrations across AI, commerce, healthcare and business operations.</p>
         <div className="flex flex-wrap justify-center gap-3 mt-8">
           <button onClick={()=>_nav('about')} className="bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-3 rounded-full text-[14px] transition">About Me</button>
           <button onClick={()=>_nav('projects')} className="border border-gray-700 hover:border-green-500 px-8 py-3 rounded-full text-[14px] font-bold transition">My Works</button>
@@ -31,7 +31,7 @@ export function HomePage(props){
   <a href="mailto:rahamanmatiur397@gmail.com" target="_blank" rel="noreferrer" title="Email" className="w-11 h-11 rounded-full bg-[#111] border border-gray-800 hover:border-green-500 hover:scale-110 flex items-center justify-center transition"><img src="/social-gmail.svg" alt="Email" className="w-5 h-5"/></a>
 </div>
         <div className="flex gap-8 mt-10">
-          {[["15","Projects"],["15+","Skills"],["3+","Years"]].map((s,k)=>(
+          {[["15","Repositories"],["15+","Technologies"],["Full Stack","Focus"]].map((s,k)=>(
             <div key={k} className="text-center">
               <p className="text-2xl font-extrabold text-green-400">{s[0]}</p>
               <p className="text-[11px] text-gray-500">{s[1]}</p>
@@ -68,7 +68,7 @@ export function AboutPage(){
     ["100%","Responsive UI"],
   ];
   const points=[
-    ["End-to-end MERN builds","6 production-grade apps from 0% scratch - React frontend, Node + Express backend, MongoDB Atlas."],
+    ["Full-stack product development","Built a varied portfolio of web applications using React/Preact, Node.js, Express and MongoDB."],
     ["Real authentication","6-digit OTP (Brevo/Gmail), JWT, bcrypt hashing, role-based dashboards. No demo logins."],
     ["Live deployments","Vercel (frontend) + Render (backend) CI/CD with 【entity-GitHub¦canonical_name=GitHub】 workflow and Postman-tested APIs."],
     ["Enterprise UI/UX","Tailwind CSS, dark/light themes, fully responsive dashboards for Admin, HR, Doctor, Driver and more."],
@@ -117,7 +117,7 @@ export function AboutPage(){
     ["2019","Started B.Tech in CSE","Joined Bengal Institute of Technology, Kolkata under MAKAUT - built my foundation in programming and computer science."],
     ["2023","Graduated + MERN Internship","Completed B.Tech and a 6-month MERN web development internship. Received a 35k/month MNC offer via campus placement."],
     ["2023 - 2025","Self-driven mastery","Mastered the full MERN stack by building real projects end-to-end - entirely on an Android phone with Termux and GitHub Codespaces."],
-    ["2026","6 enterprise systems shipped","Built and deployed 6 production-grade MERN applications with real OTP/JWT auth, role-based dashboards and live Vercel + Render deployments."],
+    ["2026","Expanded full-stack portfolio","Continued developing and documenting projects across recruitment, AI writing, fintech, logistics, healthcare, e-commerce and business operations."],
   ].map((j,i,arr)=>(
     <div key={i} className="flex gap-4">
       <div className="flex flex-col items-center">
