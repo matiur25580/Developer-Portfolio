@@ -204,7 +204,7 @@ All **15 projects** are listed in one vertical column. Where a project has a rea
 </tr>
 </table>
 
-> **Image accuracy:** HireFlow and FinTech include concept/interface artwork documented in their own READMEs; SmartGadget uses an actual catalogue product image; Trello uses its application hero asset; Food Ordering uses the homepage screenshot already embedded in its README. The other available previews are existing project images. Four repositories currently have no dedicated screenshot: Developer Portfolio, Draftline AI, Real-Time Chat, and Cyber Security Command Center. Add genuine app screenshots to those repositories to complete their visual previews.
+> **Image accuracy:** HireFlow and FinTech include concept/interface artwork documented in their own READMEs; SmartGadget uses an actual catalogue product image; Trello uses its application hero asset; Food Ordering uses the homepage screenshot already embedded in its README. The other available previews are existing project images. Four repositories currently have no dedicated screenshot: Developer Portfolio, Draftline AI, Real-Time Chat, and Cyber Security Command Center. Each now has a screenshot capture guide linked from its own README; the guides specify which real application screens to capture and prohibit decorative mockups or unrelated images. Add genuine app screenshots to those repositories to complete their visual previews.
 
 ## Technology Stack
 
