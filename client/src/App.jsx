@@ -7,8 +7,8 @@ import { initTheme } from './utils/theme';
 import Resume from './components/Resume';
 export default function App(){
   const [isAdmin,setIsAdmin]=useState(window.location.hash==='#/admin');
-  const [active,setActive]=useState('Home');
-  useEffect(()=>{ initTheme(); const h=()=>setIsAdmin(window.location.hash==='#/admin'); window.addEventListener('hashchange',h); return ()=>window.removeEventListener('hashchange',h); },[]);
+  const [active,setActive]=useState(window.location.hash.toLowerCase()==='#projects' ? 'Projects' : 'Home');
+  useEffect(()=>{ initTheme(); const h=()=>{ setIsAdmin(window.location.hash==='#/admin'); if(window.location.hash.toLowerCase()==='#projects') setActive('Projects'); }; window.addEventListener('hashchange',h); return ()=>window.removeEventListener('hashchange',h); },[]);
   if(isAdmin) return <Admin />;
   return (
     <div className="bg-black min-h-screen">
