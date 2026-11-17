@@ -90,117 +90,117 @@ Every project below is included in the portfolio's searchable Projects page.
 
 ## Complete Project Visual Gallery
 
-All **15 projects** are arranged in one clean vertical column, with a large preview followed by its project name and repository link. Select any preview to open its source repository. Six previews use existing project screenshots; the remaining previews are custom-designed cover artwork until real screenshots are added to those repositories.
+All **15 projects** are listed in one vertical column. Where a project has a real screenshot or image asset in its own repository (or an existing project preview), that exact image is used here and in the portfolio Projects page. No new decorative mockup covers are used. For projects without a committed screenshot, the gallery says so rather than showing an unrelated or invented image.
 
 <table>
 <tr>
 <td align="center" width="100%">
 <h3>01 · HireFlow — ATS Recruitment System</h3>
-<a href="https://github.com/matiur25580/ats-recruitment-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p07-hireflow.svg" alt="HireFlow — ATS Recruitment System" width="720"></a><br>
-<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View HireFlow — ATS Recruitment System repository ↗</strong></a>
+<a href="https://github.com/matiur25580/ats-recruitment-system"><img src="https://raw.githubusercontent.com/matiur25580/ats-recruitment-system/main/docs/images/dashboard-01.svg" alt="HireFlow — ATS Recruitment System" width="720"></a><br>
+<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>02 · Developer Portfolio</h3>
-<a href="https://github.com/matiur25580/Developer-Portfolio"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p08-developer-portfolio.svg" alt="Developer Portfolio" width="720"></a><br>
-<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View Developer Portfolio repository ↗</strong></a>
+<p><em>No dedicated portfolio screenshot is currently committed.</em></p><br>
+<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>03 · TrustShield — Banking Fraud Detection</h3>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="TrustShield — Banking Fraud Detection" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View TrustShield — Banking Fraud Detection repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>04 · FleetCommand — Logistics & Supply Chain</h3>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="FleetCommand — Logistics & Supply Chain" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View FleetCommand — Logistics & Supply Chain repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>05 · SmartGadget Lifestyle MegaStore</h3>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p09-smartgadget.svg" alt="SmartGadget Lifestyle MegaStore" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View SmartGadget Lifestyle MegaStore repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center/main/client/public/products/iphone-15-128gb-blue/1.jpg" alt="SmartGadget Lifestyle MegaStore" width="720"></a><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>06 · CityCare Hospital Management</h3>
 <a href="https://github.com/matiur25580/hospital-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="CityCare Hospital Management" width="720"></a><br>
-<a href="https://github.com/matiur25580/hospital-management-system"><strong>View CityCare Hospital Management repository ↗</strong></a>
+<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>07 · Draftline AI Writing Studio</h3>
-<a href="https://github.com/matiur25580/ai-saas-generator"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p10-draftline-ai.svg" alt="Draftline AI Writing Studio" width="720"></a><br>
-<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View Draftline AI Writing Studio repository ↗</strong></a>
+<p><em>No screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>08 · Real Estate Management System</h3>
 <a href="https://github.com/matiur25580/realestate-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="Real Estate Management System" width="720"></a><br>
-<a href="https://github.com/matiur25580/realestate-management-system"><strong>View Real Estate Management System repository ↗</strong></a>
+<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>09 · Real-Time Chat & Collaboration Hub</h3>
-<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p11-chat-hub.svg" alt="Real-Time Chat & Collaboration Hub" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View Real-Time Chat & Collaboration Hub repository ↗</strong></a>
+<p><em>No screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>10 · Trello Clone</h3>
-<a href="https://github.com/matiur25580/Trello-Clone"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p12-trello-clone.svg" alt="Trello Clone" width="720"></a><br>
-<a href="https://github.com/matiur25580/Trello-Clone"><strong>View Trello Clone repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Trello-Clone"><img src="https://raw.githubusercontent.com/matiur25580/Trello-Clone/main/frontend/src/assets/hero.png" alt="Trello Clone" width="720"></a><br>
+<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>11 · Online Food Ordering System</h3>
-<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p13-food-ordering.svg" alt="Online Food Ordering System" width="720"></a><br>
-<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View Online Food Ordering System repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><img src="https://user-images.githubusercontent.com/78216965/220661697-31902983-6bcc-4804-864c-37bca11a9cb1.png" alt="Online Food Ordering System" width="720"></a><br>
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>12 · Smart HR & Payroll Management</h3>
 <a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="Smart HR & Payroll Management" width="720"></a><br>
-<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View Smart HR & Payroll Management repository ↗</strong></a>
+<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="Multi-Vendor Marketplace Seller Ecosystem" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View Multi-Vendor Marketplace Seller Ecosystem repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>14 · FinTech Smart Invoice & Expense System</h3>
-<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p14-fintech-invoice.svg" alt="FinTech Smart Invoice & Expense System" width="720"></a><br>
-<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View FinTech Smart Invoice & Expense System repository ↗</strong></a>
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><img src="https://raw.githubusercontent.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System/main/docs/images/01-finance-dashboard.svg" alt="FinTech Smart Invoice & Expense System" width="720"></a><br>
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>15 · Cyber Security Operations Command Center</h3>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p15-cyber-command.svg" alt="Cyber Security Operations Command Center" width="720"></a><br>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View Cyber Security Operations Command Center repository ↗</strong></a>
+<p><em>No project screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 </table>
 
-> **Image note:** All gallery images point to image files committed in this repository and use absolute raw.githubusercontent.com URLs. The six existing project captures are retained; the other nine are illustrative covers rather than screenshots of running applications.
+> **Image accuracy:** HireFlow and FinTech include concept/interface artwork documented in their own READMEs; SmartGadget uses an actual catalogue product image; Trello uses its application hero asset; Food Ordering uses the homepage screenshot already embedded in its README. The other available previews are existing project images. Four repositories currently have no dedicated screenshot: Developer Portfolio, Draftline AI, Real-Time Chat, and Cyber Security Command Center. Add genuine app screenshots to those repositories to complete their visual previews.
 
 ## Technology Stack
 
