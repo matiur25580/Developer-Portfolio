@@ -1,7 +1,7 @@
 # Matiur Rahaman | Full-Stack Developer
 
 <p align="center">
-  <a href="https://developer-portfolio-client.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-06b6d4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website"></a>
+  <a href="https://github.com/matiur25580/Developer-Portfolio"><img src="https://img.shields.io/badge/Portfolio-View%20Source%20Code-06b6d4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website"></a>
   <a href="https://github.com/matiur25580"><img src="https://img.shields.io/badge/GitHub-matiur25580-181717?style=for-the-badge&logo=github" alt="GitHub profile"></a>
   <a href="mailto:rahamanmatiur397@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
@@ -19,7 +19,7 @@ I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I en
 
 This repository contains my personal portfolio website and a curated overview of **15 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
 
-- **Portfolio:** [developer-portfolio-client.vercel.app](https://developer-portfolio-client.vercel.app)
+- **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 - **GitHub:** [github.com/matiur25580](https://github.com/matiur25580)
 - **Email:** [rahamanmatiur397@gmail.com](mailto:rahamanmatiur397@gmail.com)
 - **Location:** West Bengal, India
@@ -102,11 +102,11 @@ All **15 projects** are displayed below. Select any preview to open its source r
 <strong>Developer Portfolio</strong><br><a href="https://github.com/matiur25580/Developer-Portfolio">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p5/1.jpg" alt="TrustShield — Banking Fraud Detection" width="100%"></a><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="TrustShield — Banking Fraud Detection" width="100%"></a><br>
 <strong>TrustShield — Banking Fraud Detection</strong><br><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center">View repository ↗</a>
 </td></tr>
 <tr><td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p4/1.jpg" alt="FleetCommand — Logistics & Supply Chain" width="100%"></a><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="FleetCommand — Logistics & Supply Chain" width="100%"></a><br>
 <strong>FleetCommand — Logistics & Supply Chain</strong><br><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
@@ -114,7 +114,7 @@ All **15 projects** are displayed below. Select any preview to open its source r
 <strong>SmartGadget Lifestyle MegaStore</strong><br><a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/hospital-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p2/1.jpg" alt="CityCare Hospital Management" width="100%"></a><br>
+<a href="https://github.com/matiur25580/hospital-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="CityCare Hospital Management" width="100%"></a><br>
 <strong>CityCare Hospital Management</strong><br><a href="https://github.com/matiur25580/hospital-management-system">View repository ↗</a>
 </td></tr>
 <tr><td width="33%" align="center" valign="top">
@@ -122,7 +122,7 @@ All **15 projects** are displayed below. Select any preview to open its source r
 <strong>Draftline AI Writing Studio</strong><br><a href="https://github.com/matiur25580/ai-saas-generator">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/realestate-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p3/1.jpg" alt="Real Estate Management System" width="100%"></a><br>
+<a href="https://github.com/matiur25580/realestate-management-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="Real Estate Management System" width="100%"></a><br>
 <strong>Real Estate Management System</strong><br><a href="https://github.com/matiur25580/realestate-management-system">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
@@ -138,11 +138,11 @@ All **15 projects** are displayed below. Select any preview to open its source r
 <strong>Online Food Ordering System</strong><br><a href="https://github.com/matiur25580/Online-Food-Ordering-System-main">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p1/1.jpg" alt="Smart HR & Payroll Management" width="100%"></a><br>
+<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="Smart HR & Payroll Management" width="100%"></a><br>
 <strong>Smart HR & Payroll Management</strong><br><a href="https://github.com/matiur25580/enterprise-hr-payroll-system">View repository ↗</a>
 </td></tr>
 <tr><td width="33%" align="center" valign="top">
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/screenshots/p6/1.jpg" alt="Multi-Vendor Marketplace Seller Ecosystem" width="100%"></a><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="Multi-Vendor Marketplace Seller Ecosystem" width="100%"></a><br>
 <strong>Multi-Vendor Marketplace Seller Ecosystem</strong><br><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center">View repository ↗</a>
 </td>
 <td width="33%" align="center" valign="top">
@@ -155,7 +155,7 @@ All **15 projects** are displayed below. Select any preview to open its source r
 </td></tr>
 </table>
 
-> **Image note:** All gallery images use absolute raw.githubusercontent.com image URLs so they render correctly from the GitHub README. The designed covers are illustrative project previews, not screenshots of running applications.
+> **Image note:** All gallery images point to image files committed in this repository and use absolute raw.githubusercontent.com URLs. The six existing project captures are retained; the other nine are clearly styled illustrative covers rather than screenshots of running applications.
 
 ## Technology Stack
 
@@ -196,7 +196,7 @@ Check the `client/package.json` and project configuration for the exact scripts 
 
 - **Email:** [rahamanmatiur397@gmail.com](mailto:rahamanmatiur397@gmail.com)
 - **GitHub:** [matiur25580](https://github.com/matiur25580)
-- **Portfolio:** [developer-portfolio-client.vercel.app](https://developer-portfolio-client.vercel.app)
+- **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 
 ---
 
