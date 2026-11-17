@@ -94,189 +94,187 @@ Every project below is included in the portfolio's searchable Projects page.
 
 ## Complete Project Visual Gallery
 
-Each project is shown once in this vertical list. Every gallery is a wide six-image horizontal strip: the first large image is visible initially, and the remaining images sit off-screen until you scroll sideways. On a phone, swipe left or right; on desktop, use the horizontal scrollbar. The images are deliberately kept large rather than shrunk into six small thumbnails.
+**15 projects · 6 images each · 90 images total.** This GitHub README displays one large cover image per project. GitHub sanitizes custom HTML/CSS in README files, so it cannot provide a reliable touch-scroll carousel with five hidden images. To swipe through all six large images for each project, open the interactive Projects section on the portfolio website. All 90 image assets remain in this repository; the additional five per project are UI concept previews, not screenshots from live applications.
 
-**Gallery size: 15 projects × 6 images = 90 images.** The six original captures are retained. The additional screen designs are clearly labelled UI concept previews and are not presented as screenshots from live applications.
+<h3>01 · HireFlow — ATS Recruitment System</h3>
 
-<table width="5400">
-<tr><td colspan="6"><h3>01 · HireFlow — ATS Recruitment System</h3><a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-02.svg" alt="01 · HireFlow — ATS Recruitment System — Candidate Pipeline" width="900"></a><br><sub>Candidate Pipeline</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-03.svg" alt="01 · HireFlow — ATS Recruitment System — Candidate Profiles" width="900"></a><br><sub>Candidate Profiles</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-04.svg" alt="01 · HireFlow — ATS Recruitment System — Interview Calendar" width="900"></a><br><sub>Interview Calendar</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-05.svg" alt="01 · HireFlow — ATS Recruitment System — Hiring Analytics" width="900"></a><br><sub>Hiring Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hireflow-06.svg" alt="01 · HireFlow — ATS Recruitment System — Recruiter Settings" width="900"></a><br><sub>Recruiter Settings</sub></td>
-</tr>
-</table>
+<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>02 · Developer Portfolio</h3><a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="02 · Developer Portfolio — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-02.svg" alt="02 · Developer Portfolio — Project Explorer" width="900"></a><br><sub>Project Explorer</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-03.svg" alt="02 · Developer Portfolio — Case Study Details" width="900"></a><br><sub>Case Study Details</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-04.svg" alt="02 · Developer Portfolio — Skills & Expertise" width="900"></a><br><sub>Skills & Expertise</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-05.svg" alt="02 · Developer Portfolio — Experience Timeline" width="900"></a><br><sub>Experience Timeline</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/portfolio-06.svg" alt="02 · Developer Portfolio — Contact Inbox" width="900"></a><br><sub>Contact Inbox</sub></td>
-</tr>
-</table>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>03 · TrustShield — Banking Fraud Detection</h3><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-02.svg" alt="03 · TrustShield — Banking Fraud Detection — Fraud Monitoring" width="900"></a><br><sub>Fraud Monitoring</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-03.svg" alt="03 · TrustShield — Banking Fraud Detection — Customer KYC" width="900"></a><br><sub>Customer KYC</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-04.svg" alt="03 · TrustShield — Banking Fraud Detection — Transaction Review" width="900"></a><br><sub>Transaction Review</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-05.svg" alt="03 · TrustShield — Banking Fraud Detection — Risk Analytics" width="900"></a><br><sub>Risk Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trustshield-06.svg" alt="03 · TrustShield — Banking Fraud Detection — Compliance Reports" width="900"></a><br><sub>Compliance Reports</sub></td>
-</tr>
-</table>
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-<table width="5400">
-<tr><td colspan="6"><h3>04 · FleetCommand — Logistics & Supply Chain</h3><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-02.svg" alt="04 · FleetCommand — Logistics & Supply Chain — Fleet Overview" width="900"></a><br><sub>Fleet Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-03.svg" alt="04 · FleetCommand — Logistics & Supply Chain — Live Trip Tracking" width="900"></a><br><sub>Live Trip Tracking</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-04.svg" alt="04 · FleetCommand — Logistics & Supply Chain — Warehouse Inventory" width="900"></a><br><sub>Warehouse Inventory</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-05.svg" alt="04 · FleetCommand — Logistics & Supply Chain — Delivery Analytics" width="900"></a><br><sub>Delivery Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fleetcommand-06.svg" alt="04 · FleetCommand — Logistics & Supply Chain — Driver Management" width="900"></a><br><sub>Driver Management</sub></td>
-</tr>
-</table>
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
-<table width="5400">
-<tr><td colspan="6"><h3>05 · SmartGadget Lifestyle MegaStore</h3><a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-02.svg" alt="05 · SmartGadget Lifestyle MegaStore — Product Catalogue" width="900"></a><br><sub>Product Catalogue</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-03.svg" alt="05 · SmartGadget Lifestyle MegaStore — Order Management" width="900"></a><br><sub>Order Management</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-04.svg" alt="05 · SmartGadget Lifestyle MegaStore — Seller Workspace" width="900"></a><br><sub>Seller Workspace</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-05.svg" alt="05 · SmartGadget Lifestyle MegaStore — Sales Analytics" width="900"></a><br><sub>Sales Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/smartgadget-06.svg" alt="05 · SmartGadget Lifestyle MegaStore — Store Settings" width="900"></a><br><sub>Store Settings</sub></td>
-</tr>
-</table>
+---
 
-<table width="5400">
-<tr><td colspan="6"><h3>06 · CityCare Hospital Management</h3><a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-02.svg" alt="06 · CityCare Hospital Management — Patient Records" width="900"></a><br><sub>Patient Records</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-03.svg" alt="06 · CityCare Hospital Management — Appointment Desk" width="900"></a><br><sub>Appointment Desk</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-04.svg" alt="06 · CityCare Hospital Management — Doctor Workspace" width="900"></a><br><sub>Doctor Workspace</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-05.svg" alt="06 · CityCare Hospital Management — Clinical Analytics" width="900"></a><br><sub>Clinical Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/citycare-06.svg" alt="06 · CityCare Hospital Management — Billing & Reports" width="900"></a><br><sub>Billing & Reports</sub></td>
-</tr>
-</table>
+<h3>02 · Developer Portfolio</h3>
 
-<table width="5400">
-<tr><td colspan="6"><h3>07 · Draftline AI Writing Studio</h3><a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-02.svg" alt="07 · Draftline AI Writing Studio — Writing Workspace" width="900"></a><br><sub>Writing Workspace</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-03.svg" alt="07 · Draftline AI Writing Studio — Content Library" width="900"></a><br><sub>Content Library</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-04.svg" alt="07 · Draftline AI Writing Studio — Generation History" width="900"></a><br><sub>Generation History</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-05.svg" alt="07 · Draftline AI Writing Studio — Usage Analytics" width="900"></a><br><sub>Usage Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/draftline-06.svg" alt="07 · Draftline AI Writing Studio — Account Settings" width="900"></a><br><sub>Account Settings</sub></td>
-</tr>
-</table>
+<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ↗</strong></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>08 · Real Estate Management System</h3><a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-02.svg" alt="08 · Real Estate Management System — Property Listings" width="900"></a><br><sub>Property Listings</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-03.svg" alt="08 · Real Estate Management System — Tenant Directory" width="900"></a><br><sub>Tenant Directory</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-04.svg" alt="08 · Real Estate Management System — Lease Management" width="900"></a><br><sub>Lease Management</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-05.svg" alt="08 · Real Estate Management System — Rental Analytics" width="900"></a><br><sub>Rental Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/realestate-06.svg" alt="08 · Real Estate Management System — Maintenance Desk" width="900"></a><br><sub>Maintenance Desk</sub></td>
-</tr>
-</table>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="02 · Developer Portfolio — Overview" width="900"></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>09 · Real-Time Chat & Collaboration Hub</h3><a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-02.svg" alt="09 · Real-Time Chat & Collaboration Hub — Team Conversations" width="900"></a><br><sub>Team Conversations</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-03.svg" alt="09 · Real-Time Chat & Collaboration Hub — Direct Messages" width="900"></a><br><sub>Direct Messages</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-04.svg" alt="09 · Real-Time Chat & Collaboration Hub — Shared Channels" width="900"></a><br><sub>Shared Channels</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-05.svg" alt="09 · Real-Time Chat & Collaboration Hub — Activity Insights" width="900"></a><br><sub>Activity Insights</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chat-06.svg" alt="09 · Real-Time Chat & Collaboration Hub — Workspace Settings" width="900"></a><br><sub>Workspace Settings</sub></td>
-</tr>
-</table>
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-<table width="5400">
-<tr><td colspan="6"><h3>10 · Trello Clone</h3><a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-02.svg" alt="10 · Trello Clone — Board Overview" width="900"></a><br><sub>Board Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-03.svg" alt="10 · Trello Clone — Task Details" width="900"></a><br><sub>Task Details</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-04.svg" alt="10 · Trello Clone — Sprint Planner" width="900"></a><br><sub>Sprint Planner</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-05.svg" alt="10 · Trello Clone — Team Workload" width="900"></a><br><sub>Team Workload</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/trello-06.svg" alt="10 · Trello Clone — Board Settings" width="900"></a><br><sub>Board Settings</sub></td>
-</tr>
-</table>
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
-<table width="5400">
-<tr><td colspan="6"><h3>11 · Online Food Ordering System</h3><a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-02.svg" alt="11 · Online Food Ordering System — Restaurant Menu" width="900"></a><br><sub>Restaurant Menu</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-03.svg" alt="11 · Online Food Ordering System — Incoming Orders" width="900"></a><br><sub>Incoming Orders</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-04.svg" alt="11 · Online Food Ordering System — Kitchen Queue" width="900"></a><br><sub>Kitchen Queue</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-05.svg" alt="11 · Online Food Ordering System — Order Analytics" width="900"></a><br><sub>Order Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/foodorder-06.svg" alt="11 · Online Food Ordering System — Customer Reviews" width="900"></a><br><sub>Customer Reviews</sub></td>
-</tr>
-</table>
+---
 
-<table width="5400">
-<tr><td colspan="6"><h3>12 · Smart HR & Payroll Management</h3><a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-02.svg" alt="12 · Smart HR & Payroll Management — Employee Directory" width="900"></a><br><sub>Employee Directory</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-03.svg" alt="12 · Smart HR & Payroll Management — Attendance Register" width="900"></a><br><sub>Attendance Register</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-04.svg" alt="12 · Smart HR & Payroll Management — Leave Requests" width="900"></a><br><sub>Leave Requests</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-05.svg" alt="12 · Smart HR & Payroll Management — Payroll Overview" width="900"></a><br><sub>Payroll Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/hrpayroll-06.svg" alt="12 · Smart HR & Payroll Management — HR Reports" width="900"></a><br><sub>HR Reports</sub></td>
-</tr>
-</table>
+<h3>03 · TrustShield — Banking Fraud Detection</h3>
 
-<table width="5400">
-<tr><td colspan="6"><h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a><br><sub>Application Screenshot</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-02.svg" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Marketplace Overview" width="900"></a><br><sub>Marketplace Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-03.svg" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Seller Directory" width="900"></a><br><sub>Seller Directory</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-04.svg" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Product Approvals" width="900"></a><br><sub>Product Approvals</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-05.svg" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Commission Analytics" width="900"></a><br><sub>Commission Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/marketplace-06.svg" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Payout Center" width="900"></a><br><sub>Payout Center</sub></td>
-</tr>
-</table>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository ↗</strong></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>14 · FinTech Smart Invoice & Expense System</h3><a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-02.svg" alt="14 · FinTech Smart Invoice & Expense System — Invoice Register" width="900"></a><br><sub>Invoice Register</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-03.svg" alt="14 · FinTech Smart Invoice & Expense System — Expense Tracking" width="900"></a><br><sub>Expense Tracking</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-04.svg" alt="14 · FinTech Smart Invoice & Expense System — Supplier Directory" width="900"></a><br><sub>Supplier Directory</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-05.svg" alt="14 · FinTech Smart Invoice & Expense System — Cashflow Analytics" width="900"></a><br><sub>Cashflow Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/fintech-06.svg" alt="14 · FinTech Smart Invoice & Expense System — Payment Schedule" width="900"></a><br><sub>Payment Schedule</sub></td>
-</tr>
-</table>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
 
-<table width="5400">
-<tr><td colspan="6"><h3>15 · Cyber Security Operations Command Center</h3><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ↗</strong></a></td></tr>
-<tr>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a><br><sub>Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-02.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-02.svg" alt="15 · Cyber Security Operations Command Center — Security Overview" width="900"></a><br><sub>Security Overview</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-03.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-03.svg" alt="15 · Cyber Security Operations Command Center — Threat Investigation" width="900"></a><br><sub>Threat Investigation</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-04.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-04.svg" alt="15 · Cyber Security Operations Command Center — Incident Queue" width="900"></a><br><sub>Incident Queue</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-05.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-05.svg" alt="15 · Cyber Security Operations Command Center — SOC Analytics" width="900"></a><br><sub>SOC Analytics</sub></td>
-<td width="900" align="center" valign="top"><a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-06.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/cyber-06.svg" alt="15 · Cyber Security Operations Command Center — Audit & Compliance" width="900"></a><br><sub>Audit & Compliance</sub></td>
-</tr>
-</table>
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>04 · FleetCommand — Logistics & Supply Chain</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a>
+
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>05 · SmartGadget Lifestyle MegaStore</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>06 · CityCare Hospital Management</h3>
+
+<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a>
+
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>07 · Draftline AI Writing Studio</h3>
+
+<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>08 · Real Estate Management System</h3>
+
+<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a>
+
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>09 · Real-Time Chat & Collaboration Hub</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>10 · Trello Clone</h3>
+
+<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>11 · Online Food Ordering System</h3>
+
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>12 · Smart HR & Payroll Management</h3>
+
+<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a>
+
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a>
+
+<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>14 · FinTech Smart Invoice & Expense System</h3>
+
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
+
+<h3>15 · Cyber Security Operations Command Center</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ↗</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a>
+
+<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
+
+[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
+
+---
 
 ## Technology Stack
 
