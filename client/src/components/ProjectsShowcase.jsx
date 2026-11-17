@@ -57,10 +57,10 @@ export default function ProjectsShowcase(){
       {visible.length===0 ? <div className="rounded-2xl border border-white/10 bg-white/[.03] p-10 text-center text-slate-400">No projects match that search. Try another keyword or category.</div> :
       <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {visible.map((p,i)=><article key={p.repo} className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
-          <div className="relative h-48 overflow-hidden border-b border-white/10 bg-[#0b1220]">
+          <div className="relative h-72 sm:h-80 overflow-hidden border-b border-white/10 bg-[#0b1220]">
             <div className="flex h-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain [scrollbar-width:thin] [scrollbar-color:#64748b_#0b1220]">
-              {p.gallery.map((src,j)=><div key={src} className="relative h-full w-full shrink-0 snap-start">
-                <img src={src} alt={`${p.title} gallery image ${j+1} of 6`} className="h-full w-full object-contain p-1" loading="lazy"/>
+              {p.gallery.map((src,j)=><div key={src} className="relative h-full min-w-full shrink-0 snap-start">
+                <img src={src} alt={`${p.title} gallery image ${j+1} of 6`} className="h-full w-full object-contain p-2" loading="lazy"/>
                 <span className="absolute bottom-2 right-3 rounded-full border border-white/15 bg-black/70 px-2 py-1 text-[10px] font-bold text-white">{j+1} / 6</span>
               </div>)}
             </div>
