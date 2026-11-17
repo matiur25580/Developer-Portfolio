@@ -102,7 +102,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/ats-recruitment-system">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -114,7 +114,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="02 · Developer Portfolio — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Developer-Portfolio">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -126,7 +126,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -138,7 +138,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -150,7 +150,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -162,7 +162,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/hospital-management-system">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -174,7 +174,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/ai-saas-generator">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -186,7 +186,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/realestate-management-system">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -198,7 +198,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -210,7 +210,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Trello-Clone">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -222,7 +222,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Online-Food-Ordering-System-main">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -234,7 +234,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/enterprise-hr-payroll-system">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -246,7 +246,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -258,7 +258,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -270,7 +270,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a>
 
-<p align="right"><a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center">➡️</a></p>
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#Projects" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 

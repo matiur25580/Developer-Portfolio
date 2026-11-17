@@ -58,7 +58,7 @@ export default function ProjectsShowcase(){
       <div className="grid grid-cols-1 gap-8">
         {visible.map((p,i)=><article key={p.repo} className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
           <div className="relative h-[22rem] sm:h-[30rem] lg:h-[34rem] overflow-hidden border-b border-white/10 bg-[#0b1220]">
-            <div className="flex h-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain touch-pan-x [scrollbar-width:thin] [scrollbar-color:#64748b_#0b1220]">
+            <div data-gallery-track className="flex h-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain touch-pan-x [scrollbar-width:thin] [scrollbar-color:#64748b_#0b1220]">
               {p.gallery.map((src,j)=><div key={src} className="relative h-full w-full min-w-full shrink-0 snap-start">
                 <img src={src} alt={`${p.title} gallery image ${j+1} of 6`} className="h-full w-full object-contain p-2" loading="lazy"/>
                 <span className="absolute bottom-2 right-3 rounded-full border border-white/15 bg-black/70 px-2 py-1 text-[10px] font-bold text-white">{j+1} / 6</span>
@@ -66,6 +66,7 @@ export default function ProjectsShowcase(){
             </div>
             <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{p.category}</span>
             <span className="pointer-events-none absolute bottom-2 left-3 rounded-full bg-black/65 px-2 py-1 text-[9px] font-semibold text-slate-300">Swipe / scroll ↔</span>
+            <button type="button" aria-label={`Next gallery image for ${p.title}`} title="Next image" onClick={e=>{const track=e.currentTarget.parentElement.querySelector("[data-gallery-track]");if(!track)return;const atEnd=track.scrollLeft+track.clientWidth>=track.scrollWidth-8;track.scrollTo({left:atEnd?0:track.scrollLeft+track.clientWidth,behavior:"smooth"});}} className="absolute bottom-3 right-3 z-10 grid h-11 w-11 place-items-center rounded-full border border-white/30 bg-black/75 text-2xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-cyan-300">➡️</button>
             <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(projects.indexOf(p)+1).padStart(2,"0")} / 15</span>
           </div>
           <div className="flex flex-1 flex-col p-5">
