@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const makeGallery = (slug, cover) => [cover, ...Array.from({ length: 5 }, (_, index) => `/projects/${slug}-0${index + 2}.svg`)];
 
