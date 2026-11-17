@@ -56,9 +56,9 @@ export default function ProjectsShowcase(){
       <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {visible.map((p,i)=><article key={p.repo} className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
           <div className="relative flex h-40 items-center justify-between overflow-hidden border-b border-white/10 bg-gradient-to-br from-cyan-950/70 via-[#111b31] to-violet-950/70 p-6">
-            {p.image ? <img src={p.image} alt="" className="absolute inset-0 h-full w-full object-cover opacity-55 transition duration-500 group-hover:scale-105" loading="lazy"/> : null}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#07111f]/35 to-[#100c24]/60"/>
-            <span className="relative text-5xl font-light text-cyan-200">{p.icon}</span>
+            {p.image ? <img src={p.image} alt="" className="absolute inset-0 h-full w-full object-contain transition duration-300" loading="lazy"/> : null}
+            
+            {!p.image && <span className="relative text-5xl font-light text-cyan-200">{p.icon}</span>}
             <span className="relative rounded-full border border-white/15 bg-black/30 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{p.category}</span>
             <span className="absolute bottom-4 right-5 text-xs font-bold tracking-widest text-white/60">{String(projects.indexOf(p)+1).padStart(2,"0")} / 15</span>
           </div>
