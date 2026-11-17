@@ -40,8 +40,8 @@ export const profile = {
     },
     {
       "name": "SmartGadget Lifestyle MegaStore",
-      "tech": "MERN · JWT · OTP",
-      "desc": "Smart-gadget e-commerce and shopping experience",
+      "tech": "MERN · JWT · OTP · MongoDB",
+      "desc": "Catalog APIs, seller product workflows and cash-on-delivery orders; payment integration is not implemented",
       "category": "E-commerce"
     },
     {
@@ -52,8 +52,8 @@ export const profile = {
     },
     {
       "name": "AI SaaS Generator",
-      "tech": "AI integration · Full-stack application",
-      "desc": "AI-assisted SaaS product generation workflow",
+      "tech": "React · Vite · Express · MongoDB · Gemini · Brevo",
+      "desc": "Gemini-powered AI writing studio with account verification, generation history and credit ledger",
       "category": "AI & Automation"
     },
     {
@@ -64,8 +64,8 @@ export const profile = {
     },
     {
       "name": "Real-Time Chat & Collaboration Hub",
-      "tech": "React · Node.js · Express · Socket.IO",
-      "desc": "Real-time messaging and team collaboration",
+      "tech": "React · Node.js · Express · Socket.IO · MongoDB",
+      "desc": "Real-time chat with authentication, online presence and message history",
       "category": "Developer Tools"
     },
     {
@@ -101,7 +101,7 @@ export const profile = {
     {
       "name": "Cyber Security Operations Command Center",
       "tech": "AI · Cybersecurity · Operations dashboard",
-      "desc": "Security operations monitoring and command-center concept",
+      "desc": "SOC/SIEM/SOAR/GRC platform foundation; broader capabilities are still in progress",
       "category": "Cybersecurity"
     }
   ]
