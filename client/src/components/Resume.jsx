@@ -21,7 +21,7 @@ export default function Resume(){
       pdf.addImage(img, "PNG", 0, -pos, imgW, imgH);
       pos += pageH;
     }
-    pdf.save("Rubel_Ali_Resume.pdf");
+    pdf.save("Matiur_Rahaman_Resume.pdf");
   };
   const skills=["React.js","Node.js","Express.js","MongoDB","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker","REST APIs"];
   const projects=[
@@ -41,7 +41,7 @@ export default function Resume(){
       <div ref={cardRef} className="max-w-3xl mx-auto bg-[#111] border border-gray-800 rounded-2xl p-8">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-extrabold">RUBEL ALI</h1>
+            <h1 className="text-3xl font-extrabold">MATIUR RAHAMAN</h1>
             <p className="text-green-400 font-bold mt-1">MERN Full Stack Developer</p>
             <p className="text-gray-400 text-sm mt-2">Newtown, Kolkata, West Bengal, India</p>
           </div>
