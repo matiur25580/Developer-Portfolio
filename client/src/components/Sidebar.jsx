@@ -7,7 +7,7 @@ export default function Sidebar({active,setActive}){
         <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-blue-500 p-1">
           <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-3xl font-bold text-purple-700">RA</div>
         </div>
-        <h2 className="text-2xl font-bold mt-3 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">Rubel Ali</h2>
+        <h2 className="text-2xl font-bold mt-3 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">Matiur Rahaman</h2>
         <p className="text-sm bg-yellow-400 text-black px-3 py-1 rounded-full inline-block mt-2 font-semibold">MERN Developer</p>
         <p className="text-xs mt-2 opacity-80">📍 Newtown, Kolkata</p>
       </div>
