@@ -1,5 +1,6 @@
 import { profile } from '../data/profile';
 import Contact from './Contact';
+import ProjectsShowcase from './ProjectsShowcase';
 import { useState, useEffect } from 'react';
 const green="text-green-400";
 export function HomePage(props){
@@ -15,7 +16,7 @@ export function HomePage(props){
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> AVAILABLE FOR OPPORTUNITIES
         </span>
         <p className="text-gray-400 text-sm tracking-[0.25em] mb-2">HELLO, I'M</p>
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">RUBEL <span className="text-green-400">ALI</span></h1>
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">MATIUR <span className="text-green-400">RAHAMAN</span></h1>
         <p className="text-lg md:text-2xl mt-4 text-gray-300 h-8">I build <span className="text-green-400 font-bold">{roles[ri]}</span><span className="animate-pulse text-green-400 font-bold">|</span></p>
         <p className="text-[13px] md:text-[14px] text-gray-500 max-w-xl mt-4 leading-relaxed">Enterprise-grade MERN applications from 0% scratch - real OTP/JWT authentication, role-based dashboards and live deployments, crafted entirely on an Android phone.</p>
         <div className="flex flex-wrap justify-center gap-3 mt-8">
@@ -30,7 +31,7 @@ export function HomePage(props){
   <a href="mailto:rahamanmatiur397@gmail.com" target="_blank" rel="noreferrer" title="Email" className="w-11 h-11 rounded-full bg-[#111] border border-gray-800 hover:border-green-500 hover:scale-110 flex items-center justify-center transition"><img src="/social-gmail.svg" alt="Email" className="w-5 h-5"/></a>
 </div>
         <div className="flex gap-8 mt-10">
-          {[["6+","Projects"],["15+","Skills"],["3+","Years"]].map((s,k)=>(
+          {[["15","Projects"],["15+","Skills"],["3+","Years"]].map((s,k)=>(
             <div key={k} className="text-center">
               <p className="text-2xl font-extrabold text-green-400">{s[0]}</p>
               <p className="text-[11px] text-gray-500">{s[1]}</p>
@@ -61,7 +62,7 @@ export function AboutPage(){
     ["Languages","Bangla, Hindi, English"],
   ];
   const stats=[
-    ["6+","Enterprise Projects"],
+    ["15","Enterprise Projects"],
     ["15+","Tech Skills"],
     ["3+","Years Hands-on"],
     ["100%","Responsive UI"],
@@ -79,14 +80,14 @@ export function AboutPage(){
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <div className="bg-gradient-to-br from-green-400 to-blue-600 rounded-2xl min-h-[280px] flex flex-col items-center justify-center text-white p-6">
           <p className="text-5xl font-extrabold">RA</p>
-          <p className="text-sm font-bold mt-3">Rubel Ali</p>
+          <p className="text-sm font-bold mt-3">Matiur Rahaman</p>
           <p className="text-[11px] opacity-80 mt-1 text-center">MERN Full Stack Developer<br/>Kolkata, India</p>
           <span className="text-[10px] bg-white/20 px-3 py-1 rounded-full mt-4 font-bold">Open to Work</span>
         </div>
         <div className="md:col-span-2 bg-[#111] border border-gray-800 rounded-2xl p-6">
           <h3 className="text-green-400 font-bold text-lg">MERN Full Stack Developer</h3>
           <p className="text-[13px] text-gray-300 mt-3 leading-relaxed">
-            I am Rubel Ali, a MERN Full Stack Developer from Kolkata, India. I build enterprise-grade,
+            I am Matiur Rahaman, a MERN Full Stack Developer from Kolkata, India. I build enterprise-grade,
             production-ready web applications from 0% scratch - entirely on an Android phone using
             Termux and 【entity-GitHub¦canonical_name=GitHub】 Codespaces.
           </p>
@@ -363,7 +364,7 @@ const projectDetails = [
     github: "https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center", live: "" }
 ];
 
-export function ProjectsPage(){
+function LegacyProjectsPage(){
   const [sel, setSel] = useState(null);
   const d = sel!==null ? projectDetails[sel] : null;
   return (
@@ -434,3 +435,6 @@ export function ProjectsPage(){
 }
 
 
+
+
+export function ProjectsPage(){ return <ProjectsShowcase />; }
