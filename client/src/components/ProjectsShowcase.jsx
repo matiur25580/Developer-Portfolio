@@ -22,14 +22,53 @@ const projects = [
 
 const filters = ["All","Featured","AI & Automation","Enterprise","FinTech","E-commerce","Healthcare","Developer Tools","Cybersecurity"];
 
+function ProjectCard({ project, number, onExplore }) {
+  // Local state is isolated per project card.
+  const [imageIndex, setImageIndex] = useState(0);
+  const touchStartX = useRef(null);
+  const total = project.gallery.length;
+  const next = () => setImageIndex(index => (index + 1) % total);
+  const previous = () => setImageIndex(index => (index - 1 + total) % total);
+  const handleTouchEnd = event => {
+    if (touchStartX.current === null) return;
+    const delta = event.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(delta) > 45) delta < 0 ? next() : previous();
+  };
+  return (
+    <article className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
+      <div className="relative h-[22rem] overflow-hidden border-b border-white/10 bg-[#0b1220] sm:h-[30rem] lg:h-[34rem]"
+        onTouchStart={event => { touchStartX.current = event.touches[0].clientX; }}
+        onTouchEnd={handleTouchEnd}>
+        <img key={project.gallery[imageIndex]} src={project.gallery[imageIndex]} alt={`${project.title} screenshot ${imageIndex + 1} of ${total}`} className="h-full w-full select-none object-contain p-2" draggable="false" loading="lazy" />
+        <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{project.category}</span>
+        <span className="absolute bottom-3 left-3 rounded-full border border-white/15 bg-black/75 px-2 py-1 text-[10px] font-bold text-white">{imageIndex + 1} / {total}</span>
+        <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(number).padStart(2, "0")} / 15</span>
+        <div className="absolute bottom-3 right-3 z-10 flex items-center gap-2">
+          <button type="button" onClick={previous} aria-label={`Previous image for ${project.title}`} className="grid h-10 w-10 place-items-center rounded-full border border-white/30 bg-black/75 text-xl text-white shadow-lg transition hover:bg-cyan-300 hover:text-slate-950">←</button>
+          <button type="button" onClick={next} aria-label={`Next image for ${project.title}`} title="Next project image" className="grid h-11 w-11 place-items-center rounded-full border border-white/30 bg-black/75 text-2xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950">➡️</button>
+        </div>
+        <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-1.5">
+          {project.gallery.map((_, index) => <button key={index} type="button" aria-label={`Show image ${index + 1} of ${project.title}`} aria-current={imageIndex === index ? "true" : undefined} onClick={() => setImageIndex(index)} className={`h-1.5 rounded-full transition-all ${imageIndex === index ? "w-5 bg-cyan-300" : "w-1.5 bg-white/45 hover:bg-white"}`} />)}
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col p-5">
+        <div className="flex items-start justify-between gap-3"><h2 className="text-lg font-bold leading-snug group-hover:text-cyan-200">{project.title}</h2><span className="shrink-0 rounded-lg border border-cyan-300/20 bg-cyan-300/5 px-2 py-1 text-[10px] font-semibold text-cyan-200">{project.category}</span></div>
+        <p className="mt-3 flex-1 text-sm leading-6 text-slate-400">{project.summary}</p>
+        <div className="mt-4 flex flex-wrap gap-2">{project.stack.map(technology => <span key={technology} className="rounded-md border border-white/10 bg-white/[.04] px-2 py-1 text-[10px] text-slate-300">{technology}</span>)}</div>
+        <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-4">
+          <button onClick={() => onExplore(project)} className="text-xs font-bold text-cyan-300 transition hover:text-white">Project details ↗</button>
+          <a className="ml-auto text-xs font-bold text-slate-300 transition hover:text-white" href={`https://github.com/matiur25580/${project.repo}`} target="_blank" rel="noreferrer">View repository ↗</a>
+        </div>
+      </div>
+    </article>
+  );
+}
+
 export default function ProjectsShowcase(){
   const [active,setActive]=useState("All");
   const [query,setQuery]=useState("");
   const [selected,setSelected]=useState(null);
-  const [galleryIndexes,setGalleryIndexes]=useState({});
-  const touchStartX=useRef({});
-  const showNextImage=(repo,total)=>setGalleryIndexes(current=>({...current,[repo]:((current[repo]||0)+1)%total}));
-  const showPreviousImage=(repo,total)=>setGalleryIndexes(current=>({...current,[repo]:((current[repo]||0)-1+total)%total}));
   const visible=useMemo(()=>projects.filter(p=>{
     const matchesCategory=active==="All" || (active==="Featured" ? p.featured : p.category===active);
     const q=query.trim().toLowerCase();
@@ -60,45 +99,7 @@ export default function ProjectsShowcase(){
       <div className="mb-4 flex items-center justify-between text-xs text-slate-500"><span>Showing {visible.length} of 15 projects</span><span>Source code available on GitHub ↗</span></div>
       {visible.length===0 ? <div className="rounded-2xl border border-white/10 bg-white/[.03] p-10 text-center text-slate-400">No projects match that search. Try another keyword or category.</div> :
       <div className="grid grid-cols-1 gap-8">
-        {visible.map((p,i)=><article key={p.repo} className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
-          <div
-            data-gallery-shell
-            className="relative h-[22rem] sm:h-[30rem] lg:h-[34rem] overflow-hidden border-b border-white/10 bg-[#0b1220]"
-            onTouchStart={e=>{touchStartX.current[p.repo]=e.touches[0].clientX;}}
-            onTouchEnd={e=>{const start=touchStartX.current[p.repo];if(start===undefined)return;const delta=e.changedTouches[0].clientX-start;delete touchStartX.current[p.repo];if(Math.abs(delta)>45){if(delta<0)showNextImage(p.repo,p.gallery.length);else showPreviousImage(p.repo,p.gallery.length);}}}
-          >
-            {(() => { const currentIndex=galleryIndexes[p.repo]||0; return (
-              <img
-                key={p.gallery[currentIndex]}
-                src={p.gallery[currentIndex]}
-                alt={`${p.title} gallery image ${currentIndex+1} of ${p.gallery.length}`}
-                className="h-full w-full select-none object-contain p-2"
-                draggable="false"
-                loading="lazy"
-              />
-            ); })()}
-            <span className="absolute bottom-3 left-3 rounded-full border border-white/15 bg-black/75 px-2 py-1 text-[10px] font-bold text-white">{(galleryIndexes[p.repo]||0)+1} / {p.gallery.length}</span>
-            <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{p.category}</span>
-            <span className="pointer-events-none absolute bottom-3 left-16 rounded-full bg-black/65 px-2 py-1 text-[9px] font-semibold text-slate-300">Swipe left / right</span>
-            <button
-              type="button"
-              aria-label={`Next gallery image for ${p.title}`}
-              title="Next image"
-              onClick={e=>{e.preventDefault();e.stopPropagation();showNextImage(p.repo,p.gallery.length);}}
-              className="absolute bottom-3 right-3 z-10 grid h-11 w-11 place-items-center rounded-full border border-white/30 bg-black/75 text-2xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950 focus:outline-none focus:ring-2 focus:ring-cyan-300"
-            >➡️</button>
-            <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(projects.indexOf(p)+1).padStart(2,"0")} / 15</span>
-          </div>
-          <div className="flex flex-1 flex-col p-5">
-            <h2 className="text-lg font-bold leading-snug group-hover:text-cyan-200">{p.title}</h2>
-            <p className="mt-3 flex-1 text-sm leading-6 text-slate-400">{p.summary}</p>
-            <div className="mt-4 flex flex-wrap gap-2">{p.stack.map(t=><span key={t} className="rounded-md border border-white/10 bg-white/[.04] px-2 py-1 text-[10px] text-slate-300">{t}</span>)}</div>
-            <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-4">
-              <button onClick={()=>setSelected(p)} className="text-xs font-bold text-cyan-300 transition hover:text-white">Explore details ↗</button>
-              <a className="ml-auto text-xs font-bold text-slate-300 transition hover:text-white" href={`https://github.com/matiur25580/${p.repo}`} target="_blank" rel="noreferrer">GitHub ↗</a>
-            </div>
-          </div>
-        </article>)}
+        {visible.map(project => <ProjectCard key={project.repo} project={project} number={projects.indexOf(project) + 1} onExplore={setSelected} />)}
       </div>}
     </div>
     {selected && <div role="dialog" aria-modal="true" aria-label={selected.title} className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm" onClick={()=>setSelected(null)}>
