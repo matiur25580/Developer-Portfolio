@@ -98,181 +98,151 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <h3>01 · HireFlow — ATS Recruitment System</h3>
 
-<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>02 · Developer Portfolio</h3>
 
-<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="02 · Developer Portfolio — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>03 · TrustShield — Banking Fraud Detection</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>04 · FleetCommand — Logistics & Supply Chain</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>05 · SmartGadget Lifestyle MegaStore</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>06 · CityCare Hospital Management</h3>
 
-<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>07 · Draftline AI Writing Studio</h3>
 
-<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>08 · Real Estate Management System</h3>
 
-<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>09 · Real-Time Chat & Collaboration Hub</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>10 · Trello Clone</h3>
 
-<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>11 · Online Food Ordering System</h3>
 
-<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>12 · Smart HR & Payroll Management</h3>
 
-<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a>
 
-<sub>Application Screenshot · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>14 · FinTech Smart Invoice & Expense System</h3>
 
-<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
 <h3>15 · Cyber Security Operations Command Center</h3>
 
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ↗</strong></a>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ➡️</strong></a>
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a>
 
-<sub>Overview · 5 more images are available in the swipe gallery on the portfolio website.</sub>
 
-[Open interactive project gallery](https://developer-portfolio-client.vercel.app)
 
 ---
 
