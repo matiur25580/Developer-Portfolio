@@ -69,12 +69,15 @@ export default function ProjectsShowcase(){
   const [active,setActive]=useState("All");
   const [query,setQuery]=useState("");
   const [selected,setSelected]=useState(null);
+  const [focusedRepo,setFocusedRepo]=useState(()=>decodeURIComponent(window.location.hash.replace(/^#project-/,"")) || "");
+  useEffect(()=>{ const syncFocus=()=>setFocusedRepo(window.location.hash.startsWith("#project-") ? decodeURIComponent(window.location.hash.slice(9)) : ""); window.addEventListener("hashchange",syncFocus); return ()=>window.removeEventListener("hashchange",syncFocus); },[]);
   const visible=useMemo(()=>projects.filter(p=>{
+    if(focusedRepo && p.repo!==focusedRepo) return false;
     const matchesCategory=active==="All" || (active==="Featured" ? p.featured : p.category===active);
     const q=query.trim().toLowerCase();
     const matchesQuery=!q || [p.title,p.summary,p.category,...p.stack].join(" ").toLowerCase().includes(q);
     return matchesCategory && matchesQuery;
-  }),[active,query]);
+  }),[active,query,focusedRepo]);
   return <main className="min-h-screen bg-[#080b14] text-white px-4 py-10 sm:px-6 md:px-10">
     <div className="mx-auto max-w-7xl">
       <div className="mb-9 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
@@ -96,7 +99,7 @@ export default function ProjectsShowcase(){
           {filters.map(f=><button key={f} onClick={()=>setActive(f)} className={`shrink-0 rounded-full border px-4 py-2 text-xs font-semibold transition ${active===f?"border-cyan-300 bg-cyan-300 text-slate-950":"border-white/10 bg-white/[.04] text-slate-400 hover:border-cyan-300/50 hover:text-white"}`}>{f}</button>)}
         </div>
       </div>
-      <div className="mb-4 flex items-center justify-between text-xs text-slate-500"><span>Showing {visible.length} of 15 projects</span><span>Source code available on GitHub ↗</span></div>
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{focusedRepo ? "Viewing one selected project" : `Showing ${visible.length} of 15 projects`}</span>{focusedRepo ? <button type="button" onClick={()=>{setFocusedRepo("");window.location.hash="Projects";}} className="rounded-full border border-cyan-300/30 px-4 py-2 font-bold text-cyan-200 hover:bg-cyan-300/10">← Show all 15 projects</button> : <span>Source code available on GitHub ↗</span>}</div>
       {visible.length===0 ? <div className="rounded-2xl border border-white/10 bg-white/[.03] p-10 text-center text-slate-400">No projects match that search. Try another keyword or category.</div> :
       <div className="grid grid-cols-1 gap-8">
         {visible.map(project => <ProjectCard key={project.repo} project={project} number={projects.indexOf(project) + 1} onExplore={setSelected} />)}
