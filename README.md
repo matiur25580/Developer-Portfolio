@@ -13,6 +13,10 @@
 
 ---
 
+## Screenshots
+
+Capture the actual deployed portfolio after the latest production deployment. The [screenshot capture guide](docs/screenshots/README.md) lists the exact sections to capture. Only screenshots of this portfolio belong in this gallery; do not reuse images from the other projects.
+
 ## About
 
 I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I enjoy designing and building web applications that bring together clean interfaces, reliable APIs, data-driven workflows, and practical integrations.
