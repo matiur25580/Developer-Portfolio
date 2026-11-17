@@ -62,10 +62,10 @@ export function AboutPage(){
     ["Languages","Bangla, Hindi, English"],
   ];
   const stats=[
-    ["15","Enterprise Projects"],
+    ["15","GitHub Repositories"],
     ["15+","Tech Skills"],
-    ["3+","Years Hands-on"],
-    ["100%","Responsive UI"],
+    ["Full Stack","Development Focus"],
+    ["AI + MERN","Project Areas"],
   ];
   const points=[
     ["Full-stack product development","Built a varied portfolio of web applications using React/Preact, Node.js, Express and MongoDB."],
@@ -87,14 +87,10 @@ export function AboutPage(){
         <div className="md:col-span-2 bg-[#111] border border-gray-800 rounded-2xl p-6">
           <h3 className="text-green-400 font-bold text-lg">MERN Full Stack Developer</h3>
           <p className="text-[13px] text-gray-300 mt-3 leading-relaxed">
-            I am Matiur Rahaman, a MERN Full Stack Developer from Kolkata, India. I build enterprise-grade,
-            production-ready web applications from 0% scratch - entirely on an Android phone using
-            Termux and 【entity-GitHub¦canonical_name=GitHub】 Codespaces.
+            I am Matiur Rahaman, a full-stack developer from Kolkata, India. I build practical web applications and enterprise-style workflows, with a focus on secure APIs, responsive interfaces and maintainable architecture.
           </p>
           <p className="text-[13px] text-gray-300 mt-2 leading-relaxed">
-            My 6 large-scale systems - Smart HR and Payroll, CityCare Hospital, RealEstate, FleetCommand
-            Logistics, TrustShield Bank and Multi-Vendor Marketplace - feature real OTP/JWT authentication,
-            role-based dashboards and live Vercel + Render deployments.
+            My GitHub portfolio includes recruitment, banking, logistics, e-commerce, healthcare, HR, real estate, collaboration, AI writing and finance applications. Each project has its own implementation status and technology choices.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mt-5 text-[13px]">
             {info.map((x,i)=>(
@@ -116,7 +112,7 @@ export function AboutPage(){
   {[
     ["2019","Started B.Tech in CSE","Joined Bengal Institute of Technology, Kolkata under MAKAUT - built my foundation in programming and computer science."],
     ["2023","Graduated + MERN Internship","Completed B.Tech and a 6-month MERN web development internship. Received a 35k/month MNC offer via campus placement."],
-    ["2023 - 2025","Self-driven mastery","Mastered the full MERN stack by building real projects end-to-end - entirely on an Android phone with Termux and GitHub Codespaces."],
+    ["2023 - 2025","Self-driven development","Built and iterated on full-stack applications, strengthening skills across frontend, backend, databases and deployment workflows."],
     ["2026","Expanded full-stack portfolio","Continued developing and documenting projects across recruitment, AI writing, fintech, logistics, healthcare, e-commerce and business operations."],
   ].map((j,i,arr)=>(
     <div key={i} className="flex gap-4">
@@ -275,7 +271,7 @@ export function ServicesPage(){
     <div className="bg-[#0a0a0a] text-white p-6 md:p-10 min-h-screen">
       <p className="text-[11px] tracking-[0.3em] text-gray-500">SERVICES</p>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-2">MY SERVICES</h2>
-      <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a MERN Full Stack Developer, I deliver end-to-end production-ready solutions.</p>
+      <p className="text-sm text-gray-500 mb-8 max-w-2xl">As a Full-Stack Developer, I build practical web applications with clear workflows, secure APIs and responsive user experiences.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {s.map((x,i)=>(
           <div key={i} className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 transition">
