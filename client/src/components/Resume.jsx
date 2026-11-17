@@ -40,7 +40,7 @@ export default function Resume() {
       title: 'HireFlow — ATS Recruitment System',
       description: 'Recruitment platform with candidate and recruiter workspaces, job applications, hiring pipelines, private resume handling and Gemini-assisted resume-to-job analysis.',
       stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Gemini'],
-      github: 'https://github.com/matiur25580/ats-recruitment-system'
+      github: 'https://github.com/matiur25580/ats-recruitment-system',
       featured: true,
     },
     {
@@ -54,13 +54,13 @@ export default function Resume() {
       title: 'Draftline AI — AI Writing Studio',
       description: 'AI-assisted content creation platform with verified accounts, content generation history, bookmarks and a transactional credit ledger.',
       stack: ['React', 'Vite', 'Express', 'MongoDB', 'Gemini', 'Brevo'],
-      github: 'https://github.com/matiur25580/ai-saas-generator'
+      github: 'https://github.com/matiur25580/ai-saas-generator',
     },
     {
       title: 'FinTech Smart Invoice & Expense System',
       description: 'Finance-operations application focused on invoice management, expense tracking and supplier-payment workflows.',
       stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-      github: 'https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System'
+      github: 'https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System',
     },
     {
       title: 'RealEstate Management System',
