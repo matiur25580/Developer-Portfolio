@@ -28,7 +28,7 @@ A collection of full-stack applications, enterprise-style workflow platforms, AI
 | [Real-Time Chat Collaboration Hub](https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub) | Real-time messaging and authenticated collaboration | React, Node.js, Express, Socket.IO |
 | [Trello Clone](https://github.com/matiur25580/Trello-Clone) | Kanban-style task and board management | Web application |
 | [Online Food Ordering System](https://github.com/matiur25580/Online-Food-Ordering-System-main) | Responsive restaurant and menu interface | HTML, CSS, JavaScript, Bootstrap, PHP, MySQL |
-| [Developer Portfolio](https://github.com/matiur25580/Developer-Portfolio) | Personal profile and project presentation | Portfolio website |
+| [FinTech Smart Invoice & Expense System](https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System) | Invoice, expense and supplier-payment workflows | FinTech application |\n| [Cyber Security Operations Command Center](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) | Security operations monitoring and command-center workflows | AI / Cybersecurity |\n| [Developer Portfolio](https://github.com/matiur25580/Developer-Portfolio) | Personal profile and project presentation | React, Vite, Tailwind CSS |
 
 > **Project transparency:** The repositories represent work at different stages. Feature descriptions should be read alongside each project's implementation notes; prototype UI, demo data, and planned integrations are not presented as production capabilities. The Online Food Ordering System was a team academic project; my documented contribution was frontend UI work.
 
