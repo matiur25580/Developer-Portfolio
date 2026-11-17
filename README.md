@@ -100,14 +100,14 @@ All **15 projects** are listed in one vertical column. This gallery is intention
 <tr>
 <td align="center" width="100%">
 <h3>01 · HireFlow — ATS Recruitment System</h3>
-<p><em>Actual application dashboard screenshot is not yet available in this repository.</em></p><br>
+<a href="https://github.com/matiur25580/ats-recruitment-system"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="HireFlow — Recruitment dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>02 · Developer Portfolio</h3>
-<p><em>No dedicated portfolio screenshot is currently committed.</em></p><br>
+<a href="https://github.com/matiur25580/Developer-Portfolio"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="Developer Portfolio interface preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -128,7 +128,7 @@ All **15 projects** are listed in one vertical column. This gallery is intention
 <tr>
 <td align="center" width="100%">
 <h3>05 · SmartGadget Lifestyle MegaStore</h3>
-<p><em>Storefront / seller dashboard screenshot is not yet committed. Product catalogue photos are intentionally not used as a project preview.</em></p><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="SmartGadget seller dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -142,7 +142,7 @@ All **15 projects** are listed in one vertical column. This gallery is intention
 <tr>
 <td align="center" width="100%">
 <h3>07 · Draftline AI Writing Studio</h3>
-<p><em>No screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/ai-saas-generator"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="Draftline AI writing workspace preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -156,21 +156,21 @@ All **15 projects** are listed in one vertical column. This gallery is intention
 <tr>
 <td align="center" width="100%">
 <h3>09 · Real-Time Chat & Collaboration Hub</h3>
-<p><em>No screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="Real-time chat workspace preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>10 · Trello Clone</h3>
-<p><em>Actual board workspace screenshot is not yet available.</em></p><br>
+<a href="https://github.com/matiur25580/Trello-Clone"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="Trello task board dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>11 · Online Food Ordering System</h3>
-<p><em>Actual ordering interface screenshot is not yet available in this repository.</em></p><br>
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="Food ordering management dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -191,14 +191,14 @@ All **15 projects** are listed in one vertical column. This gallery is intention
 <tr>
 <td align="center" width="100%">
 <h3>14 · FinTech Smart Invoice & Expense System</h3>
-<p><em>Actual finance dashboard screenshot is not yet available; the concept artwork is not presented as a real application capture.</em></p><br>
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="FinTech finance dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>15 · Cyber Security Operations Command Center</h3>
-<p><em>No project screenshot is currently committed in this project's repository.</em></p><br>
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="Cyber security operations dashboard preview" width="720"></a><br>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
