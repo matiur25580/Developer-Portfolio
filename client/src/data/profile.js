@@ -1,8 +1,8 @@
 export const profile = {
-  name: "Rubel Ali", role: "MERN Full Stack Software Developer",
+  name: "Matiur Rahaman", role: "Full-Stack Developer | MERN, AI & Enterprise Applications",
   location: "Newtown, Kolkata, West Bengal, India", email: "rahamanmatiur397@gmail.com",
   github: "https://github.com/matiur25580", website: "https://developer-portfolio-client.vercel.app",
-  about: "Enterprise-grade MERN developer. 6 large-scale production-ready systems built from 0% scratch on Android phone using Termux + Codespaces.",
+  about: "Full-stack developer focused on building practical web applications, enterprise-style platforms, AI-assisted products and secure, role-based workflows.",
   addresses: { homeTown: "Vill: Surangapur, P.O: Samashpur, P.S: Hemtabad, Dist: Uttar Dinajpur (Raiganj), West Bengal, India", current: "Newtown, Kolkata, West Bengal, India" },
   knowledge: ["MERN Stack Architecture","Role-Based Dashboards","Real OTP Verification","MongoDB Atlas","API Deployment","Git Workflow","Responsive UI"],
   experience: [
@@ -12,13 +12,97 @@ export const profile = {
   ],
   languages: ["Bangla (Native)","Hindi (Fluent)","English (Professional)"],
   hobbies: ["Coding","New Tech Explore","Morning Walk","Healthy Lifestyle"],
-  projectsCount: 6,
+  projectsCount: 15,
   projects: [
-    {name:"Smart HR & Payroll Management System", tech:"MERN + OTP + JWT", desc:"Admin/HR/Employee roles"},
-    {name:"CityCare Hospital Management System", tech:"MERN + ABDM Ready", desc:"Doctor/Nurse/Patient system"},
-    {name:"RealEstate Management System", tech:"MERN + Audit Log", desc:"Rent tracking + PDF receipts"},
-    {name:"FleetCommand Logistics System", tech:"MERN + AI", desc:"Fleet & Warehouse"},
-    {name:"TrustShield Bank", tech:"MERN + Fraud Detection", desc:"Digital banking"},
-    {name:"Multi-Vendor Marketplace", tech:"MERN + Brevo OTP", desc:"Seller/Buyer ecosystem"}
+    {
+      "name": "HireFlow — ATS Recruitment System",
+      "tech": "React · TypeScript · Node.js · MongoDB · Gemini",
+      "desc": "Recruitment workflows, candidate management and AI-assisted resume matching",
+      "category": "AI & Automation"
+    },
+    {
+      "name": "Developer Portfolio",
+      "tech": "React · Vite · Tailwind CSS · Node.js",
+      "desc": "Personal portfolio and project showcase",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "TrustShield — Banking Fraud Detection",
+      "tech": "MERN · JWT · OTP · Real-time updates",
+      "desc": "Digital banking experience and fraud-monitoring workflows",
+      "category": "FinTech"
+    },
+    {
+      "name": "FleetCommand — Logistics & Supply Chain",
+      "tech": "React · Node.js · Express · MongoDB · Socket.IO",
+      "desc": "Fleet, trip, warehouse and supply-chain operations",
+      "category": "Enterprise"
+    },
+    {
+      "name": "SmartGadget Lifestyle MegaStore",
+      "tech": "MERN · JWT · OTP",
+      "desc": "Smart-gadget e-commerce and shopping experience",
+      "category": "E-commerce"
+    },
+    {
+      "name": "CityCare Hospital Management",
+      "tech": "MERN · JWT · OTP",
+      "desc": "Patient care, appointments and hospital operations",
+      "category": "Healthcare"
+    },
+    {
+      "name": "AI SaaS Generator",
+      "tech": "AI integration · Full-stack application",
+      "desc": "AI-assisted SaaS product generation workflow",
+      "category": "AI & Automation"
+    },
+    {
+      "name": "Real Estate Management System",
+      "tech": "React · Node.js · Express · MongoDB",
+      "desc": "Property, rental and real-estate management workflows",
+      "category": "Enterprise"
+    },
+    {
+      "name": "Real-Time Chat & Collaboration Hub",
+      "tech": "React · Node.js · Express · Socket.IO",
+      "desc": "Real-time messaging and team collaboration",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "Trello Clone",
+      "tech": "Web application · Task management",
+      "desc": "Kanban boards and visual task organization",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "Online Food Ordering System",
+      "tech": "HTML · CSS · JavaScript · Bootstrap · PHP · MySQL",
+      "desc": "Online menu browsing and food-ordering experience; academic team project with documented frontend contribution",
+      "category": "E-commerce"
+    },
+    {
+      "name": "Smart HR & Payroll Management",
+      "tech": "TypeScript · Preact · Express · MongoDB",
+      "desc": "Employee self-service, attendance, leave and payroll operations",
+      "category": "Enterprise"
+    },
+    {
+      "name": "Multi-Vendor Marketplace Seller Ecosystem",
+      "tech": "MERN · MongoDB · Brevo OTP",
+      "desc": "Buyer, seller, logistics and finance workflows",
+      "category": "E-commerce"
+    },
+    {
+      "name": "FinTech Smart Invoice & Expense System",
+      "tech": "FinTech · Full-stack application",
+      "desc": "Invoice, expense and supplier-payment management workflows",
+      "category": "FinTech"
+    },
+    {
+      "name": "Cyber Security Operations Command Center",
+      "tech": "AI · Cybersecurity · Operations dashboard",
+      "desc": "Security operations monitoring and command-center concept",
+      "category": "Cybersecurity"
+    }
   ]
 };
