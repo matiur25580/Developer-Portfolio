@@ -12,7 +12,7 @@ export default function Navbar({active,setActive}){
           <a href="#/admin" className="text-gray-500 text-xs mt-2">Admin</a>
         </div>}
       </div>
-      <h1 className="text-2xl font-extrabold flex-1">RUBEL <span className="text-green-400">ALI</span></h1>
+      <h1 className="text-2xl font-extrabold flex-1">MATIUR <span className="text-green-400">RAHAMAN</span></h1>
       <div className="hidden md:flex gap-5 text-[13px] items-center">
         {menu.map(m=><button key={m} onClick={()=>setActive(m)} className={active===m?'text-green-400 border-b-2 border-green-400 pb-1 font-bold':'hover:text-green-300 text-gray-300'}>{m}</button>)}
       </div>
