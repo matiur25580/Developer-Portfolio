@@ -30,37 +30,37 @@ export default function Resume() {
 
   const projects = [
     {
-      title: 'HireFlow — ATS Recruitment System',
-      description: 'Recruitment platform with candidate and recruiter workspaces, job applications, hiring pipelines, private resume handling and Gemini-assisted resume-to-job analysis.',
-      stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Gemini'],
-      github: 'https://github.com/matiur25580/ats-recruitment-system',
-      featured: true,
-    },
-    {
-      title: 'Draftline AI — AI Writing Studio',
-      description: 'AI-assisted content creation platform with verified accounts, content generation history, bookmarks and a transactional credit ledger.',
-      stack: ['React', 'Vite', 'Express', 'MongoDB', 'Gemini', 'Brevo'],
-      github: 'https://github.com/matiur25580/ai-saas-generator',
-      featured: true,
-    },
-    {
-      title: 'FinTech Smart Invoice & Expense System',
-      description: 'Finance-operations application focused on invoice management, expense tracking and supplier-payment workflows.',
-      stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-      github: 'https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System',
-      featured: true,
-    },
-    {
       title: 'Smart HR & Payroll Management System',
       description: 'Enterprise HRMS with Admin, HR and Employee roles, 6-digit email OTP and JWT authentication, payroll processing, downloadable payslips and role-based dashboards.',
       stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS'],
       github: 'https://github.com/matiur25580/enterprise-hr-payroll-system',
+      featured: true,
+    },
+    {
+      title: 'HireFlow — ATS Recruitment System',
+      description: 'Recruitment platform with candidate and recruiter workspaces, job applications, hiring pipelines, private resume handling and Gemini-assisted resume-to-job analysis.',
+      stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Gemini'],
+      github: 'https://github.com/matiur25580/ats-recruitment-system'
+      featured: true,
     },
     {
       title: 'CityCare Hospital Management System',
       description: 'Hospital ERP with five role-based workspaces and 16 departments, duty rosters, OT booking, blood bank and inventory workflows.',
       stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS'],
       github: 'https://github.com/matiur25580/hospital-management-system',
+      featured: true,
+    },
+    {
+      title: 'Draftline AI — AI Writing Studio',
+      description: 'AI-assisted content creation platform with verified accounts, content generation history, bookmarks and a transactional credit ledger.',
+      stack: ['React', 'Vite', 'Express', 'MongoDB', 'Gemini', 'Brevo'],
+      github: 'https://github.com/matiur25580/ai-saas-generator'
+    },
+    {
+      title: 'FinTech Smart Invoice & Expense System',
+      description: 'Finance-operations application focused on invoice management, expense tracking and supplier-payment workflows.',
+      stack: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+      github: 'https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System'
     },
     {
       title: 'RealEstate Management System',
@@ -85,7 +85,7 @@ export default function Resume() {
       description: 'Marketplace ecosystem with buyer and seller workflows, multi-role registration, Brevo email OTP verification and seller tools.',
       stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Brevo'],
       github: 'https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center',
-    },
+    }
   ];
 
   const exp = [
