@@ -94,13 +94,13 @@ Every project below is included in the portfolio's searchable Projects page.
 
 ## Complete Project Visual Gallery
 
-All **15 projects** are listed in one vertical column. Where a project has a real screenshot or image asset in its own repository (or an existing project preview), that exact image is used here and in the portfolio Projects page. No new decorative mockup covers are used. For projects without a committed screenshot, the gallery says so rather than showing an unrelated or invented image.
+All **15 projects** are listed in one vertical column. This gallery is intentionally limited to genuine dashboard/interface captures already available in the portfolio repository. Product photos, promotional hero artwork and generated mockups are not used as substitutes for application screenshots. Where an actual dashboard capture is not available, the entry says so clearly.
 
 <table>
 <tr>
 <td align="center" width="100%">
 <h3>01 · HireFlow — ATS Recruitment System</h3>
-<a href="https://github.com/matiur25580/ats-recruitment-system"><img src="https://raw.githubusercontent.com/matiur25580/ats-recruitment-system/main/docs/images/dashboard-01.svg" alt="HireFlow — ATS Recruitment System" width="720"></a><br>
+<p><em>Actual application dashboard screenshot is not yet available in this repository.</em></p><br>
 <a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -128,7 +128,7 @@ All **15 projects** are listed in one vertical column. Where a project has a rea
 <tr>
 <td align="center" width="100%">
 <h3>05 · SmartGadget Lifestyle MegaStore</h3>
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><img src="https://raw.githubusercontent.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center/main/client/public/products/iphone-15-128gb-blue/1.jpg" alt="SmartGadget Lifestyle MegaStore" width="720"></a><br>
+<p><em>Storefront / seller dashboard screenshot is not yet committed. Product catalogue photos are intentionally not used as a project preview.</em></p><br>
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -163,14 +163,14 @@ All **15 projects** are listed in one vertical column. Where a project has a rea
 <tr>
 <td align="center" width="100%">
 <h3>10 · Trello Clone</h3>
-<a href="https://github.com/matiur25580/Trello-Clone"><img src="https://raw.githubusercontent.com/matiur25580/Trello-Clone/main/frontend/src/assets/hero.png" alt="Trello Clone" width="720"></a><br>
+<p><em>Actual board workspace screenshot is not yet available.</em></p><br>
 <a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository ↗</strong></a>
 </td>
 </tr>
 <tr>
 <td align="center" width="100%">
 <h3>11 · Online Food Ordering System</h3>
-<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><img src="https://user-images.githubusercontent.com/78216965/220661697-31902983-6bcc-4804-864c-37bca11a9cb1.png" alt="Online Food Ordering System" width="720"></a><br>
+<p><em>Actual ordering interface screenshot is not yet available in this repository.</em></p><br>
 <a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -191,7 +191,7 @@ All **15 projects** are listed in one vertical column. Where a project has a rea
 <tr>
 <td align="center" width="100%">
 <h3>14 · FinTech Smart Invoice & Expense System</h3>
-<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><img src="https://raw.githubusercontent.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System/main/docs/images/01-finance-dashboard.svg" alt="FinTech Smart Invoice & Expense System" width="720"></a><br>
+<p><em>Actual finance dashboard screenshot is not yet available; the concept artwork is not presented as a real application capture.</em></p><br>
 <a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository ↗</strong></a>
 </td>
 </tr>
@@ -204,7 +204,7 @@ All **15 projects** are listed in one vertical column. Where a project has a rea
 </tr>
 </table>
 
-> **Image accuracy:** HireFlow and FinTech include concept/interface artwork documented in their own READMEs; SmartGadget uses an actual catalogue product image; Trello uses its application hero asset; Food Ordering uses the homepage screenshot already embedded in its README. The other available previews are existing project images. Four repositories currently have no dedicated screenshot: Developer Portfolio, Draftline AI, Real-Time Chat, and Cyber Security Command Center. Each now has a screenshot capture guide linked from its own README; the guides specify which real application screens to capture and prohibit decorative mockups or unrelated images. Add genuine app screenshots to those repositories to complete their visual previews.
+> **Screenshot accuracy:** Only the six existing portfolio dashboard captures (`p1`–`p6`) are displayed as screenshots. The remaining entries are marked pending until genuine application pages can be captured. This avoids showing a phone/product photo, marketing artwork or concept illustration as if it were an application dashboard. Each pending project should be updated with a sanitized capture of its real workspace when the runnable UI is available.
 
 ## Technology Stack
 
