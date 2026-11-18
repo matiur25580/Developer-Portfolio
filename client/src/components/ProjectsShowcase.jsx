@@ -44,7 +44,7 @@ function ProjectCard({ project, number, onExplore }) {
         <img key={project.gallery[imageIndex]} src={project.gallery[imageIndex]} alt={`${project.title} screenshot ${imageIndex + 1} of ${total}`} className="h-full w-full select-none object-contain p-2" draggable="false" loading="lazy" />
         <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{project.category}</span>
         <span className="absolute bottom-3 left-3 rounded-full border border-white/15 bg-black/75 px-2 py-1 text-[10px] font-bold text-white">{imageIndex + 1} / {total}</span>
-        <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(number).padStart(2, "0")} / 15</span>
+        <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(number).padStart(2, "0")} / 16</span>
         <div className="absolute bottom-3 right-3 z-10 flex items-center gap-2">
           <button type="button" onClick={previous} aria-label={`Previous image for ${project.title}`} className="grid h-10 w-10 place-items-center rounded-full border border-white/30 bg-black/75 text-xl text-white shadow-lg transition hover:bg-cyan-300 hover:text-slate-950">←</button>
           <button type="button" onClick={next} aria-label={`Next image for ${project.title}`} title="Next project image" className="grid h-11 w-11 place-items-center rounded-full border border-white/30 bg-black/75 text-2xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950">➡️</button>
