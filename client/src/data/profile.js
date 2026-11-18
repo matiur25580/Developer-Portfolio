@@ -12,7 +12,7 @@ export const profile = {
   ],
   languages: ["Bangla (Native)","Hindi (Fluent)","English (Professional)"],
   hobbies: ["Coding","New Tech Explore","Morning Walk","Healthy Lifestyle"],
-  projectsCount: 15,
+  projectsCount: 16,
   projects: [
     {
       "name": "HireFlow — ATS Recruitment System",
@@ -103,6 +103,12 @@ export const profile = {
       "tech": "AI · Cybersecurity · Operations dashboard",
       "desc": "SOC/SIEM/SOAR/GRC platform foundation; broader capabilities are still in progress",
       "category": "Cybersecurity"
+    },
+    {
+      "name": "PulseOps — Enterprise Developer Platform",
+      "tech": "Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · Docker",
+      "desc": "AI-assisted engineering operations workspace for service ownership, observability, incident response, SLO reliability, deployment intelligence and FinOps visibility",
+      "category": "Enterprise"
     }
   ]
 };
