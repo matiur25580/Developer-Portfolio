@@ -21,7 +21,7 @@ Capture the actual deployed portfolio after the latest production deployment. Th
 
 I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I enjoy designing and building web applications that bring together clean interfaces, reliable APIs, data-driven workflows, and practical integrations.
 
-This repository contains my personal portfolio website and a curated overview of **15 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
+This repository contains my personal portfolio website and a curated overview of **16 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
 
 - **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 - **GitHub:** [github.com/matiur25580](https://github.com/matiur25580)
@@ -32,7 +32,7 @@ This repository contains my personal portfolio website and a curated overview of
 
 | | |
 |---|---|
-| **Projects showcased** | 15 public repositories |
+| **Projects showcased** | 16 public repositories |
 | **Core focus** | Full-stack web development |
 | **Frontend** | React, TypeScript, JavaScript, Preact, Vite |
 | **Backend** | Node.js, Express.js, REST APIs, PHP |
@@ -55,8 +55,9 @@ A selection of projects from the full catalogue. Open a repository to explore it
 | [Draftline AI Writing Studio](https://github.com/matiur25580/ai-saas-generator) | AI · SaaS | React, Vite, Express, MongoDB, Gemini |
 | [FinTech Smart Invoice & Expense](https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System) | FinTech | React, TypeScript, Node.js, Express, MongoDB |
 | [Cyber Security Operations Command Center](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) | Cybersecurity | React, Vite, TypeScript, Node.js, Express, MongoDB |
+| [PulseOps — Enterprise Developer Platform](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) | DevOps · SRE · FinOps | Next.js, React, TypeScript, NestJS, PostgreSQL, Prisma, Docker |
 
-## All 15 Repositories
+## All 16 Repositories
 
 Every project below is included in the portfolio's searchable Projects page.
 
@@ -69,6 +70,7 @@ Every project below is included in the portfolio's searchable Projects page.
 | 03 | **Smart HR & Payroll Management** | Employee self-service, attendance, leave and payroll workflows. | [Source](https://github.com/matiur25580/enterprise-hr-payroll-system) |
 | 04 | **Real Estate Management System** | Property, rental and real-estate management workflows. | [Source](https://github.com/matiur25580/realestate-management-system) |
 | 05 | **CityCare Hospital Management** | Patient registration, appointments, clinical and hospital operations. | [Source](https://github.com/matiur25580/hospital-management-system) |
+| 16 | **PulseOps — Enterprise Developer Platform** | Engineering operations workspace for service ownership, observability, incident response, SRE reliability objectives, deployment intelligence, and FinOps cost visibility. | [Source](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) |
 
 ### AI, finance & commerce
 
