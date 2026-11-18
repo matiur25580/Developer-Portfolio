@@ -96,7 +96,7 @@ Every project below is included in the portfolio's searchable Projects page.
 
 ## Complete Project Visual Gallery
 
-**15 projects · 6 images each · 90 images total.** This GitHub README displays one large cover image per project. GitHub sanitizes custom HTML/CSS in README files, so it cannot provide a reliable touch-scroll carousel with five hidden images. To swipe through all six large images for each project, open the interactive Projects section on the portfolio website. All 90 image assets remain in this repository; the additional five per project are UI concept previews, not screenshots from live applications.
+**16 projects · 6 images each · 96 images total.** This GitHub README displays one large cover image per project. GitHub sanitizes custom HTML/CSS in README files, so it cannot provide a reliable touch-scroll carousel with five hidden images. To swipe through all six large images for each project, open the interactive Projects section on the portfolio website. All 90 image assets remain in this repository; the additional five per project are UI concept previews, not screenshots from live applications.
 
 <h3>01 · HireFlow — ATS Recruitment System</h3>
 
@@ -277,6 +277,18 @@ Every project below is included in the portfolio's searchable Projects page.
 
 
 ---
+
+---
+
+<h3>16 · PulseOps — Enterprise Developer Platform</h3>
+
+<a href="https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg" alt="16 · PulseOps — Enterprise Developer Platform — Platform Overview UI concept" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-pulseops" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
+
+<sub>Gallery assets: Platform Overview, Service Catalog, Incident Command, SLO &amp; Error Budgets, Observability Explorer, and Alert Management. These are illustrative UI concepts sourced from the PulseOps repository, not screenshots of a live production deployment.</sub>
 
 ## Technology Stack
 
