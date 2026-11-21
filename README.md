@@ -15,7 +15,7 @@
 
 ## Screenshots
 
-Capture the actual deployed portfolio after the latest production deployment. The [screenshot capture guide](docs/screenshots/README.md) lists the exact sections to capture. Only screenshots of this portfolio belong in this gallery; do not reuse images from the other projects.
+No dashboard screenshots of the Developer Portfolio are included in this README. The project gallery below uses illustrative, project-specific cover artwork rather than captured portfolio dashboard screens.
 
 ## About
 
@@ -92,7 +92,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 ## Complete Project Visual Gallery
 
-**24 projects · one representative visual per project.** Each entry is arranged in a single column and links to its source repository. Visuals are representative project previews or dashboard concepts; they are not claims of live production deployment. No Developer Portfolio dashboard screenshot is included.
+**24 projects · one representative visual per project.** Each entry is arranged in a single column and links to its source repository. Visuals are illustrative project cover artwork, not dashboard screenshots or live production captures. No dashboard screenshot of the Developer Portfolio is included.
 
 <h3>01 · ContractSphere — Contract Lifecycle Intelligence</h3>
 
@@ -130,7 +130,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="05 · Smart HR & Payroll Management — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-hrpayroll.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-hrpayroll.svg" alt="05 · Smart HR & Payroll Management — representative project visual" width="900"></a>
 
 ---
 
@@ -154,7 +154,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform/main/docs/images/readme/01-command-center.svg"><img src="https://raw.githubusercontent.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform/main/docs/images/readme/01-command-center.svg" alt="08 · PrivaOps — Privacy & Data Lifecycle Operations — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-privaoops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-privaoops.svg" alt="08 · PrivaOps — Privacy & Data Lifecycle Operations — representative project visual" width="900"></a>
 
 ---
 
@@ -162,7 +162,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="09 · Real Estate Management System — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-realestate.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-realestate.svg" alt="09 · Real Estate Management System — representative project visual" width="900"></a>
 
 ---
 
@@ -170,7 +170,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform/main/docs/images/dashboards/01-executive-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform/main/docs/images/dashboards/01-executive-overview.svg" alt="10 · ForgeOps — Asset Lifecycle & Predictive Maintenance — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-forgeops.svg" alt="10 · ForgeOps — Asset Lifecycle & Predictive Maintenance — representative project visual" width="900"></a>
 
 ---
 
@@ -178,7 +178,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="11 · FleetCommand — Logistics & Supply Chain — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-fleetcommand.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-fleetcommand.svg" alt="11 · FleetCommand — Logistics & Supply Chain — representative project visual" width="900"></a>
 
 ---
 
@@ -194,7 +194,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform/main/docs/images/dashboard-01-executive-overview.png"><img src="https://raw.githubusercontent.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform/main/docs/images/dashboard-01-executive-overview.png" alt="13 · SignalForge — Product Intelligence & Experimentation — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-signalforge.svg" alt="13 · SignalForge — Product Intelligence & Experimentation — representative project visual" width="900"></a>
 
 ---
 
@@ -210,7 +210,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="15 · Multi-Vendor Marketplace & Seller Ecosystem — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-marketplace.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-marketplace.svg" alt="15 · Multi-Vendor Marketplace & Seller Ecosystem — representative project visual" width="900"></a>
 
 ---
 
@@ -242,7 +242,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform/main/docs/images/dashboard-01-command-center.png"><img src="https://raw.githubusercontent.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform/main/docs/images/dashboard-01-command-center.png" alt="19 · NexusID — Identity Security & Governance — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-nexusid.svg" alt="19 · NexusID — Identity Security & Governance — representative project visual" width="900"></a>
 
 ---
 
@@ -266,7 +266,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="22 · TrustShield — Digital Banking & Fraud Detection — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-trustshield.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-trustshield.svg" alt="22 · TrustShield — Digital Banking & Fraud Detection — representative project visual" width="900"></a>
 
 ---
 
@@ -282,7 +282,7 @@ The complete catalogue below lists **all 24 public GitHub projects** in this acc
 
 <a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="24 · CityCare Hospital Management — representative project visual" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-citycare.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalogue-gallery/client/public/projects/preview-citycare.svg" alt="24 · CityCare Hospital Management — representative project visual" width="900"></a>
 
 ---
 
