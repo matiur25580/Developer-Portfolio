@@ -293,7 +293,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-contractsphere.svg" alt="ContractSphere — Contract Lifecycle Intelligence — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg" alt="ContractSphere — Contract Lifecycle Intelligence — project cover illustration" width="900"></a>
 
 <sub>LegalTech · Enterprise · Contract authoring, approvals, obligations and lifecycle intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -304,7 +304,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/enterprise-cloud-finsight-platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-finsight.svg" alt="FinSight — Cloud FinOps Intelligence — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg" alt="FinSight — Cloud FinOps Intelligence — project cover illustration" width="900"></a>
 
 <sub>Cloud · FinOps · Cloud cost visibility, resource insights and optimization workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -315,7 +315,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-privaops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-privaops.svg" alt="PrivaOps — Privacy & Data Lifecycle — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg" alt="PrivaOps — Privacy & Data Lifecycle — project cover illustration" width="900"></a>
 
 <sub>Privacy · Governance · Privacy request operations, identity verification and data lifecycle controls. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -326,7 +326,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-gridpulse.svg" alt="GridPulse — Energy Intelligence — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg" alt="GridPulse — Energy Intelligence — project cover illustration" width="900"></a>
 
 <sub>Energy · Sustainability · Energy telemetry, grid flexibility and operational intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -337,7 +337,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-forgeops.svg" alt="ForgeOps — Asset Lifecycle & Maintenance — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg" alt="ForgeOps — Asset Lifecycle & Maintenance — project cover illustration" width="900"></a>
 
 <sub>Industrial · Operations · Asset lifecycle management, maintenance planning and procurement workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -348,7 +348,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-signalforge.svg" alt="SignalForge — Product Intelligence — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg" alt="SignalForge — Product Intelligence — project cover illustration" width="900"></a>
 
 <sub>Product · Experimentation · Product analytics, experimentation and decision intelligence workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -359,7 +359,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-carbonledger.svg" alt="CarbonLedger — ESG & Carbon Accounting — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg" alt="CarbonLedger — ESG & Carbon Accounting — project cover illustration" width="900"></a>
 
 <sub>ESG · Sustainability · Carbon accounting, emissions reporting and sustainability operations. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -370,7 +370,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — project cover illustration" width="900"></a>
 
 <sub>Identity · Security · Identity lifecycle, access governance and enterprise security workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -381,7 +381,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/docs/complete-project-catalog-gallery/client/public/projects/gallery-sentinelai.svg" alt="SentinelAI — AI Governance & Risk — project cover illustration" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg" alt="SentinelAI — AI Governance & Risk — project cover illustration" width="900"></a>
 
 <sub>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
