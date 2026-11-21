@@ -21,7 +21,7 @@ Capture the actual deployed portfolio after the latest production deployment. Th
 
 I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I enjoy designing and building web applications that bring together clean interfaces, reliable APIs, data-driven workflows, and practical integrations.
 
-This repository contains my personal portfolio website and a curated overview of **16 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
+This repository contains my personal portfolio website and a curated overview of **24 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
 
 - **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 - **GitHub:** [github.com/matiur25580](https://github.com/matiur25580)
@@ -32,7 +32,7 @@ This repository contains my personal portfolio website and a curated overview of
 
 | | |
 |---|---|
-| **Projects showcased** | 16 public repositories |
+| **Projects showcased** | 24 public repositories (excluding this portfolio) |
 | **Core focus** | Full-stack web development |
 | **Frontend** | React, TypeScript, JavaScript, Preact, Vite |
 | **Backend** | Node.js, Express.js, REST APIs, PHP |
@@ -57,226 +57,160 @@ A selection of projects from the full catalogue. Open a repository to explore it
 | [Cyber Security Operations Command Center](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) | Cybersecurity | React, Vite, TypeScript, Node.js, Express, MongoDB |
 | [PulseOps — Enterprise Developer Platform](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) | DevOps · SRE · FinOps | Next.js, React, TypeScript, NestJS, PostgreSQL, Prisma, Docker |
 
-## All 16 Repositories
+## Projects
 
-Every project below is included in the portfolio's searchable Projects page.
-
-### Enterprise platforms
+The complete catalogue below lists **all 24 public GitHub projects** in this account, excluding this Developer Portfolio repository itself. Project descriptions summarize repository focus; check each README for implementation status.
 
 | # | Project | Overview | Repository |
 |---:|---|---|---|
-| 01 | **TrustShield — Digital Banking & Fraud Detection** | Banking-style user workflows, role-based dashboards, OTP authentication, KYC and fraud-monitoring concepts. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center) |
-| 02 | **FleetCommand — Logistics & Supply Chain** | Fleet, trips, warehouse and supply-chain operations with real-time and forecasting-oriented workflows. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center) |
-| 03 | **Smart HR & Payroll Management** | Employee self-service, attendance, leave and payroll workflows. | [Source](https://github.com/matiur25580/enterprise-hr-payroll-system) |
-| 04 | **Real Estate Management System** | Property, rental and real-estate management workflows. | [Source](https://github.com/matiur25580/realestate-management-system) |
-| 05 | **CityCare Hospital Management** | Patient registration, appointments, clinical and hospital operations. | [Source](https://github.com/matiur25580/hospital-management-system) |
-| 16 | **PulseOps — Enterprise Developer Platform** | Engineering operations workspace for service ownership, observability, incident response, SRE reliability objectives, deployment intelligence, and FinOps cost visibility. | [Source](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) |
+| 01 | **ContractSphere — Contract Lifecycle Intelligence** | Multi-tenant contract repository, governed approvals, obligations, renewals and evidence-led review. | [Source](https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform) |
+| 02 | **FinSight — Cloud FinOps Intelligence** | Cloud cost analytics, budget governance, showback and optimization workflows. | [Source](https://github.com/matiur25580/enterprise-cloud-finsight-platform) |
+| 03 | **Cyber Security Operations Command Center** | Tenant-aware security event workflows, detection foundations, incident response and auditability. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) |
+| 04 | **FinTech Smart Invoice & Expense System** | Invoice, expense, supplier-bill and payment operations with transactional financial controls. | [Source](https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System) |
+| 05 | **Smart HR & Payroll Management** | Role-based workforce administration, attendance, leave, payroll and employee self-service. | [Source](https://github.com/matiur25580/enterprise-hr-payroll-system) |
+| 06 | **HireFlow — ATS Recruitment System** | Applicant tracking, recruiter workflows, resume handling and AI-assisted candidate analysis. | [Source](https://github.com/matiur25580/ats-recruitment-system) |
+| 07 | **GridPulse — Energy Intelligence & Grid Flexibility** | Energy telemetry, grid demand intelligence, renewable mix and flexibility operations. | [Source](https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform) |
+| 08 | **PrivaOps — Privacy & Data Lifecycle Operations** | Privacy request coordination, data inventory, processing records and audit evidence. | [Source](https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform) |
+| 09 | **Real Estate Management System** | Property listings, rental operations, tenant workflows and owner/agent management. | [Source](https://github.com/matiur25580/realestate-management-system) |
+| 10 | **ForgeOps — Asset Lifecycle & Predictive Maintenance** | Asset registry, maintenance operations, telemetry health, inspections and MRO workflows. | [Source](https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform) |
+| 11 | **FleetCommand — Logistics & Supply Chain** | Fleet, trips, warehouses, dispatch, supply-chain coordination and operational analytics. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center) |
+| 12 | **Online Food Ordering System** | Restaurant discovery, menu browsing, customer accounts and food-order management. | [Source](https://github.com/matiur25580/Online-Food-Ordering-System-main) |
+| 13 | **SignalForge — Product Intelligence & Experimentation** | Product analytics, event intelligence, funnels, cohorts, experimentation and governance. | [Source](https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform) |
+| 14 | **Draftline — AI Writing Studio** | AI-assisted content generation, account verification, writing history and credit workflows. | [Source](https://github.com/matiur25580/ai-saas-generator) |
+| 15 | **Multi-Vendor Marketplace & Seller Ecosystem** | Buyer, seller, logistics, platform administration and finance-oriented marketplace workflows. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center) |
+| 16 | **PulseOps — Enterprise Developer Platform** | Service ownership, observability, incident response, SLO reliability and FinOps visibility. | [Source](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) |
+| 17 | **CarbonLedger — ESG & Carbon Accounting** | Organization-scoped emissions accounting, sustainability metrics, evidence and reduction initiatives. | [Source](https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform) |
+| 18 | **Trello Clone — Kanban Workspace** | Collaborative boards, lists, tasks and membership-aware project organization. | [Source](https://github.com/matiur25580/Trello-Clone) |
+| 19 | **NexusID — Identity Security & Governance** | Identity lifecycle, access grants, risk intelligence, certification and audit governance. | [Source](https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform) |
+| 20 | **SmartGadget Lifestyle MegaStore** | Smart-gadget commerce catalogue, seller product workflows and customer ordering. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center) |
+| 21 | **SentinelAI — AI Governance & Risk Intelligence** | AI system inventory, governance controls, risk reviews and compliance-oriented oversight. | [Source](https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform) |
+| 22 | **TrustShield — Digital Banking & Fraud Detection** | Banking-style user workflows, role-based access, OTP authentication, KYC and fraud-monitoring concepts. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center) |
+| 23 | **Real-Time Chat & Collaboration Hub** | Authenticated messaging, online presence and real-time collaboration workflows. | [Source](https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub) |
+| 24 | **CityCare Hospital Management** | Patient registration, appointments, clinical access and hospital administration workflows. | [Source](https://github.com/matiur25580/hospital-management-system) |
 
-### AI, finance & commerce
-
-| # | Project | Overview | Repository |
-|---:|---|---|---|
-| 06 | **HireFlow — ATS Recruitment System** | Candidate and recruiter workflows, resume handling and Gemini-assisted resume-to-job analysis. | [Source](https://github.com/matiur25580/ats-recruitment-system) |
-| 07 | **Draftline AI Writing Studio** | AI-assisted content generation, verified accounts, generation history and credit-related workflows. | [Source](https://github.com/matiur25580/ai-saas-generator) |
-| 08 | **SmartGadget Lifestyle MegaStore** | Smart-gadget e-commerce catalogue, seller product workflows and cash-on-delivery ordering. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center) |
-| 09 | **Multi-Vendor Marketplace Seller Ecosystem** | Buyer, seller, logistics and finance-oriented marketplace workflows. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center) |
-| 10 | **FinTech Smart Invoice & Expense System** | Invoice, expense and supplier-payment management workflows. | [Source](https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System) |
-| 11 | **Cyber Security Operations Command Center** | Security operations command-center foundation and monitoring-oriented interface. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) |
-
-### Collaboration & web applications
-
-| # | Project | Overview | Repository |
-|---:|---|---|---|
-| 12 | **Real-Time Chat & Collaboration Hub** | Authenticated chat, online-user presence and real-time messaging. | [Source](https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub) |
-| 13 | **Trello Clone** | Kanban-inspired boards and task organization. | [Source](https://github.com/matiur25580/Trello-Clone) |
-| 14 | **Online Food Ordering System** | Restaurant/menu and food-ordering website built as an academic team project. | [Source](https://github.com/matiur25580/Online-Food-Ordering-System-main) |
-| 15 | **Developer Portfolio** | This personal portfolio website and searchable project showcase. | [Source](https://github.com/matiur25580/Developer-Portfolio) |
-
-> **Transparency note:** These repositories represent projects at different stages of implementation. The descriptions above summarize their focus; they do not imply that every planned feature or integration is complete or production-deployed. Please refer to each repository's README and source code for its current status. The Online Food Ordering System was an academic team project; my documented contribution was frontend UI work. The Cyber Security Command Center is an evolving project, so its broader SOC/SIEM/SOAR/GRC direction should not be mistaken for a fully implemented feature set.
+> **Transparency note:** These repositories represent projects at different stages of implementation. The descriptions summarize their focus; they do not imply that every planned feature or integration is complete or production-deployed. Please refer to each repository's README and source code for current status. The Online Food Ordering System was an academic team project; my documented contribution was frontend UI work. The Cyber Security Command Center and other evolving platforms should not be mistaken for fully implemented versions of every planned capability.
 
 ## Complete Project Visual Gallery
 
-**16 projects · 6 images each · 96 images total.** This GitHub README displays one large cover image per project. GitHub sanitizes custom HTML/CSS in README files, so it cannot provide a reliable touch-scroll carousel with five hidden images. To swipe through all six large images for each project, open the interactive Projects section on the portfolio website. All 90 image assets remain in this repository; the additional five per project are UI concept previews, not screenshots from live applications.
+**24 projects · one representative visual per project.** Each entry is arranged in a single column and links to its source repository. Visuals are representative project previews or dashboard concepts; they are not claims of live production deployment. No Developer Portfolio dashboard screenshot is included.
 
-<h3>01 · HireFlow — ATS Recruitment System</h3>
+<h3>01 · ContractSphere — Contract Lifecycle Intelligence</h3>
 
-<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository</strong></a>
+<a href="https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-hireflow" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-contractsphere.svg" alt="01 · ContractSphere — Contract Lifecycle Intelligence — representative project visual" width="900"></a>
 
 ---
 
-<h3>02 · Developer Portfolio</h3>
+<h3>02 · FinSight — Cloud FinOps Intelligence</h3>
 
-<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View repository</strong></a>
+<a href="https://github.com/matiur25580/enterprise-cloud-finsight-platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="02 · Developer Portfolio — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-portfolio" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-finsight.svg" alt="02 · FinSight — Cloud FinOps Intelligence — representative project visual" width="900"></a>
 
 ---
 
-<h3>03 · TrustShield — Banking Fraud Detection</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-trustshield" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>04 · FleetCommand — Logistics & Supply Chain</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-fleetcommand" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>05 · SmartGadget Lifestyle MegaStore</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-smartgadget" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>06 · CityCare Hospital Management</h3>
-
-<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-citycare" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>07 · Draftline AI Writing Studio</h3>
-
-<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-draftline" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>08 · Real Estate Management System</h3>
-
-<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-realestate" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>09 · Real-Time Chat & Collaboration Hub</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-chat" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>10 · Trello Clone</h3>
-
-<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-trello" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>11 · Online Food Ordering System</h3>
-
-<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-foodorder" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>12 · Smart HR & Payroll Management</h3>
-
-<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-hrpayroll" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-marketplace" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>14 · FinTech Smart Invoice & Expense System</h3>
-
-<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-fintech" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
-
----
-
-<h3>15 · Cyber Security Operations Command Center</h3>
+<h3>03 · Cyber Security Operations Command Center</h3>
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a>
-
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-cyber" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
-
-
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="03 · Cyber Security Operations Command Center — representative project visual" width="900"></a>
 
 ---
+
+<h3>04 · FinTech Smart Invoice & Expense System</h3>
+
+<a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="04 · FinTech Smart Invoice & Expense System — representative project visual" width="900"></a>
+
+---
+
+<h3>05 · Smart HR & Payroll Management</h3>
+
+<a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="05 · Smart HR & Payroll Management — representative project visual" width="900"></a>
+
+---
+
+<h3>06 · HireFlow — ATS Recruitment System</h3>
+
+<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="06 · HireFlow — ATS Recruitment System — representative project visual" width="900"></a>
+
+---
+
+<h3>07 · GridPulse — Energy Intelligence & Grid Flexibility</h3>
+
+<a href="https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-gridpulse.svg" alt="07 · GridPulse — Energy Intelligence & Grid Flexibility — representative project visual" width="900"></a>
+
+---
+
+<h3>08 · PrivaOps — Privacy & Data Lifecycle Operations</h3>
+
+<a href="https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform/main/docs/images/readme/01-command-center.svg"><img src="https://raw.githubusercontent.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform/main/docs/images/readme/01-command-center.svg" alt="08 · PrivaOps — Privacy & Data Lifecycle Operations — representative project visual" width="900"></a>
+
+---
+
+<h3>09 · Real Estate Management System</h3>
+
+<a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="09 · Real Estate Management System — representative project visual" width="900"></a>
+
+---
+
+<h3>10 · ForgeOps — Asset Lifecycle & Predictive Maintenance</h3>
+
+<a href="https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform/main/docs/images/dashboards/01-executive-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform/main/docs/images/dashboards/01-executive-overview.svg" alt="10 · ForgeOps — Asset Lifecycle & Predictive Maintenance — representative project visual" width="900"></a>
+
+---
+
+<h3>11 · FleetCommand — Logistics & Supply Chain</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="11 · FleetCommand — Logistics & Supply Chain — representative project visual" width="900"></a>
+
+---
+
+<h3>12 · Online Food Ordering System</h3>
+
+<a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="12 · Online Food Ordering System — representative project visual" width="900"></a>
+
+---
+
+<h3>13 · SignalForge — Product Intelligence & Experimentation</h3>
+
+<a href="https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform/main/docs/images/dashboard-01-executive-overview.png"><img src="https://raw.githubusercontent.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform/main/docs/images/dashboard-01-executive-overview.png" alt="13 · SignalForge — Product Intelligence & Experimentation — representative project visual" width="900"></a>
+
+---
+
+<h3>14 · Draftline — AI Writing Studio</h3>
+
+<a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="14 · Draftline — AI Writing Studio — representative project visual" width="900"></a>
+
+---
+
+<h3>15 · Multi-Vendor Marketplace & Seller Ecosystem</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="15 · Multi-Vendor Marketplace & Seller Ecosystem — representative project visual" width="900"></a>
 
 ---
 
@@ -284,11 +218,73 @@ Every project below is included in the portfolio's searchable Projects page.
 
 <a href="https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform"><strong>View repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg" alt="16 · PulseOps — Enterprise Developer Platform — Platform Overview UI concept" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg" alt="16 · PulseOps — Enterprise Developer Platform — representative project visual" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-pulseops" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
+---
 
-<sub>Gallery assets: Platform Overview, Service Catalog, Incident Command, SLO &amp; Error Budgets, Observability Explorer, and Alert Management. These are illustrative UI concepts sourced from the PulseOps repository, not screenshots of a live production deployment.</sub>
+<h3>17 · CarbonLedger — ESG & Carbon Accounting</h3>
+
+<a href="https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-carbonledger.svg" alt="17 · CarbonLedger — ESG & Carbon Accounting — representative project visual" width="900"></a>
+
+---
+
+<h3>18 · Trello Clone — Kanban Workspace</h3>
+
+<a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="18 · Trello Clone — Kanban Workspace — representative project visual" width="900"></a>
+
+---
+
+<h3>19 · NexusID — Identity Security & Governance</h3>
+
+<a href="https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform/main/docs/images/dashboard-01-command-center.png"><img src="https://raw.githubusercontent.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform/main/docs/images/dashboard-01-command-center.png" alt="19 · NexusID — Identity Security & Governance — representative project visual" width="900"></a>
+
+---
+
+<h3>20 · SmartGadget Lifestyle MegaStore</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="20 · SmartGadget Lifestyle MegaStore — representative project visual" width="900"></a>
+
+---
+
+<h3>21 · SentinelAI — AI Governance & Risk Intelligence</h3>
+
+<a href="https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-sentinelai.svg" alt="21 · SentinelAI — AI Governance & Risk Intelligence — representative project visual" width="900"></a>
+
+---
+
+<h3>22 · TrustShield — Digital Banking & Fraud Detection</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="22 · TrustShield — Digital Banking & Fraud Detection — representative project visual" width="900"></a>
+
+---
+
+<h3>23 · Real-Time Chat & Collaboration Hub</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="23 · Real-Time Chat & Collaboration Hub — representative project visual" width="900"></a>
+
+---
+
+<h3>24 · CityCare Hospital Management</h3>
+
+<a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="24 · CityCare Hospital Management — representative project visual" width="900"></a>
+
+---
 
 ## Technology Stack
 
