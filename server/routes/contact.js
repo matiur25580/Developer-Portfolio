@@ -4,6 +4,25 @@ const Message = require('../models/Message');
 const router = express.Router();
 
 const TOKEN_TTL_SECONDS = 15 * 60;
+const loginAttempts = new Map();
+const LOGIN_WINDOW_MS = 15 * 60 * 1000;
+const MAX_LOGIN_ATTEMPTS = 5;
+
+function loginRateLimit(ip) {
+  const now = Date.now();
+  let entry = loginAttempts.get(ip);
+  if (!entry || entry.resetAt <= now) entry = { count: 0, resetAt: now + LOGIN_WINDOW_MS };
+  if (entry.count >= MAX_LOGIN_ATTEMPTS) {
+    loginAttempts.set(ip, entry);
+    return Math.ceil((entry.resetAt - now) / 1000);
+  }
+  entry.count += 1;
+  if (loginAttempts.size > 10000) {
+    for (const [key, value] of loginAttempts) if (value.resetAt <= now) loginAttempts.delete(key);
+  }
+  loginAttempts.set(ip, entry);
+  return 0;
+}
 
 function configuredSecrets() {
   return Boolean(process.env.ADMIN_PASS && process.env.ADMIN_SESSION_SECRET && process.env.ADMIN_SESSION_SECRET.length >= 32);
@@ -52,10 +71,17 @@ router.post('/admin/login', (req, res) => {
   if (!configuredSecrets()) {
     return res.status(503).json({ success: false, error: 'Admin authentication is not configured.' });
   }
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  const retryAfter = loginRateLimit(ip);
+  if (retryAfter > 0) {
+    res.set('Retry-After', String(retryAfter));
+    return res.status(429).json({ success: false, error: 'Too many login attempts. Try again later.' });
+  }
   const password = typeof req.body?.password === 'string' ? req.body.password : '';
   if (!password || !safeEqual(password, process.env.ADMIN_PASS)) {
     return res.status(401).json({ success: false, error: 'Invalid admin credentials.' });
   }
+  loginAttempts.delete(ip);
   res.set('Cache-Control', 'no-store');
   res.json({ success: true, token: issueAdminToken(), expiresIn: TOKEN_TTL_SECONDS });
 });
