@@ -12,103 +12,31 @@ export const profile = {
   ],
   languages: ["Bangla (Native)","Hindi (Fluent)","English (Professional)"],
   hobbies: ["Coding","New Tech Explore","Morning Walk","Healthy Lifestyle"],
-  projectsCount: 16,
+  projectsCount: 24,
   projects: [
-    {
-      "name": "HireFlow — ATS Recruitment System",
-      "tech": "React · TypeScript · Node.js · MongoDB · Gemini",
-      "desc": "Recruitment workflows, candidate management and AI-assisted resume matching",
-      "category": "AI & Automation"
-    },
-    {
-      "name": "Developer Portfolio",
-      "tech": "React · Vite · Tailwind CSS · Node.js",
-      "desc": "Personal portfolio and project showcase",
-      "category": "Developer Tools"
-    },
-    {
-      "name": "TrustShield — Banking Fraud Detection",
-      "tech": "MERN · JWT · OTP · Real-time updates",
-      "desc": "Digital banking experience and fraud-monitoring workflows",
-      "category": "FinTech"
-    },
-    {
-      "name": "FleetCommand — Logistics & Supply Chain",
-      "tech": "React · Node.js · Express · MongoDB · Socket.IO",
-      "desc": "Fleet, trip, warehouse and supply-chain operations",
-      "category": "Enterprise"
-    },
-    {
-      "name": "SmartGadget Lifestyle MegaStore",
-      "tech": "MERN · JWT · OTP · MongoDB",
-      "desc": "Catalog APIs, seller product workflows and cash-on-delivery orders; payment integration is not implemented",
-      "category": "E-commerce"
-    },
-    {
-      "name": "CityCare Hospital Management",
-      "tech": "MERN · JWT · OTP",
-      "desc": "Patient care, appointments and hospital operations",
-      "category": "Healthcare"
-    },
-    {
-      "name": "AI SaaS Generator",
-      "tech": "React · Vite · Express · MongoDB · Gemini · Brevo",
-      "desc": "Gemini-powered AI writing studio with account verification, generation history and credit ledger",
-      "category": "AI & Automation"
-    },
-    {
-      "name": "Real Estate Management System",
-      "tech": "React · Node.js · Express · MongoDB",
-      "desc": "Property, rental and real-estate management workflows",
-      "category": "Enterprise"
-    },
-    {
-      "name": "Real-Time Chat & Collaboration Hub",
-      "tech": "React · Node.js · Express · Socket.IO · MongoDB",
-      "desc": "Real-time chat with authentication, online presence and message history",
-      "category": "Developer Tools"
-    },
-    {
-      "name": "Trello Clone",
-      "tech": "Web application · Task management",
-      "desc": "Kanban boards and visual task organization",
-      "category": "Developer Tools"
-    },
-    {
-      "name": "Online Food Ordering System",
-      "tech": "HTML · CSS · JavaScript · Bootstrap · PHP · MySQL",
-      "desc": "Online menu browsing and food-ordering experience; academic team project with documented frontend contribution",
-      "category": "E-commerce"
-    },
-    {
-      "name": "Smart HR & Payroll Management",
-      "tech": "TypeScript · Preact · Express · MongoDB",
-      "desc": "Employee self-service, attendance, leave and payroll operations",
-      "category": "Enterprise"
-    },
-    {
-      "name": "Multi-Vendor Marketplace Seller Ecosystem",
-      "tech": "MERN · MongoDB · Brevo OTP",
-      "desc": "Buyer, seller, logistics and finance workflows",
-      "category": "E-commerce"
-    },
-    {
-      "name": "FinTech Smart Invoice & Expense System",
-      "tech": "FinTech · Full-stack application",
-      "desc": "Invoice, expense and supplier-payment management workflows",
-      "category": "FinTech"
-    },
-    {
-      "name": "Cyber Security Operations Command Center",
-      "tech": "AI · Cybersecurity · Operations dashboard",
-      "desc": "SOC/SIEM/SOAR/GRC platform foundation; broader capabilities are still in progress",
-      "category": "Cybersecurity"
-    },
-    {
-      "name": "PulseOps — Enterprise Developer Platform",
-      "tech": "Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · Docker",
-      "desc": "AI-assisted engineering operations workspace for service ownership, observability, incident response, SLO reliability, deployment intelligence and FinOps visibility",
-      "category": "Enterprise"
-    }
+    { "name": "HireFlow — ATS Recruitment System", "tech": "React · TypeScript · Node.js · MongoDB · Gemini", "desc": "Recruitment workflows, candidate management and AI-assisted resume matching", "category": "AI & Automation", "repo": "https://github.com/matiur25580/ats-recruitment-system" },
+    { "name": "TrustShield — Banking Fraud Detection", "tech": "MERN · JWT · OTP · Real-time updates", "desc": "Digital banking workflows, customer identity, transfers and fraud-risk monitoring concepts", "category": "FinTech", "repo": "https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center" },
+    { "name": "FleetCommand — Logistics & Supply Chain", "tech": "React · Node.js · Express · MongoDB · Socket.IO", "desc": "Fleet, trip, warehouse and supply-chain operations", "category": "Enterprise", "repo": "https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center" },
+    { "name": "SmartGadget Lifestyle MegaStore", "tech": "MERN · JWT · OTP · MongoDB", "desc": "Catalog APIs, seller product workflows and cash-on-delivery orders; payment integration is not implemented", "category": "E-commerce", "repo": "https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center" },
+    { "name": "CityCare Hospital Management", "tech": "MERN · JWT · OTP", "desc": "Patient care, appointments and hospital operations", "category": "Healthcare", "repo": "https://github.com/matiur25580/hospital-management-system" },
+    { "name": "AI SaaS Generator", "tech": "React · Vite · Express · MongoDB · Gemini · Brevo", "desc": "Gemini-powered writing studio with account verification, generation history and credit ledger", "category": "AI & Automation", "repo": "https://github.com/matiur25580/ai-saas-generator" },
+    { "name": "Real Estate Management System", "tech": "React · Node.js · Express · MongoDB", "desc": "Property, rental and real-estate management workflows", "category": "Enterprise", "repo": "https://github.com/matiur25580/realestate-management-system" },
+    { "name": "Real-Time Chat & Collaboration Hub", "tech": "React · Node.js · Express · Socket.IO · MongoDB", "desc": "Real-time chat with authentication, online presence and message history", "category": "Developer Tools", "repo": "https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub" },
+    { "name": "Trello Clone", "tech": "Web application · Task management", "desc": "Kanban boards and visual task organization", "category": "Developer Tools", "repo": "https://github.com/matiur25580/Trello-Clone" },
+    { "name": "Online Food Ordering System", "tech": "HTML · CSS · JavaScript · Bootstrap · PHP · MySQL", "desc": "Online menu browsing and food ordering; academic team project with documented frontend contribution", "category": "E-commerce", "repo": "https://github.com/matiur25580/Online-Food-Ordering-System-main" },
+    { "name": "Smart HR & Payroll Management", "tech": "TypeScript · Preact · Express · MongoDB", "desc": "Employee self-service, attendance, leave and payroll operations", "category": "Enterprise", "repo": "https://github.com/matiur25580/enterprise-hr-payroll-system" },
+    { "name": "Multi-Vendor Marketplace Seller Ecosystem", "tech": "MERN · MongoDB · Brevo OTP", "desc": "Buyer, seller, logistics and finance workflows", "category": "E-commerce", "repo": "https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center" },
+    { "name": "FinTech Smart Invoice & Expense System", "tech": "FinTech · Full-stack application", "desc": "Invoice, expense and supplier-payment management workflows", "category": "FinTech", "repo": "https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System" },
+    { "name": "Cyber Security Operations Command Center", "tech": "AI · Cybersecurity · Operations dashboard", "desc": "SOC/SIEM/SOAR/GRC platform foundation; broader capabilities are still in progress", "category": "Cybersecurity", "repo": "https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center" },
+    { "name": "PulseOps — Enterprise Developer Platform", "tech": "Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · Docker", "desc": "AI-assisted engineering operations workspace for service ownership, observability, incident response, SLO reliability, deployment intelligence and FinOps visibility", "category": "Enterprise", "repo": "https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform" },
+    { "name": "ContractSphere — Contract Lifecycle Intelligence", "tech": "React · TypeScript · Node.js · Express · MongoDB · S3", "desc": "Contract lifecycle management covering contract records, approval workflows, obligations and legal operations", "category": "Enterprise", "repo": "https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform" },
+    { "name": "FinSight — Cloud FinOps Intelligence", "tech": "TypeScript · React · Node.js · PostgreSQL · Cloud APIs", "desc": "Cloud FinOps platform focused on cost visibility, resource insights and optimization workflows", "category": "Enterprise", "repo": "https://github.com/matiur25580/enterprise-cloud-finsight-platform" },
+    { "name": "PrivaOps — Privacy & Data Lifecycle", "tech": "React · Node.js · Express · MongoDB · JWT", "desc": "Privacy operations platform for data-subject requests, identity verification, review workflows and data lifecycle controls", "category": "Enterprise", "repo": "https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform" },
+    { "name": "GridPulse — Energy Intelligence", "tech": "TypeScript · React · Node.js · MongoDB · IoT", "desc": "Energy intelligence platform for telemetry, grid flexibility and operational monitoring workflows", "category": "Enterprise", "repo": "https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform" },
+    { "name": "ForgeOps — Asset Lifecycle & Maintenance", "tech": "React · TypeScript · Node.js · Express · MongoDB", "desc": "Asset lifecycle and predictive-maintenance platform spanning maintenance planning, procurement and work operations", "category": "Enterprise", "repo": "https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform" },
+    { "name": "CarbonLedger — ESG & Carbon Accounting", "tech": "React · TypeScript · Node.js · Express · MongoDB", "desc": "ESG and carbon-accounting platform for emissions reporting, sustainability initiatives and environmental operations", "category": "Enterprise", "repo": "https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform" },
+    { "name": "SentinelAI — AI Governance & Risk", "tech": "React · TypeScript · Node.js · Express · MongoDB · AI", "desc": "AI governance and risk-intelligence platform focused on model oversight, governance workflows and responsible AI controls", "category": "AI & Automation", "repo": "https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform" },
+    { "name": "SignalForge — Product Intelligence", "tech": "React · TypeScript · Node.js · Express · MongoDB", "desc": "Product intelligence platform for analytics, experimentation and data-informed product decisions", "category": "Enterprise", "repo": "https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform" },
+    { "name": "NexusID — Identity Security Governance", "tech": "React · TypeScript · Node.js · Express · PostgreSQL", "desc": "Identity security governance for identity lifecycle, access grants, SCIM provisioning and enterprise access controls", "category": "Enterprise", "repo": "https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform" }
   ]
 };
