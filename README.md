@@ -428,12 +428,6 @@ Check the `client/package.json` and project configuration for the exact scripts 
 
 ---
 
-<p align="center">
-  <strong>Designed and maintained by Matiur Rahaman</strong><br>
-  <sub>Learning, building, improving — one project at a time.</sub>
-</p>
-
-
 ## Additional Interactive Project Galleries
 
 The following projects also open their six-image interactive galleries on the portfolio website. These visual previews are illustrative concept artwork, not live application screenshots.
@@ -535,3 +529,9 @@ The following projects also open their six-image interactive galleries on the po
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — illustrative project cover" width="900"></a>
 
 <p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-nexusid" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+<p align="center">
+  <strong>Designed and maintained by Matiur Rahaman</strong><br>
+  <sub>Learning, building, improving — one project at a time.</sub>
+</p>
+
