@@ -432,3 +432,106 @@ Check the `client/package.json` and project configuration for the exact scripts 
   <strong>Designed and maintained by Matiur Rahaman</strong><br>
   <sub>Learning, building, improving — one project at a time.</sub>
 </p>
+
+
+## Additional Interactive Project Galleries
+
+The following projects also open their six-image interactive galleries on the portfolio website. These visual previews are illustrative concept artwork, not live application screenshots.
+
+---
+
+<h3>16 · ContractSphere — Contract Lifecycle Intelligence</h3>
+
+<a href="https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg" alt="ContractSphere — Contract Lifecycle Intelligence — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-contractsphere" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>17 · FinSight — Cloud FinOps Intelligence</h3>
+
+<a href="https://github.com/matiur25580/enterprise-cloud-finsight-platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg" alt="FinSight — Cloud FinOps Intelligence — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-finsight" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>18 · PrivaOps — Privacy & Data Lifecycle</h3>
+
+<a href="https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg" alt="PrivaOps — Privacy & Data Lifecycle — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-privaops" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>19 · GridPulse — Energy Intelligence</h3>
+
+<a href="https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg" alt="GridPulse — Energy Intelligence — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-gridpulse" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>20 · ForgeOps — Asset Lifecycle & Maintenance</h3>
+
+<a href="https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg" alt="ForgeOps — Asset Lifecycle & Maintenance — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-forgeops" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>21 · CarbonLedger — ESG & Carbon Accounting</h3>
+
+<a href="https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg" alt="CarbonLedger — ESG & Carbon Accounting — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-carbonledger" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>22 · SentinelAI — AI Governance & Risk</h3>
+
+<a href="https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg" alt="SentinelAI — AI Governance & Risk — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-sentinelai" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>23 · SignalForge — Product Intelligence</h3>
+
+<a href="https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg" alt="SignalForge — Product Intelligence — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-signalforge" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+
+---
+
+<h3>24 · NexusID — Identity Security Governance</h3>
+
+<a href="https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — illustrative project cover" width="900"></a>
+
+<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-nexusid" title="Open the interactive gallery and browse all six images">➡️</a></p>
