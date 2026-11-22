@@ -80,6 +80,12 @@ export default function ProjectsShowcase(){
   const [selected,setSelected]=useState(null);
   const [focusedRepo,setFocusedRepo]=useState(()=>{ const match=window.location.hash.match(/^#project-([^?]+)/); return match ? decodeURIComponent(match[1]) : ""; });
   useEffect(()=>{ const syncFocus=()=>{ const match=window.location.hash.match(/^#project-([^?]+)/); setFocusedRepo(match ? decodeURIComponent(match[1]) : ""); }; window.addEventListener("hashchange",syncFocus); return ()=>window.removeEventListener("hashchange",syncFocus); },[]);
+  // README deep links should open the matching project details, not only filter the grid.
+  useEffect(()=>{
+    if(!focusedRepo){ setSelected(null); return; }
+    const project=projects.find(item=>item.slug===focusedRepo);
+    setSelected(project || null);
+  },[focusedRepo]);
   const visible=useMemo(()=>projects.filter(p=>{
     if(focusedRepo && p.slug!==focusedRepo) return false;
     const matchesCategory=active==="All" || (active==="Featured" ? p.featured : p.category===active);
