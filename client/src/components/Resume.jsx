@@ -54,16 +54,16 @@ export default function Resume() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] px-4 py-8 text-white sm:px-6 sm:py-10">
       <div ref={cardRef} className="mx-auto max-w-3xl rounded-2xl border border-gray-800 bg-[#111] p-5 sm:p-8">
-        <div className="flex flex-wrap items-start justify-between gap-4">
-          <div>
-            <h1 className="text-3xl font-extrabold">MATIUR RAHAMAN</h1>
+        <div className="flex items-start justify-between gap-2 sm:gap-4">
+          <div className="min-w-0 flex-1">
+            <h1 className="text-xl font-extrabold leading-tight sm:text-3xl">MATIUR RAHAMAN</h1>
             <p className="mt-1 font-bold text-green-400">MERN Full Stack Developer</p>
             <p className="mt-2 text-sm text-gray-400">Newtown, Kolkata, West Bengal, India</p>
           </div>
-          <div className="print:hidden flex gap-3">
-            <button onClick={() => window.print()} className="rounded-full bg-green-500 px-5 py-2 text-sm font-bold text-black transition hover:bg-green-400">Print</button>
-            <button onClick={savePDF} className="rounded-full bg-green-500 px-5 py-2 text-sm font-bold text-black transition hover:bg-green-400">Save PDF</button>
-          </div>
+          <button onClick={savePDF} className="print:hidden inline-flex shrink-0 items-center gap-1.5 rounded-full bg-green-500 px-3 py-2 text-xs font-bold text-black shadow-lg shadow-green-500/10 transition hover:bg-green-400 sm:px-5 sm:py-2.5 sm:text-sm">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4"><path d="M10 2a.75.75 0 0 1 .75.75v7.19l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V2.75A.75.75 0 0 1 10 2Z"/><path d="M3.5 13.5a.75.75 0 0 1 .75.75v1.5h11.5v-1.5a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-.75.75h-13a.75.75 0 0 1-.75-.75v-2.25a.75.75 0 0 1 .75-.75Z"/></svg>
+            Save PDF
+          </button>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">
