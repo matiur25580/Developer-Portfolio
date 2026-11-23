@@ -143,9 +143,9 @@ test("project gallery covers inline-generated slides, remote previews and image 
   assert.ok(inlineGeneratedSlugs.length > 0, "Expected inline-generated gallery entries to remain covered");
 
   const missingGenerated = [...new Set(inlineGeneratedSlugs)]
-    .flatMap((slug) => Array.from({ length: 5 }, (_, index) => \`\${slug}-0\${index + 2}.svg\`))
+    .flatMap((slug) => Array.from({ length: 5 }, (_, index) => slug + "-0" + (index + 2) + ".svg"))
     .filter((asset) => !available.has(asset));
-  assert.deepEqual(missingGenerated, [], \`Missing inline-generated gallery slides: \${missingGenerated.join(", ")}\`);
+  assert.deepEqual(missingGenerated, [], "Missing inline-generated gallery slides: " + missingGenerated.join(", "));
 
   // BuildSphere screenshots are intentionally hosted in their source repository.
   const remoteAssets = [...new Set(source.match(/https:\/\/raw\.githubusercontent\.com\/[^"'\s]+/g) || [])];
