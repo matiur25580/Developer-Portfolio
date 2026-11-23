@@ -136,7 +136,7 @@ export default function Resume() {
         </div>
         {exportError && <p className="mt-3 text-xs text-red-400" role="alert">{exportError}</p>}
 
-        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm>
+        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">
           <a href="mailto:rahamanmatiur397@gmail.com" className="text-gray-300 hover:text-green-400">rahamanmatiur397@gmail.com</a>
           <a href="https://github.com/matiur25580" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">github.com/matiur25580</a>
           <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">LinkedIn</a>
