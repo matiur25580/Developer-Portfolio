@@ -43,7 +43,7 @@ export default function Contact(){
           <p className="text-[10px] text-gray-600 mt-1">Click to open map</p>
         </a>
         <a href="https://github.com/matiur25580" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <img src="https://cdn.simpleicons.org/github/white" className="w-12 h-12 mx-auto mb-3" alt="GitHub"/>
+          <img src="/social-github.svg" className="w-12 h-12 mx-auto mb-3" alt="GitHub"/>
           <h3 className="font-bold text-sm">GitHub</h3>
           <p className="text-xs text-green-400 mt-1">github.com/matiur25580</p>
           <p className="text-[10px] text-gray-600 mt-1">32 public projects</p>
@@ -55,13 +55,13 @@ export default function Contact(){
           <p className="text-[10px] text-gray-600 mt-1">MERN Developer</p>
         </a>
         <a href="https://www.instagram.com/rubel87598" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <div className="w-12 h-12 mx-auto rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3" style={{background:"linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)"}}><img src="https://cdn.simpleicons.org/instagram/white" className="w-7 h-7" alt="Instagram"/></div>
+          <div className="w-12 h-12 mx-auto rounded-xl flex items-center justify-center text-xl font-bold text-white mb-3" style={{background:"linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)"}}><img src="/social-instagram-white.svg" className="w-7 h-7" alt="Instagram"/></div>
           <h3 className="font-bold text-sm">Instagram</h3>
           <p className="text-xs text-green-400 mt-1">@rubel87598</p>
           <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
         </a>
         <a href="https://x.com/MatiurR20638496" className="bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl p-6 text-center transition block">
-          <img src="https://cdn.simpleicons.org/x/white" className="w-12 h-12 mx-auto mb-3" alt="X"/>
+          <img src="/social-x.svg" className="w-12 h-12 mx-auto mb-3" alt="X"/>
           <h3 className="font-bold text-sm">X (Twitter)</h3>
           <p className="text-xs text-green-400 mt-1">@MatiurR20638496</p>
           <p className="text-[10px] text-gray-600 mt-1">Follow me</p>
