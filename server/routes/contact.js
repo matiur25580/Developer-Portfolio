@@ -24,6 +24,28 @@ function loginRateLimit(ip) {
   return 0;
 }
 
+const submissionAttempts = new Map();
+const SUBMISSION_WINDOW_MS = 15 * 60 * 1000;
+const MAX_SUBMISSIONS = 5;
+
+function submissionRateLimit(ip) {
+  const now = Date.now();
+  let entry = submissionAttempts.get(ip);
+  if (!entry || entry.resetAt <= now) entry = { count: 0, resetAt: now + SUBMISSION_WINDOW_MS };
+  if (entry.count >= MAX_SUBMISSIONS) {
+    submissionAttempts.set(ip, entry);
+    return Math.ceil((entry.resetAt - now) / 1000);
+  }
+  entry.count += 1;
+  if (submissionAttempts.size > 10000) {
+    for (const [key, value] of submissionAttempts) {
+      if (value.resetAt <= now) submissionAttempts.delete(key);
+    }
+  }
+  submissionAttempts.set(ip, entry);
+  return 0;
+}
+
 function configuredSecrets() {
   return Boolean(process.env.ADMIN_PASS && process.env.ADMIN_SESSION_SECRET && process.env.ADMIN_SESSION_SECRET.length >= 32);
 }
@@ -87,6 +109,13 @@ router.post('/admin/login', (req, res) => {
 });
 
 router.post('/', async (req, res) => {
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  const retryAfter = submissionRateLimit(ip);
+  if (retryAfter > 0) {
+    res.set('Retry-After', String(retryAfter));
+    return res.status(429).json({ success: false, error: 'Too many submissions. Try again later.' });
+  }
+
   try {
     const name = typeof req.body?.name === 'string' ? req.body.name.trim() : '';
     const email = typeof req.body?.email === 'string' ? req.body.email.trim() : '';
