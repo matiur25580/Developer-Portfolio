@@ -38,7 +38,7 @@ test("portfolio document includes canonical and social metadata", async () => {
 test("crawler discovery files point to the canonical portfolio", async () => {
   const robots = await read("../public/robots.txt");
   const sitemap = await read("../public/sitemap.xml");
-  const canonical = "https://developer-portfolio-client-xi.vercel.app/";
+  const canonical = "https://developer-portfolio-client.vercel.app/";
 
   assert.match(robots, /User-agent:\s*\*/);
   assert.match(robots, /Allow:\s*\//);

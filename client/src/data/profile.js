@@ -1,7 +1,7 @@
 export const profile = {
   name: "Matiur Rahaman", role: "Full-Stack Developer | MERN, AI & Enterprise Applications",
   location: "Newtown, Kolkata, West Bengal, India", email: "rahamanmatiur397@gmail.com",
-  github: "https://github.com/matiur25580", website: "https://developer-portfolio-client-xi.vercel.app",
+  github: "https://github.com/matiur25580", website: "https://developer-portfolio-client.vercel.app",
   about: "Full-stack developer focused on building practical web applications, enterprise-style platforms, AI-assisted products and secure, role-based workflows.",
   addresses: { homeTown: "Vill: Surangapur, P.O: Samashpur, P.S: Hemtabad, Dist: Uttar Dinajpur (Raiganj), West Bengal, India", current: "Newtown, Kolkata, West Bengal, India" },
   knowledge: ["MERN Stack Architecture","Role-Based Dashboards","Real OTP Verification","MongoDB Atlas","API Deployment","Git Workflow","Responsive UI"],
