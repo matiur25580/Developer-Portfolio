@@ -83,6 +83,7 @@ test("section navigation normalizes case and contact form fields have explicit l
     assert.ok(contact.includes('htmlFor="contact-' + field + '"'), "Missing associated label: " + field);
   }
   assert.match(contact, /aria-live="polite"/);
+  assert.match(contact, /JSON\.stringify\(\{name:form\.name,email:form\.email,msg:form\.subject\+': '\+form\.msg\}\)/, "Preserve the existing contact submission payload");
   assert.match(contact, /32 public projects/);
 });
 
