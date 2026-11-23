@@ -55,7 +55,7 @@ export default function App(){
   return (
     <div className="bg-black min-h-screen">
       <SafeSection name="Navigation"><Navbar active={active} setActive={scrollToSection} /></SafeSection>
-      <div id="section-home" className="scroll-mt-20"><SafeSection name="Home"><HomePage setActive={scrollToSection}/></SafeSection></div>
+      <div id="section-home" className="scroll-mt-20"><SafeSection name="Home"><HomePage go={scrollToSection} setActive={scrollToSection}/></SafeSection></div>
       <div id="section-about" className="scroll-mt-20"><SafeSection name="About"><AboutPage/></SafeSection></div>
       <div id="section-skills" className="scroll-mt-20"><SafeSection name="Skills"><SkillsPage/></SafeSection></div>
       <div id="section-experience" className="scroll-mt-20"><SafeSection name="Experience"><ExperiencePage/></SafeSection></div>
