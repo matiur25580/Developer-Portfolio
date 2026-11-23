@@ -12,7 +12,7 @@ class SectionErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { failed: false }; }
   static getDerivedStateFromError() { return { failed: true }; }
   componentDidCatch(error, info) {
-    console.error(\`Portfolio section failed: \${this.props.name}\`, error, info.componentStack);
+    console.error('Portfolio section failed: ' + this.props.name, error, info.componentStack);
   }
   render() {
     if (this.state.failed) {
