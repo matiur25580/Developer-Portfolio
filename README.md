@@ -21,7 +21,7 @@ Capture the actual deployed portfolio after the latest production deployment. Th
 
 I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I enjoy designing and building web applications that bring together clean interfaces, reliable APIs, data-driven workflows, and practical integrations.
 
-This repository contains my personal portfolio website and a curated overview of **24 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
+This repository contains my personal portfolio website and a curated overview of **31 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
 
 - **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 - **GitHub:** [github.com/matiur25580](https://github.com/matiur25580)
@@ -402,6 +402,47 @@ All public projects in this GitHub account are listed below. This personal portf
 <p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-sentinelai" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+
+## Additional Projects (25–31)
+
+These seven repositories are now included in the interactive project catalogue. Their previews are intentionally marked as pending until verified portfolio-specific artwork is available.
+
+### 25 · VerityGrid — Data Trust & Reliability
+[View repository](https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform)
+
+Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence. The current project status and deployment boundaries are documented in the source repository.
+
+### 26 · ResilioX — Operational Resilience
+[View repository](https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform)
+
+Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response. Disaster recovery orchestration and third-party resilience remain planned.
+
+### 27 · AegisFlow — AI AgentOps Orchestration
+[View repository](https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform)
+
+Multi-tenant AgentOps control-plane foundation for agent and workflow lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
+
+### 28 · ChainProof — Software Supply Chain Trust
+[View repository](https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform)
+
+Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports, policy-as-code and supplier risk. Verify individual capabilities against the selected source branch.
+
+### 29 · CircuTrace — Digital Product Passport
+[View repository](https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform)
+
+Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows. Capabilities are under active development.
+
+### 30 · CivicNexus — Smart City Intelligence
+[View repository](https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform)
+
+Urban operations foundation with tenant- and jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization. Live IoT and digital-twin integrations remain product directions.
+
+### 31 · CareMesh — Healthcare Interoperability
+[View repository](https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform)
+
+Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent and purpose, FHIR-oriented exchange contracts, referrals, audit and provenance. This is not a production clinical system; use synthetic data only.
+
+---
 
 ## Technology Stack
 
