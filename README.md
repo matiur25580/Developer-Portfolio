@@ -18,14 +18,15 @@
 - [About](#about)
 - [Portfolio at a Glance](#portfolio-at-a-glance)
 - [Featured Project Snapshot](#featured-project-snapshot)
-- [Complete List — All 31 Projects](#all-31-projects)
+- [Interview-ready project order](#interview-ready-project-order)
+- [Complete List — All 32 Projects](#all-32-projects)
 - [Complete Project Visual Gallery](#complete-project-visual-gallery)
 - [Technology Stack](#technology-stack)
 - [Education](#education)
 - [Run Locally](#run-this-portfolio-locally)
 - [Connect](#connect)
 
-> **Portfolio focus:** full-stack engineering, secure application workflows, responsive product interfaces, API development and AI-assisted features. The project directory intentionally preserves all **31 projects**; each repository remains the source of truth for its implementation status.
+> **Portfolio focus:** full-stack engineering, secure application workflows, responsive product interfaces, API development and AI-assisted features. The project directory intentionally preserves all **32 project repositories**; each repository remains the source of truth for its implementation status.
 
 ## Screenshots
 
@@ -35,7 +36,7 @@ Capture the actual deployed portfolio after the latest production deployment. Th
 
 I'm **Matiur Rahaman**, a full-stack developer based in West Bengal, India. I enjoy designing and building web applications that bring together clean interfaces, reliable APIs, data-driven workflows, and practical integrations.
 
-This repository contains my personal portfolio website and a curated overview of **31 GitHub projects** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
+This repository contains my personal portfolio website and a curated overview of **32 GitHub project repositories** across recruitment, AI tools, fintech, logistics, healthcare, e-commerce, collaboration, and business operations.
 
 - **Portfolio source:** [Developer-Portfolio](https://github.com/matiur25580/Developer-Portfolio)
 - **GitHub:** [github.com/matiur25580](https://github.com/matiur25580)
@@ -46,16 +47,31 @@ This repository contains my personal portfolio website and a curated overview of
 
 | | |
 |---|---|
-| **Projects showcased** | 31 public repositories (excluding this portfolio) |
+| **Projects showcased** | 32 public repositories (excluding this portfolio) |
 | **Core focus** | Full-stack web development |
 | **Frontend** | React, TypeScript, JavaScript, Preact, Vite |
 | **Backend** | Node.js, Express.js, REST APIs, PHP |
 | **Data** | MongoDB, Mongoose, MySQL |
 | **Interests** | AI-assisted products, secure workflows, dashboards, real-time apps |
 
+## Interview-ready project order
+
+The portfolio website is the front door to this collection and is featured first in the visual showcase. The **32-project count covers the 32 project repositories**; this portfolio repository is the presentation site itself and is not double-counted.
+
+| Priority | Project | Why it is useful in an interview | Repository |
+|---:|---|---|---|
+| 01 | **Developer Portfolio — this website** | Demonstrates React UI composition, responsive design, searchable project discovery, category filters, project detail views and clear navigation to engineering work. | [Portfolio source](https://github.com/matiur25580/Developer-Portfolio) |
+| 02 | **FleetCommand — Logistics & Supply Chain** | Strong MERN case study: role-based workflows, fleet/trip/warehouse domains, API design, real-time updates and operational data. | [Source](https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center) |
+| 03 | **CityCare — Hospital Management** | Another substantial MERN case study: multiple user roles, patient and appointment workflows, domain modelling and secure access. | [Source](https://github.com/matiur25580/hospital-management-system) |
+| 04 | **HireFlow — ATS Recruitment System** | AI-assisted resume-to-job analysis alongside candidate, recruiter and hiring-pipeline workflows. | [Source](https://github.com/matiur25580/ats-recruitment-system) |
+| 05 | **Draftline — AI Writing Studio** | Gemini-powered content generation with verified accounts, generation history and credit-ledger concepts. | [Source](https://github.com/matiur25580/ai-saas-generator) |
+| 06 | **BuildSphere — Construction Intelligence** | Enterprise architecture across tenant isolation, project controls, document security, BIM coordination, testing and explainable decision support. | [Source](https://github.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform) |
+
+For interviews, lead with the first three and be ready to explain one complete user journey, the data model, API authorization, error handling, testing strategy and one engineering trade-off in each repository. Describe AI and enterprise capabilities according to the implementation boundaries documented in each project's README.
+
 ## Featured Project Snapshot
 
-A quick look at selected projects across the portfolio. The complete, numbered directory of all 31 projects follows below, and every project remains represented in the visual gallery.
+A quick look at selected projects across the portfolio. The complete, numbered directory of all 32 project repositories follows below, and every project remains represented in the visual gallery.
 
 | Project | Area | Technology / focus |
 |---|---|---|
@@ -71,7 +87,7 @@ A quick look at selected projects across the portfolio. The complete, numbered d
 | [Cyber Security Operations Command Center](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) | Cybersecurity | React, Vite, TypeScript, Node.js, Express, MongoDB |
 | [PulseOps — Enterprise Developer Platform](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) | DevOps · SRE · FinOps | Next.js, React, TypeScript, NestJS, PostgreSQL, Prisma, Docker |
 
-## All 31 Projects
+## All 32 Projects
 
 All public projects in this GitHub account are listed below. This personal portfolio repository is intentionally excluded.
 
@@ -121,39 +137,29 @@ All public projects in this GitHub account are listed below. This personal portf
 | 30 | **CivicNexus — Smart City Intelligence** | Geospatial urban incident management, incident timelines, hotspot intelligence and explainable prioritization. | [Source](https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform) |
 | 31 | **CareMesh — Healthcare Interoperability** | Healthcare identity, consent, FHIR-oriented exchange contracts, referrals, audit and provenance for care coordination. | [Source](https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform) |
 
+### Construction & built environment
+
+| # | Project | Overview | Repository |
+|---:|---|---|---|
+| 32 | **BuildSphere — Enterprise Construction Intelligence** | Multi-tenant construction delivery workspace covering project controls, commercial records, field operations, quality, safety, secure documents, BIM coordination and explainable project intelligence. Active engineering project; documented implementation boundaries are retained in its README. | [Source](https://github.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform) |
+
 > **Transparency note:** These repositories represent projects at different stages of implementation. The descriptions above summarize their focus; they do not imply that every planned feature or integration is complete or production-deployed. Please refer to each repository's README and source code for its current status. The Online Food Ordering System was an academic team project; my documented contribution was frontend UI work. The Cyber Security Command Center is an evolving project, so its broader SOC/SIEM/SOAR/GRC direction should not be mistaken for a fully implemented feature set.
 
 ## Complete Project Visual Gallery
 
-**31 projects · 31 project visuals.** The gallery below contains project-specific cover or dashboard artwork for every repository. These are concept cover artworks, not dashboard screenshots or claims about a live production deployment. The portfolio itself is excluded from this project gallery.
+**32 project repositories · 33 visuals including the portfolio website.** The gallery leads with the portfolio itself, followed by the two strongest MERN interview projects and then the complete 32-repository collection. Project visuals are concept cover artworks or illustrative dashboard previews, not claims about a live production deployment.
 
-<h3>01 · HireFlow — ATS Recruitment System</h3>
+<h3>01 · Developer Portfolio — Personal Website</h3>
 
-<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository</strong></a>
+<a href="https://github.com/matiur25580/Developer-Portfolio"><strong>View portfolio repository</strong></a>
 
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="Project 01 — HireFlow — ATS Recruitment System — Overview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-portfolio.svg" alt="Developer Portfolio — illustrative cover artwork for the portfolio website" width="900"></a>
 
-<p>HireFlow brings the recruitment journey into one focused workspace—from candidate discovery and application tracking to recruiter review and AI-assisted resume insights. The experience is designed to make hiring pipelines easier to follow, evaluate and manage.</p>
-
-
-
+<p>The portfolio website is the presentation layer for this body of work: responsive React sections, searchable project discovery, category filters, project detail views and clear paths to source repositories. This is illustrative cover artwork, not a captured production screenshot.</p>
 
 ---
 
-<h3>02 · TrustShield — Banking Fraud Detection</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="Project 02 — TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
-
-<p>TrustShield explores a secure digital-banking experience that brings together customer verification, OTP-based access, KYC workflows and fraud-monitoring signals. Its focus is helping teams review suspicious activity while keeping essential banking journeys clear and controlled.</p>
-
-
-
-
----
-
-<h3>03 · FleetCommand — Logistics & Supply Chain</h3>
+<h3>02 · FleetCommand — Logistics & Supply Chain</h3>
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center"><strong>View repository</strong></a>
 
@@ -166,20 +172,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>04 · SmartGadget Lifestyle MegaStore</h3>
-
-<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository</strong></a>
-
-<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="Project 04 — SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
-
-<p>SmartGadget presents an end-to-end commerce concept for discovering products and managing the seller-to-order journey. It brings catalogue browsing, seller workflows and order handling into a consistent shopping experience.</p>
-
-
-
-
----
-
-<h3>05 · CityCare Hospital Management</h3>
+<h3>03 · CityCare Hospital Management</h3>
 
 <a href="https://github.com/matiur25580/hospital-management-system"><strong>View repository</strong></a>
 
@@ -192,7 +185,46 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>06 · Draftline AI Writing Studio</h3>
+<h3>04 · HireFlow — ATS Recruitment System</h3>
+
+<a href="https://github.com/matiur25580/ats-recruitment-system"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="Project 01 — HireFlow — ATS Recruitment System — Overview" width="900"></a>
+
+<p>HireFlow brings the recruitment journey into one focused workspace—from candidate discovery and application tracking to recruiter review and AI-assisted resume insights. The experience is designed to make hiring pipelines easier to follow, evaluate and manage.</p>
+
+
+
+
+---
+
+<h3>05 · TrustShield — Banking Fraud Detection</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-Digital-Banking-Fraud-Detection-DevOps-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="Project 02 — TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
+
+<p>TrustShield explores a secure digital-banking experience that brings together customer verification, OTP-based access, KYC workflows and fraud-monitoring signals. Its focus is helping teams review suspicious activity while keeping essential banking journeys clear and controlled.</p>
+
+
+
+
+---
+
+<h3>06 · SmartGadget Lifestyle MegaStore</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="Project 04 — SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
+
+<p>SmartGadget presents an end-to-end commerce concept for discovering products and managing the seller-to-order journey. It brings catalogue browsing, seller workflows and order handling into a consistent shopping experience.</p>
+
+
+
+
+---
+
+<h3>07 · Draftline AI Writing Studio</h3>
 
 <a href="https://github.com/matiur25580/ai-saas-generator"><strong>View repository</strong></a>
 
@@ -205,7 +237,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>07 · Real Estate Management System</h3>
+<h3>08 · Real Estate Management System</h3>
 
 <a href="https://github.com/matiur25580/realestate-management-system"><strong>View repository</strong></a>
 
@@ -218,7 +250,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>08 · Real-Time Chat & Collaboration Hub</h3>
+<h3>09 · Real-Time Chat & Collaboration Hub</h3>
 
 <a href="https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub"><strong>View repository</strong></a>
 
@@ -231,7 +263,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>09 · Trello Clone</h3>
+<h3>10 · Trello Clone</h3>
 
 <a href="https://github.com/matiur25580/Trello-Clone"><strong>View repository</strong></a>
 
@@ -244,7 +276,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>10 · Online Food Ordering System</h3>
+<h3>11 · Online Food Ordering System</h3>
 
 <a href="https://github.com/matiur25580/Online-Food-Ordering-System-main"><strong>View repository</strong></a>
 
@@ -257,7 +289,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>11 · Smart HR & Payroll Management</h3>
+<h3>12 · Smart HR & Payroll Management</h3>
 
 <a href="https://github.com/matiur25580/enterprise-hr-payroll-system"><strong>View repository</strong></a>
 
@@ -270,7 +302,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>12 · Multi-Vendor Marketplace Seller Ecosystem</h3>
+<h3>13 · Multi-Vendor Marketplace Seller Ecosystem</h3>
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Multi-Vendor-Marketplace-Seller-Ecosystem-Command-Center"><strong>View repository</strong></a>
 
@@ -283,7 +315,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>13 · FinTech Smart Invoice & Expense System</h3>
+<h3>14 · FinTech Smart Invoice & Expense System</h3>
 
 <a href="https://github.com/matiur25580/FinTech-Smart-Invoice-Expense-Supplier-Payment-System"><strong>View repository</strong></a>
 
@@ -296,7 +328,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>14 · Cyber Security Operations Command Center</h3>
+<h3>15 · Cyber Security Operations Command Center</h3>
 
 <a href="https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center"><strong>View repository</strong></a>
 
@@ -309,7 +341,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>15 · PulseOps — Enterprise Developer Platform</h3>
+<h3>16 · PulseOps — Enterprise Developer Platform</h3>
 
 <a href="https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform"><strong>View repository</strong></a>
 
@@ -321,7 +353,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>16 · ContractSphere — Contract Lifecycle Intelligence</h3>
+<h3>17 · ContractSphere — Contract Lifecycle Intelligence</h3>
 
 <a href="https://github.com/matiur25580/ContractSphere-Enterprise-Contract-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
 
@@ -333,7 +365,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>17 · FinSight — Cloud FinOps Intelligence</h3>
+<h3>18 · FinSight — Cloud FinOps Intelligence</h3>
 
 <a href="https://github.com/matiur25580/enterprise-cloud-finsight-platform"><strong>View repository</strong></a>
 
@@ -345,7 +377,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>18 · PrivaOps — Privacy & Data Lifecycle</h3>
+<h3>19 · PrivaOps — Privacy & Data Lifecycle</h3>
 
 <a href="https://github.com/matiur25580/PrivaOps-Enterprise-Privacy-Data-Lifecycle-Platform"><strong>View repository</strong></a>
 
@@ -357,7 +389,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>19 · GridPulse — Energy Intelligence</h3>
+<h3>20 · GridPulse — Energy Intelligence</h3>
 
 <a href="https://github.com/matiur25580/GridPulse-Enterprise-Energy-Intelligence-Grid-Flexibility-Platform"><strong>View repository</strong></a>
 
@@ -369,7 +401,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>20 · ForgeOps — Asset Lifecycle & Maintenance</h3>
+<h3>21 · ForgeOps — Asset Lifecycle & Maintenance</h3>
 
 <a href="https://github.com/matiur25580/ForgeOps-Enterprise-Asset-Lifecycle-Predictive-Maintenance-Platform"><strong>View repository</strong></a>
 
@@ -381,7 +413,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>21 · SignalForge — Product Intelligence</h3>
+<h3>22 · SignalForge — Product Intelligence</h3>
 
 <a href="https://github.com/matiur25580/SignalForge-Enterprise-Product-Intelligence-Experimentation-Platform"><strong>View repository</strong></a>
 
@@ -393,7 +425,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>22 · CarbonLedger — ESG & Carbon Accounting</h3>
+<h3>23 · CarbonLedger — ESG & Carbon Accounting</h3>
 
 <a href="https://github.com/matiur25580/CarbonLedger-Enterprise-ESG-Carbon-Accounting-Platform"><strong>View repository</strong></a>
 
@@ -405,7 +437,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>23 · NexusID — Identity Security Governance</h3>
+<h3>24 · NexusID — Identity Security Governance</h3>
 
 <a href="https://github.com/matiur25580/NexusID-Enterprise-Identity-Security-Governance-Platform"><strong>View repository</strong></a>
 
@@ -417,7 +449,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>24 · SentinelAI — AI Governance & Risk</h3>
+<h3>25 · SentinelAI — AI Governance & Risk</h3>
 
 <a href="https://github.com/matiur25580/SentinelAI-Enterprise-AI-Governance-Risk-Intelligence-Platform"><strong>View repository</strong></a>
 
@@ -426,7 +458,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <p>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
-<h3>25 · VerityGrid — Data Trust & Reliability</h3>
+<h3>26 · VerityGrid — Data Trust & Reliability</h3>
 <a href="https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="Project 25 — VerityGrid — Data Trust & Reliability — illustrative dashboard preview" width="900">
@@ -436,7 +468,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>26 · ResilioX — Operational Resilience</h3>
+<h3>27 · ResilioX — Operational Resilience</h3>
 <a href="https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="Project 26 — ResilioX — Operational Resilience — illustrative dashboard preview" width="900">
@@ -446,7 +478,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>27 · AegisFlow — AI AgentOps Orchestration</h3>
+<h3>28 · AegisFlow — AI AgentOps Orchestration</h3>
 <a href="https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="Project 27 — AegisFlow — AI AgentOps Orchestration — illustrative dashboard preview" width="900">
@@ -456,7 +488,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>28 · ChainProof — Software Supply Chain Trust</h3>
+<h3>29 · ChainProof — Software Supply Chain Trust</h3>
 <a href="https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="Project 28 — ChainProof — Software Supply Chain Trust — illustrative dashboard preview" width="900">
@@ -466,7 +498,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>29 · CircuTrace — Digital Product Passport</h3>
+<h3>30 · CircuTrace — Digital Product Passport</h3>
 <a href="https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="Project 29 — CircuTrace — Digital Product Passport — illustrative dashboard preview" width="900">
@@ -476,7 +508,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>30 · CivicNexus — Smart City Intelligence</h3>
+<h3>31 · CivicNexus — Smart City Intelligence</h3>
 <a href="https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" alt="Project 30 — CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900">
@@ -486,7 +518,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
-<h3>31 · CareMesh — Healthcare Interoperability</h3>
+<h3>32 · CareMesh — Healthcare Interoperability</h3>
 <a href="https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="Project 31 — CareMesh — Healthcare Interoperability — illustrative dashboard preview" width="900">
@@ -495,6 +527,16 @@ All public projects in this GitHub account are listed below. This personal portf
 
 
 ---
+<h3>33 · BuildSphere — Enterprise Construction Intelligence Platform</h3>
+
+<a href="https://github.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/buildsphere-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/buildsphere-overview.svg" alt="Project 32 — BuildSphere — Enterprise Construction Intelligence Platform — illustrative cover artwork" width="900"></a>
+
+<p>Multi-tenant construction delivery workspace spanning project controls, commercial and procurement records, field reporting, quality and safety workflows, secure document control, IFC model registration, BCF-inspired coordination and explainable rule-based project intelligence. The cover is illustrative artwork; the repository README documents implemented capabilities, active engineering status and production prerequisites.</p>
+
+---
+
 
 ## Technology Stack
 
