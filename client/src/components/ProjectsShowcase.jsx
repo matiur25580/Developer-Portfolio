@@ -41,7 +41,9 @@ const filters = ["All","Featured","AI & Automation","Enterprise","FinTech","E-co
 function ProjectCard({ project, number, onExplore }) {
   // Local state is isolated per project card.
   const [imageIndex, setImageIndex] = useState(0);
+  const [imageFailed, setImageFailed] = useState(false);
   const touchStartX = useRef(null);
+  useEffect(() => { setImageFailed(false); }, [project.slug, imageIndex]);
   const total = Math.max(project.gallery.length, 1);
   const next = () => setImageIndex(index => (index + 1) % total);
   const previous = () => setImageIndex(index => (index - 1 + total) % total);
@@ -56,21 +58,21 @@ function ProjectCard({ project, number, onExplore }) {
       <div className="relative aspect-[16/9] w-full overflow-hidden border-b border-white/10 bg-[#0b1220]"
         onTouchStart={event => { touchStartX.current = event.touches[0].clientX; }}
         onTouchEnd={handleTouchEnd}>
-        {project.gallery[imageIndex] ? <img key={project.gallery[imageIndex]} src={project.gallery[imageIndex]} alt={`${project.title} preview ${imageIndex + 1} of ${total}`} className="h-full w-full select-none object-contain p-2" draggable="false" loading="lazy" /> : <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-[#101b2d] via-[#111827] to-[#1d1640] p-8 text-center"><span className="grid h-24 w-24 place-items-center rounded-3xl border border-cyan-300/30 bg-cyan-300/10 text-5xl text-cyan-200">{project.icon}</span><p className="text-sm font-bold text-slate-200">{project.title}</p><p className="text-xs text-slate-400">Project preview not yet added · View repository for current implementation</p></div>}
+        {project.gallery[imageIndex] && !imageFailed ? <img key={project.gallery[imageIndex]} src={project.gallery[imageIndex]} alt={`${project.title} preview ${imageIndex + 1} of ${total}`} className="h-full w-full select-none object-contain p-2" draggable="false" loading="lazy" decoding="async" onError={() => setImageFailed(true)} /> : <div role="img" aria-label={`${project.title} preview unavailable`} className="flex h-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-[#101b2d] via-[#111827] to-[#1d1640] p-6 text-center sm:p-8"><span className="grid h-16 w-16 place-items-center rounded-3xl border border-cyan-300/30 bg-cyan-300/10 text-4xl text-cyan-200 sm:h-20 sm:w-20">{project.icon}</span><p className="max-w-full break-words text-sm font-bold text-slate-200">{project.title}</p><p className="text-xs text-slate-400">{imageFailed ? "Preview could not load · View repository for the current implementation" : "Project preview not yet added · View repository for current implementation"}</p></div>}
         <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-100">{project.category}</span>
         <span className="absolute bottom-3 left-3 rounded-full border border-white/15 bg-black/75 px-2 py-1 text-[10px] font-bold text-white">{imageIndex + 1} / {total}</span>
         <span className="pointer-events-none absolute right-3 top-3 text-[10px] font-bold tracking-widest text-white/70">{String(number).padStart(2, "0")} / 31</span>
-        <div className="absolute bottom-3 right-3 z-10 flex items-center gap-2">
+        {total > 1 && <><div className="absolute bottom-3 right-3 z-10 flex items-center gap-2">
           <button type="button" onClick={previous} aria-label={`Previous image for ${project.title}`} className="grid h-10 w-10 place-items-center rounded-full border border-white/30 bg-black/75 text-xl text-white shadow-lg transition hover:bg-cyan-300 hover:text-slate-950">←</button>
-          <button type="button" onClick={next} aria-label={`Next image for ${project.title}`} title="Next project image" className="grid h-11 w-11 place-items-center rounded-full border border-white/30 bg-black/75 text-2xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950">➡️</button>
+          <button type="button" onClick={next} aria-label={`Next image for ${project.title}`} title="Next project image" className="grid h-10 w-10 place-items-center rounded-full border border-white/30 bg-black/75 text-xl text-white shadow-lg transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950">→</button>
         </div>
         <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-1.5">
           {project.gallery.map((_, index) => <button key={index} type="button" aria-label={`Show image ${index + 1} of ${project.title}`} aria-current={imageIndex === index ? "true" : undefined} onClick={() => setImageIndex(index)} className={`h-1.5 rounded-full transition-all ${imageIndex === index ? "w-5 bg-cyan-300" : "w-1.5 bg-white/45 hover:bg-white"}`} />)}
-        </div>
+        </div></>}
       </div>
       <div className="flex flex-1 flex-col p-5">
-        <div className="flex items-start justify-between gap-3"><h2 className="text-lg font-bold leading-snug group-hover:text-cyan-200">{project.title}</h2><span className="shrink-0 rounded-lg border border-cyan-300/20 bg-cyan-300/5 px-2 py-1 text-[10px] font-semibold text-cyan-200">{project.category}</span></div>
-        <p className="mt-3 flex-1 text-sm leading-6 text-slate-400">{project.summary}</p>
+        <div className="flex items-start justify-between gap-3"><h2 className="min-w-0 break-words text-lg font-bold leading-snug group-hover:text-cyan-200">{project.title}</h2><span className="shrink-0 rounded-lg border border-cyan-300/20 bg-cyan-300/5 px-2 py-1 text-[10px] font-semibold text-cyan-200">{project.category}</span></div>
+        <p className="mt-3 min-w-0 flex-1 break-words text-sm leading-6 text-slate-400">{project.summary}</p>
         <div className="mt-4 flex flex-wrap gap-2">{project.stack.map(technology => <span key={technology} className="rounded-md border border-white/10 bg-white/[.04] px-2 py-1 text-[10px] text-slate-300">{technology}</span>)}</div>
         <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-4">
           <button onClick={() => onExplore(project)} className="text-xs font-bold text-cyan-300 transition hover:text-white">Project details ↗</button>
