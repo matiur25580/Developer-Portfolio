@@ -157,10 +157,7 @@ export default function Resume() {
           {skills.map((skill) => <span key={skill} className="rounded-full border border-gray-800 bg-[#0a0a0a] px-3 py-1.5 text-xs text-gray-300">{skill}</span>)}
         </div>
 
-        <div className="mb-3 mt-8 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="text-sm font-bold tracking-widest text-green-400">PROJECT PORTFOLIO</h2>
-          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">32 PROJECT REPOSITORIES + PORTFOLIO</span>
-        </div>
+        <h2 className="mb-3 mt-8 text-sm font-bold tracking-widest text-green-400">PERSONAL PROJECT</h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {projects.map((project, index) => (
             <article key={project.name} className={`rounded-xl border p-4 transition ${'border-gray-800 bg-[#0c0c0c]'}`}>
