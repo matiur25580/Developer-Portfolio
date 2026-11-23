@@ -110,10 +110,10 @@ export default function ProjectsShowcase(){
         <div>
           <p className="mb-3 text-xs font-bold tracking-[.32em] text-cyan-400">SELECTED WORK / 2026</p>
           <h1 className="text-3xl font-black tracking-tight sm:text-5xl">Projects that solve <span className="bg-gradient-to-r from-cyan-300 to-violet-400 bg-clip-text text-transparent">real problems.</span></h1>
-          <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-400">A collection of full-stack applications, enterprise-style workflows and AI-assisted product concepts. Explore the work and open each source repository for implementation details.</p>
+          <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-400">A collection of 32 project repositories, with this portfolio website featured first. Explore full-stack applications, enterprise workflows and AI-assisted products, then open each source repository for implementation details.</p>
         </div>
         <div className="rounded-2xl border border-white/10 bg-white/[.04] px-5 py-4">
-          <p className="text-3xl font-black text-cyan-300">32</p><p className="text-xs text-slate-400">Projects showcased</p>
+          <p className="text-3xl font-black text-cyan-300">32</p><p className="text-xs text-slate-400">Project repositories</p>
         </div>
       </div>
       <div className="mb-6 flex flex-col gap-4">
