@@ -40,3 +40,5 @@ async function main() {
   console.log(JSON.stringify(report, null, 2));
 }
 main().catch((error) => { console.error(error); process.exit(1); });
+
+// Re-run the image generation workflow after the helper is present on the branch.
