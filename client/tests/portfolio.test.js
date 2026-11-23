@@ -85,3 +85,23 @@ test("section navigation normalizes case and contact form fields have explicit l
   assert.match(contact, /aria-live="polite"/);
   assert.match(contact, /32 public projects/);
 });
+
+test("keyboard navigation, mobile admin separation and project discovery stay accessible", async () => {
+  const app = await read("../src/App.jsx");
+  const navbar = await read("../src/components/Navbar.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const projects = await read("../src/components/ProjectsShowcase.jsx");
+  const css = await read("../src/index.css");
+
+  assert.match(app, /href="#main-content"/);
+  assert.match(app, /id="main-content"/);
+  assert.match(app, /href="#\/admin"/, "Keep the protected admin route reachable from the footer");
+  assert.doesNotMatch(navbar, /href="#\/admin"/, "Keep Admin out of the public mobile menu");
+  assert.match(navbar, /event\.key === 'Escape'/);
+  assert.match(pages, /prefers-reduced-motion: reduce/);
+  assert.match(projects, /aria-pressed=\{active===f\}/);
+  assert.match(projects, /type="search"/);
+  assert.match(projects, /aria-live="polite"/);
+  assert.match(projects, /event\.key==="Escape"/);
+  assert.match(css, /\.skip-link:focus/);
+});
