@@ -36,7 +36,7 @@ export default function Navbar({ active, setActive }) {
                 type="button"
                 onClick={() => navigate(item)}
                 aria-current={active === item ? 'page' : undefined}
-                className={\`rounded-lg px-3 py-2.5 text-left text-sm transition hover:bg-white/5 \${active === item ? 'bg-green-400/10 font-bold text-green-400' : 'text-gray-300'}\`}
+                className={'rounded-lg px-3 py-2.5 text-left text-sm transition hover:bg-white/5 ' + (active === item ? 'bg-green-400/10 font-bold text-green-400' : 'text-gray-300')}
               >
                 {item}
               </button>
