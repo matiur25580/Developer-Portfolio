@@ -1,14 +1,23 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { profile } from '../data/profile';
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
 
 export default function Resume() {
   const cardRef = useRef(null);
+  const [isExporting, setIsExporting] = useState(false);
+  const [exportError, setExportError] = useState('');
 
   const savePDF = async () => {
     const el = cardRef.current;
-    if (!el) return;
+    if (!el || isExporting) return;
+    setIsExporting(true);
+    setExportError('');
+
+    try {
+      // Keep PDF-only libraries out of the initial portfolio and resume chunks.
+      const [{ default: jsPDF }, { default: html2canvas }] = await Promise.all([
+        import('jspdf'),
+        import('html2canvas'),
+      ]);
 
     const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
     const pageW = pdf.internal.pageSize.getWidth();
@@ -78,7 +87,13 @@ export default function Resume() {
       pageIndex += 1;
     }
 
-    pdf.save('Matiur_Rahaman_Resume.pdf');
+      pdf.save('Matiur_Rahaman_Resume.pdf');
+    } catch (error) {
+      console.error('Resume PDF export failed:', error);
+      setExportError('PDF export could not be completed. Please try again.');
+    } finally {
+      setIsExporting(false);
+    }
   };
 
   const skills = ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'JWT Auth', 'Mongoose', 'Git & GitHub', 'Postman', 'Vercel', 'Render', 'Docker', 'REST APIs'];
@@ -114,13 +129,14 @@ export default function Resume() {
             <p className="mt-1 font-bold text-green-400">MERN Full Stack Developer</p>
             <p className="mt-2 text-sm text-gray-400">Newtown, Kolkata, West Bengal, India</p>
           </div>
-          <button onClick={savePDF} className="print:hidden inline-flex shrink-0 items-center gap-1.5 rounded-full bg-green-500 px-3 py-2 text-xs font-bold text-black shadow-lg shadow-green-500/10 transition hover:bg-green-400 sm:px-5 sm:py-2.5 sm:text-sm">
+          <button onClick={savePDF} disabled={isExporting} aria-busy={isExporting} className="print:hidden inline-flex shrink-0 items-center gap-1.5 rounded-full bg-green-500 px-3 py-2 text-xs font-bold text-black shadow-lg shadow-green-500/10 transition hover:bg-green-400 disabled:cursor-wait disabled:opacity-60 sm:px-5 sm:py-2.5 sm:text-sm">
             <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4"><path d="M10 2a.75.75 0 0 1 .75.75v7.19l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V2.75A.75.75 0 0 1 10 2Z"/><path d="M3.5 13.5a.75.75 0 0 1 .75.75v1.5h11.5v-1.5a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-.75.75h-13a.75.75 0 0 1-.75-.75v-2.25a.75.75 0 0 1 .75-.75Z"/></svg>
-            Save PDF
+            {isExporting ? "Preparing PDF…" : "Save PDF"}
           </button>
         </div>
+        {exportError && <p className="mt-3 text-xs text-red-400" role="alert">{exportError}</p>}
 
-        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">
+        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm>
           <a href="mailto:rahamanmatiur397@gmail.com" className="text-gray-300 hover:text-green-400">rahamanmatiur397@gmail.com</a>
           <a href="https://github.com/matiur25580" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">github.com/matiur25580</a>
           <a href="https://www.linkedin.com/in/matiur-rahaman-3a6086233" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-green-400">LinkedIn</a>
