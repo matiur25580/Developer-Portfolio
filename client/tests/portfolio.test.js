@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 
 const read = (path) => readFile(new URL(path, import.meta.url), "utf8");
 
@@ -194,4 +194,29 @@ test("below-the-fold education images defer downloads and social icons stay firs
   assert.ok(contact.includes("/social-x.svg"));
   assert.ok(css.includes("font-family: Inter, ui-sans-serif, system-ui"));
   assert.ok(!css.includes("fonts.googleapis.com") && !css.includes("fonts.gstatic.com"), "Keep typography on the local system-font stack");
+});
+
+test("large project previews use responsive AVIF/WebP variants with original fallbacks", async () => {
+  const responsiveImage = await read("../src/components/ResponsiveProjectImage.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const showcase = await read("../src/components/ProjectsShowcase.jsx");
+  const variants = { p1: [360, 480, 720, 960, 1280, 1440], p2: [360, 480, 720], p3: [360, 480, 720], p6: [360, 480, 720, 960, 1280] };
+  for (const [name, widths] of Object.entries(variants)) {
+    const extension = name === "p1" ? "webp" : "png";
+    assert.ok(responsiveImage.includes('"/projects/' + name + "." + extension + '":'));
+    for (const width of widths) {
+      for (const format of ["avif", "webp"]) {
+        const path = new URL("../public/projects/optimized/" + name + "-" + width + "." + format, import.meta.url);
+        const file = await stat(path);
+        assert.ok(file.size > 0 && file.size < 150_000, name + "-" + width + "." + format + " should be present and optimized");
+      }
+    }
+  }
+  assert.ok(responsiveImage.includes('type="image/avif"'));
+  assert.ok(responsiveImage.includes('type="image/webp"'));
+  assert.ok(responsiveImage.includes("src={src}"), "Keep the original image as a compatibility fallback");
+  assert.ok(responsiveImage.includes("width={image.width}") && responsiveImage.includes("height={image.height}"), "Reserve intrinsic image dimensions");
+  assert.ok(pages.includes("<ResponsiveProjectImage"));
+  assert.ok(showcase.includes("<ResponsiveProjectImage"));
+  assert.ok(showcase.includes("onError={() => setImageFailed(true)}"), "Preserve the existing gallery fallback behavior");
 });

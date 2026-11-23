@@ -1,5 +1,6 @@
 import { profile } from '../data/profile';
 import Contact from './Contact';
+import ResponsiveProjectImage from './ResponsiveProjectImage';
 import { useState, useEffect } from 'react';
 const green="text-green-400";
 export function HomePage(props){
@@ -375,7 +376,7 @@ function LegacyProjectsPage(){
       <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
         {profile.projects.map((p,i)=>(
           <button key={i} onClick={()=>setSel(i)} className="text-left bg-[#111] border border-gray-800 hover:border-green-500 rounded-2xl overflow-hidden transition group">
-            <img src={projectDetails[i].img} alt={p.name} className="h-40 w-full object-cover" loading="lazy" />
+            <ResponsiveProjectImage src={projectDetails[i].img} alt={p.name} className="h-40 w-full object-cover" pictureClassName="block h-40 w-full" sizes="(max-width: 768px) 90vw, 33vw" />
             <div className="p-4"><h3 className="font-bold text-[13px] group-hover:text-green-400 transition">{p.name}</h3><p className="text-[11px] text-green-400 mt-1">{p.tech}</p></div>
           </button>
         ))}

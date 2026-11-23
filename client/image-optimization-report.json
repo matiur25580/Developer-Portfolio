@@ -1,0 +1,189 @@
+[
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 360,
+    "webp": "p1-360.webp",
+    "webpBytes": 8190,
+    "avif": "p1-360.avif",
+    "avifBytes": 5300
+  },
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 480,
+    "webp": "p1-480.webp",
+    "webpBytes": 12438,
+    "avif": "p1-480.avif",
+    "avifBytes": 7384
+  },
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 720,
+    "webp": "p1-720.webp",
+    "webpBytes": 21636,
+    "avif": "p1-720.avif",
+    "avifBytes": 12252
+  },
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 960,
+    "webp": "p1-960.webp",
+    "webpBytes": 31522,
+    "avif": "p1-960.avif",
+    "avifBytes": 17112
+  },
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 1280,
+    "webp": "p1-1280.webp",
+    "webpBytes": 45278,
+    "avif": "p1-1280.avif",
+    "avifBytes": 22478
+  },
+  {
+    "source": "p1.webp",
+    "sourceBytes": 2507732,
+    "sourceWidth": 8192,
+    "sourceHeight": 5998,
+    "width": 1440,
+    "webp": "p1-1440.webp",
+    "webpBytes": 54006,
+    "avif": "p1-1440.avif",
+    "avifBytes": 27265
+  },
+  {
+    "source": "p2.png",
+    "sourceBytes": 152017,
+    "sourceWidth": 940,
+    "sourceHeight": 640,
+    "width": 360,
+    "webp": "p2-360.webp",
+    "webpBytes": 9324,
+    "avif": "p2-360.avif",
+    "avifBytes": 6157
+  },
+  {
+    "source": "p2.png",
+    "sourceBytes": 152017,
+    "sourceWidth": 940,
+    "sourceHeight": 640,
+    "width": 480,
+    "webp": "p2-480.webp",
+    "webpBytes": 13710,
+    "avif": "p2-480.avif",
+    "avifBytes": 8947
+  },
+  {
+    "source": "p2.png",
+    "sourceBytes": 152017,
+    "sourceWidth": 940,
+    "sourceHeight": 640,
+    "width": 720,
+    "webp": "p2-720.webp",
+    "webpBytes": 24410,
+    "avif": "p2-720.avif",
+    "avifBytes": 15654
+  },
+  {
+    "source": "p3.png",
+    "sourceBytes": 496903,
+    "sourceWidth": 766,
+    "sourceHeight": 1558,
+    "width": 360,
+    "webp": "p3-360.webp",
+    "webpBytes": 21920,
+    "avif": "p3-360.avif",
+    "avifBytes": 14928
+  },
+  {
+    "source": "p3.png",
+    "sourceBytes": 496903,
+    "sourceWidth": 766,
+    "sourceHeight": 1558,
+    "width": 480,
+    "webp": "p3-480.webp",
+    "webpBytes": 31182,
+    "avif": "p3-480.avif",
+    "avifBytes": 20067
+  },
+  {
+    "source": "p3.png",
+    "sourceBytes": 496903,
+    "sourceWidth": 766,
+    "sourceHeight": 1558,
+    "width": 720,
+    "webp": "p3-720.webp",
+    "webpBytes": 47684,
+    "avif": "p3-720.avif",
+    "avifBytes": 29526
+  },
+  {
+    "source": "p6.png",
+    "sourceBytes": 1067898,
+    "sourceWidth": 1344,
+    "sourceHeight": 768,
+    "width": 360,
+    "webp": "p6-360.webp",
+    "webpBytes": 4968,
+    "avif": "p6-360.avif",
+    "avifBytes": 3457
+  },
+  {
+    "source": "p6.png",
+    "sourceBytes": 1067898,
+    "sourceWidth": 1344,
+    "sourceHeight": 768,
+    "width": 480,
+    "webp": "p6-480.webp",
+    "webpBytes": 7042,
+    "avif": "p6-480.avif",
+    "avifBytes": 4726
+  },
+  {
+    "source": "p6.png",
+    "sourceBytes": 1067898,
+    "sourceWidth": 1344,
+    "sourceHeight": 768,
+    "width": 720,
+    "webp": "p6-720.webp",
+    "webpBytes": 12302,
+    "avif": "p6-720.avif",
+    "avifBytes": 7792
+  },
+  {
+    "source": "p6.png",
+    "sourceBytes": 1067898,
+    "sourceWidth": 1344,
+    "sourceHeight": 768,
+    "width": 960,
+    "webp": "p6-960.webp",
+    "webpBytes": 18492,
+    "avif": "p6-960.avif",
+    "avifBytes": 11273
+  },
+  {
+    "source": "p6.png",
+    "sourceBytes": 1067898,
+    "sourceWidth": 1344,
+    "sourceHeight": 768,
+    "width": 1280,
+    "webp": "p6-1280.webp",
+    "webpBytes": 27238,
+    "avif": "p6-1280.avif",
+    "avifBytes": 15863
+  }
+]
