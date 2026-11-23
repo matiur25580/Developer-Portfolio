@@ -295,8 +295,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ---
 
----
-
 <h3>15 · PulseOps — Enterprise Developer Platform</h3>
 
 <a href="https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform"><strong>View repository</strong></a>
@@ -316,7 +314,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg" alt="ContractSphere — Contract Lifecycle Intelligence — project cover illustration" width="900"></a>
 
 
-<sub>LegalTech · Enterprise · Contract authoring, approvals, obligations and lifecycle intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>LegalTech · Enterprise · Contract authoring, approvals, obligations and lifecycle intelligence. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -328,7 +326,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg" alt="FinSight — Cloud FinOps Intelligence — project cover illustration" width="900"></a>
 
 
-<sub>Cloud · FinOps · Cloud cost visibility, resource insights and optimization workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Cloud · FinOps · Cloud cost visibility, resource insights and optimization workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -340,7 +338,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg" alt="PrivaOps — Privacy & Data Lifecycle — project cover illustration" width="900"></a>
 
 
-<sub>Privacy · Governance · Privacy request operations, identity verification and data lifecycle controls. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Privacy · Governance · Privacy request operations, identity verification and data lifecycle controls. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -352,7 +350,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg" alt="GridPulse — Energy Intelligence — project cover illustration" width="900"></a>
 
 
-<sub>Energy · Sustainability · Energy telemetry, grid flexibility and operational intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Energy · Sustainability · Energy telemetry, grid flexibility and operational intelligence. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -364,7 +362,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg" alt="ForgeOps — Asset Lifecycle & Maintenance — project cover illustration" width="900"></a>
 
 
-<sub>Industrial · Operations · Asset lifecycle management, maintenance planning and procurement workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Industrial · Operations · Asset lifecycle management, maintenance planning and procurement workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -376,7 +374,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg" alt="SignalForge — Product Intelligence — project cover illustration" width="900"></a>
 
 
-<sub>Product · Experimentation · Product analytics, experimentation and decision intelligence workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Product · Experimentation · Product analytics, experimentation and decision intelligence workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -388,7 +386,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg" alt="CarbonLedger — ESG & Carbon Accounting — project cover illustration" width="900"></a>
 
 
-<sub>ESG · Sustainability · Carbon accounting, emissions reporting and sustainability operations. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>ESG · Sustainability · Carbon accounting, emissions reporting and sustainability operations. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -400,7 +398,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — project cover illustration" width="900"></a>
 
 
-<sub>Identity · Security · Identity lifecycle, access governance and enterprise security workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>Identity · Security · Identity lifecycle, access governance and enterprise security workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
 
 ---
@@ -412,14 +410,14 @@ All public projects in this GitHub account are listed below. This personal portf
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg" alt="SentinelAI — AI Governance & Risk — project cover illustration" width="900"></a>
 
 
-<sub>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</sub>
+<p>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</p>
 
 <h3>25 · VerityGrid — Data Trust & Reliability</h3>
 <a href="https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform"><strong>View repository</strong></a>
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="VerityGrid — Data Trust & Reliability — illustrative dashboard preview" width="900">
 
-Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence.
+<p>Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence.</p>
 
 
 ---
@@ -429,7 +427,7 @@ Multi-tenant data catalog, profiling, quality validation, lineage, freshness obj
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="ResilioX — Operational Resilience — illustrative dashboard preview" width="900">
 
-Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response.
+<p>Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response.</p>
 
 
 ---
@@ -439,7 +437,7 @@ Service-centric resilience workspace for business impact analysis, dependency ma
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="AegisFlow — AI AgentOps Orchestration — illustrative dashboard preview" width="900">
 
-Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
+<p>Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.</p>
 
 
 ---
@@ -449,7 +447,7 @@ Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gate
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="ChainProof — Software Supply Chain Trust — illustrative dashboard preview" width="900">
 
-Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports and policy-as-code.
+<p>Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports and policy-as-code.</p>
 
 
 ---
@@ -459,7 +457,7 @@ Software supply-chain security foundation for SBOM inventory, vulnerability inte
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="CircuTrace — Digital Product Passport — illustrative dashboard preview" width="900">
 
-Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows.
+<p>Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows.</p>
 
 
 ---
@@ -469,7 +467,7 @@ Early MERN foundation for digital product passports, bills of materials, supplie
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900">
 
-Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.
+<p>Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.</p>
 
 
 ---
@@ -479,7 +477,7 @@ Urban operations foundation with jurisdiction-scoped geospatial incident managem
 
 <img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="CareMesh — Healthcare Interoperability — illustrative dashboard preview" width="900">
 
-Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent, FHIR-oriented exchange contracts, referrals, audit and provenance.
+<p>Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent, FHIR-oriented exchange contracts, referrals, audit and provenance.</p>
 
 
 ---
