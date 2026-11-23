@@ -67,7 +67,7 @@ export default function Resume() {
 
         <div className="mb-3 mt-8 flex flex-wrap items-center justify-between gap-2">
           <h2 className="text-sm font-bold tracking-widest text-green-400">SELECTED PROJECTS</h2>
-          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">24 PROJECTS</span>
+          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">{projects.length} PROJECTS</span>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {projects.map((project, index) => (
@@ -78,7 +78,7 @@ export default function Resume() {
                   <h3 className="text-sm font-bold leading-snug text-white">{project.name}</h3>
                   <p className="mt-2 text-xs leading-relaxed text-gray-400">{project.desc}</p>
                   <div className="mt-3 flex flex-wrap gap-1.5">
-                    {project.tech.map((technology) => <span key={technology} className="rounded-md border border-gray-800 bg-black/40 px-2 py-1 text-[10px] text-gray-300">{technology}</span>)}
+                    {(Array.isArray(project.tech) ? project.tech : String(project.tech || '').split(' · ').filter(Boolean)).map((technology) => <span key={technology} className="rounded-md border border-gray-800 bg-black/40 px-2 py-1 text-[10px] text-gray-300">{technology}</span>)}
                   </div>
                   <a href={project.repo} target="_blank" rel="noreferrer" className="mt-3 inline-flex text-[11px] font-bold text-green-400 hover:text-green-300">GitHub Repository ↗</a>
                 </div>
