@@ -183,14 +183,15 @@ test("below-the-fold education images defer downloads and social icons stay firs
   const contact = await read("../src/components/Contact.jsx");
   const css = await read("../src/index.css");
   for (const image of ["/bitlogo.jpg", "/bit1.jpg", "/bit2.jpg", "/bit3.jpg", "/unilogo.svg", "/uni1.jpg", "/uni2.jpg", "/uni3.jpg"]) {
-    const escaped = image.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
-    const pattern = new RegExp("<img src=\"" + escaped + "\"[^>]*loading=\"lazy\"[^>]*decoding=\"async\"");
-    assert.match(pages, pattern, image + " should defer offscreen image loading");
+    const imageTag = pages.split("<img").find((tag) => tag.includes('src="' + image + '"'));
+    assert.ok(imageTag, "Missing education image: " + image);
+    assert.ok(imageTag.includes('loading="lazy"'), image + " should load lazily");
+    assert.ok(imageTag.includes('decoding="async"'), image + " should decode asynchronously");
   }
-  assert.doesNotMatch(contact, /cdn\\.simpleicons\\.org/, "Contact social icons should not depend on a third-party image host");
-  assert.match(contact, /\\/social-github\\.svg/);
-  assert.match(contact, /\\/social-instagram-white\\.svg/);
-  assert.match(contact, /\\/social-x\\.svg/);
-  assert.match(css, /font-family:\\s*Inter, ui-sans-serif, system-ui/);
-  assert.doesNotMatch(css, /fonts\\.googleapis\\.com|fonts\\.gstatic\\.com/, "Keep typography on the local system-font stack");
+  assert.ok(!contact.includes("cdn.simpleicons.org"), "Contact social icons should not depend on a third-party image host");
+  assert.ok(contact.includes("/social-github.svg"));
+  assert.ok(contact.includes("/social-instagram-white.svg"));
+  assert.ok(contact.includes("/social-x.svg"));
+  assert.ok(css.includes("font-family: Inter, ui-sans-serif, system-ui"));
+  assert.ok(!css.includes("fonts.googleapis.com") && !css.includes("fonts.gstatic.com"), "Keep typography on the local system-font stack");
 });
