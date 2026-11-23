@@ -15,8 +15,10 @@ async function main() {
     if (!fs.existsSync(input)) throw new Error("Missing source image: " + filename);
     const metadata = await sharp(input).metadata();
     const originalBytes = fs.statSync(input).size;
-    for (const width of widths) {
-      if (metadata.width && metadata.width <= width) continue;
+    fs.copyFileSync(input, path.join(output, "original-" + filename));
+    const actualWidths = [...new Set(widths.map((width) => Math.min(width, metadata.width || width)))];
+    for (const width of actualWidths) {
+      if (!width || width >= (metadata.width || 0)) continue;
       const base = path.parse(filename).name;
       const pipeline = sharp(input).rotate().resize({ width, withoutEnlargement: true });
       const webpPath = path.join(output, base + "-" + width + ".webp");
@@ -40,5 +42,3 @@ async function main() {
   console.log(JSON.stringify(report, null, 2));
 }
 main().catch((error) => { console.error(error); process.exit(1); });
-
-// Re-run the image generation workflow after the helper is present on the branch.
