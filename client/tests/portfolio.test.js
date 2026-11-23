@@ -31,6 +31,9 @@ test("portfolio document includes canonical and social metadata", async () => {
   assert.match(html, /<title>Matiur Rahaman \| Full-Stack Developer Portfolio<\/title>/);
   assert.match(html, /name="description"/);
   assert.match(html, /rel="canonical"/);
+  assert.match(html, /rel="icon" type="image\/svg\+xml" href="\/favicon\.svg"/);
+  const favicon = await read("../public/favicon.svg");
+  assert.match(favicon, /<svg/);
   assert.match(html, /property="og:title"/);
   assert.match(html, /name="twitter:card"/);
 });
