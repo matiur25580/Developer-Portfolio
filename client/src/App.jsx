@@ -2,7 +2,6 @@ import React, { lazy, Suspense, useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import { HomePage, AboutPage, SkillsPage, ExperiencePage, ServicesPage, ProjectsPage } from './components/Pages';
 import Contact from './components/Contact';
-import { initTheme } from './utils/theme';
 
 const Admin = lazy(() => import('./pages/Admin'));
 const Resume = lazy(() => import('./components/Resume'));
@@ -13,7 +12,7 @@ class SectionErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { failed: false }; }
   static getDerivedStateFromError() { return { failed: true }; }
   componentDidCatch(error, info) {
-    console.error(`Portfolio section failed: ${this.props.name}`, error, info.componentStack);
+    console.error(\`Portfolio section failed: \${this.props.name}\`, error, info.componentStack);
   }
   render() {
     if (this.state.failed) {
@@ -38,7 +37,6 @@ export default function App(){
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
   };
   useEffect(()=>{
-    try { initTheme(); } catch (error) { console.warn('Theme preference could not be read:', error); }
     const h=()=>{
       const hash=window.location.hash;
       setIsAdmin(hash==='#/admin');
