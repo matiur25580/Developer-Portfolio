@@ -37,6 +37,21 @@ test("light theme styles the full portfolio, including existing dark cards and p
   assert.match(css, /prefers-reduced-motion/);
 });
 
+test("light theme uses accessible dark green text while dark theme keeps its original accent", async () => {
+  const css = await read("../src/index.css");
+
+  for (const token of [
+    'html.light-mode [class~="text-green-300"]',
+    'html.light-mode [class~="text-green-400"]',
+    'html.light-mode [class~="text-green-500"]',
+    'html.light-mode [class~="hover:text-green-300"]:hover',
+    "color: #166534 !important",
+    "--portfolio-accent: #4ade80",
+  ]) {
+    assert.ok(css.includes(token), "Missing accessible green contrast rule: " + token);
+  }
+});
+
 test("theme update keeps every portfolio section and existing features wired", async () => {
   const app = await read("../src/App.jsx");
   const navbar = await read("../src/components/Navbar.jsx");
