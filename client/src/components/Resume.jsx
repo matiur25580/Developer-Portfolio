@@ -29,7 +29,22 @@ export default function Resume() {
 
   const skills = ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'JWT Auth', 'Mongoose', 'Git & GitHub', 'Postman', 'Vercel', 'Render', 'Docker', 'REST APIs'];
 
-  const projects = profile.projects;
+  const projects = [
+    {
+      name: 'Developer Portfolio — Personal Portfolio & Project Showcase',
+      desc: 'Responsive developer portfolio presenting technical skills, selected work, project previews and contact information.',
+      tech: 'React · Vite · JavaScript · Tailwind CSS · Vercel',
+      repo: 'https://github.com/matiur25580/Developer-Portfolio',
+      featured: true,
+    },
+    {
+      name: 'SmartGadget MegaStore — MERN E-commerce Platform',
+      desc: 'MERN e-commerce demo with JWT authentication, email OTP, role-protected catalog operations, API-backed product browsing and COD orders with server-side pricing and transactional stock reservation.',
+      tech: 'MongoDB · Express.js · React · Node.js · JWT · Email OTP',
+      repo: 'https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center',
+      featured: true,
+    },
+  ];
 
   const exp = [
     ['MERN Web Development Intern', '2023', 'Completed a 6-month MERN stack internship building full-stack web applications with React, Node.js, Express and MongoDB.'],
@@ -58,7 +73,7 @@ export default function Resume() {
         </div>
 
         <h2 className="mb-3 mt-8 text-sm font-bold tracking-widest text-green-400">SUMMARY</h2>
-        <p className="text-sm leading-relaxed text-gray-300">MERN Full Stack Developer building practical full-stack applications with authentication, role-based workflows, dashboards and data-driven features. Portfolio showcases 24 projects spanning enterprise workflows, AI-assisted products, finance, HR, healthcare, logistics, property management, cybersecurity and developer tools.</p>
+        <p className="text-sm leading-relaxed text-gray-300">MERN Full Stack Developer building practical full-stack applications with authentication, role-based workflows, dashboards and data-driven features. Selected work highlights a responsive developer portfolio and a MERN e-commerce application with authentication, catalog management and order workflows.</p>
 
         <h2 className="mb-3 mt-8 text-sm font-bold tracking-widest text-green-400">TECHNICAL SKILLS</h2>
         <div className="flex flex-wrap gap-2">
@@ -67,7 +82,7 @@ export default function Resume() {
 
         <div className="mb-3 mt-8 flex flex-wrap items-center justify-between gap-2">
           <h2 className="text-sm font-bold tracking-widest text-green-400">SELECTED PROJECTS</h2>
-          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">{projects.length} PROJECTS</span>
+          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">{projects.length} SELECTED PROJECTS</span>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {projects.map((project, index) => (
