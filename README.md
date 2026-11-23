@@ -32,16 +32,16 @@ This repository contains my personal portfolio website and a curated overview of
 
 | | |
 |---|---|
-| **Projects showcased** | 24 public repositories (excluding this portfolio) |
+| **Projects showcased** | 31 public repositories (excluding this portfolio) |
 | **Core focus** | Full-stack web development |
 | **Frontend** | React, TypeScript, JavaScript, Preact, Vite |
 | **Backend** | Node.js, Express.js, REST APIs, PHP |
 | **Data** | MongoDB, Mongoose, MySQL |
 | **Interests** | AI-assisted products, secure workflows, dashboards, real-time apps |
 
-## Featured Work
+## Project Gallery (1–31)
 
-A selection of projects from the full catalogue. Open a repository to explore its source code, setup instructions, screenshots, and implementation notes.
+The complete portfolio catalogue contains 31 projects. Projects 1–24 are presented in the primary gallery below, and projects 25–31 continue in the Additional Projects gallery further down this README. Open a repository to explore its source code, setup instructions, screenshots, and implementation notes.
 
 | Project | Area | Technology / focus |
 |---|---|---|
@@ -57,7 +57,7 @@ A selection of projects from the full catalogue. Open a repository to explore it
 | [Cyber Security Operations Command Center](https://github.com/matiur25580/Enterprise-AI-Powered-Cyber-Security-Operations-Command-Center) | Cybersecurity | React, Vite, TypeScript, Node.js, Express, MongoDB |
 | [PulseOps — Enterprise Developer Platform](https://github.com/matiur25580/PulseOps-Enterprise-Developer-Platform) | DevOps · SRE · FinOps | Next.js, React, TypeScript, NestJS, PostgreSQL, Prisma, Docker |
 
-## All 24 Projects
+## All 31 Projects
 
 All public projects in this GitHub account are listed below. This personal portfolio repository is intentionally excluded.
 
@@ -104,7 +104,7 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ## Complete Project Visual Gallery
 
-**24 projects · 24 cover illustrations.** The gallery below contains one project-specific cover illustration per repository. These are concept cover artworks, not dashboard screenshots or claims about a live production deployment. The portfolio itself is excluded from this project gallery.
+**31 projects · 31 project visuals.** The gallery below contains project-specific cover or dashboard artwork for every repository. These are concept cover artworks, not dashboard screenshots or claims about a live production deployment. The portfolio itself is excluded from this project gallery.
 
 <h3>01 · HireFlow — ATS Recruitment System</h3>
 
