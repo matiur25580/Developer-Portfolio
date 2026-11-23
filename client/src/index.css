@@ -135,6 +135,13 @@ html.light-mode [class~="text-gray-600"] {
 }
 /* Green text uses a darker accessible shade on light surfaces.
    Keep the original vivid greens unchanged in dark mode. */
+/* Yellow status and skill labels need a darker tone on light surfaces. */
+html.light-mode [class~="text-yellow-300"],
+html.light-mode [class~="text-yellow-400"],
+html.light-mode [class~="text-yellow-500"],
+html.light-mode [class~="hover:text-yellow-400"]:hover {
+  color: #854d0e !important;
+}
 html.light-mode [class~="text-green-300"],
 html.light-mode [class~="text-green-400"],
 html.light-mode [class~="text-green-500"],
