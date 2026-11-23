@@ -4,17 +4,26 @@ import { readFile } from "node:fs/promises";
 
 const read = (path) => readFile(new URL(path, import.meta.url), "utf8");
 
-test("portfolio lists exactly 31 projects with unique slugs and repository links", async () => {
+test("portfolio keeps all 32 project repositories plus its own featured entry", async () => {
   const source = await read("../src/components/ProjectsShowcase.jsx");
   const projects = [...source.matchAll(/\{ slug:"([^"]+)", title:"([^"]+)"[\s\S]*?repo:"([^"]+)"/g)]
     .map(([, slug, title, repo]) => ({ slug, title, repo }));
 
-  assert.equal(projects.length, 31, "Keep all 31 portfolio projects visible");
-  assert.equal(new Set(projects.map((project) => project.slug)).size, 31, "Project slugs must be unique");
+  assert.equal(projects.length, 33, "Keep the portfolio entry and all 32 project repositories visible");
+  assert.equal(new Set(projects.map((project) => project.slug)).size, 33, "Project slugs must be unique");
+
+  const portfolioEntries = projects.filter((project) => project.slug === "portfolio");
+  const repositoryProjects = projects.filter((project) => project.slug !== "portfolio");
+
+  assert.equal(portfolioEntries.length, 1, "Keep the portfolio itself featured exactly once");
+  assert.equal(repositoryProjects.length, 32, "Keep all 32 external project repositories");
   for (const project of projects) {
     assert.ok(project.title.trim(), `Missing title for ${project.slug}`);
-    assert.ok(project.repo.trim(), `Missing GitHub repository for ${project.slug}`);
+    assert.ok(project.repo.trim(), `Missing repository for ${project.slug}`);
   }
+
+  const profile = await read("../src/data/profile.js");
+  assert.match(profile, /projectsCount:\s*32/, "Keep the profile project count in sync");
 });
 
 test("portfolio document includes canonical and social metadata", async () => {
@@ -35,4 +44,22 @@ test("crawler discovery files point to the canonical portfolio", async () => {
   assert.match(robots, /Allow:\s*\//);
   assert.ok(robots.includes(`${canonical}sitemap.xml`));
   assert.ok(sitemap.includes(`<loc>${canonical}</loc>`));
+});
+
+test("core portfolio routes and admin/resume/contact features remain wired", async () => {
+  const app = await read("../src/App.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const contact = await read("../src/components/Contact.jsx");
+  const admin = await read("../src/pages/Admin.jsx");
+  const resume = await read("../src/components/Resume.jsx");
+
+  for (const section of ["HomePage", "AboutPage", "SkillsPage", "ExperiencePage", "ServicesPage", "ProjectsPage"]) {
+    assert.ok(pages.includes(`function ${section}`), `Missing ${section}`);
+  }
+  for (const feature of ["Contact", "Resume", "Admin"]) {
+    assert.ok(app.includes(feature), `${feature} feature is no longer wired into the app`);
+  }
+  assert.match(contact, /Send Message/);
+  assert.match(admin, /Delete All/);
+  assert.match(resume, /Save PDF/);
 });
