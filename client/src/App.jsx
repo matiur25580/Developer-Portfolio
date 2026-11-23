@@ -54,15 +54,18 @@ export default function App(){
   if(isAdmin) return <Suspense fallback={<SectionLoading />}><SafeSection name="Admin"><Admin /></SafeSection></Suspense>;
   return (
     <div className="bg-black min-h-screen">
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <SafeSection name="Navigation"><Navbar active={active} setActive={scrollToSection} /></SafeSection>
-      <div id="section-home" className="scroll-mt-20"><SafeSection name="Home"><HomePage go={scrollToSection} setActive={scrollToSection}/></SafeSection></div>
-      <div id="section-about" className="scroll-mt-20"><SafeSection name="About"><AboutPage/></SafeSection></div>
-      <div id="section-skills" className="scroll-mt-20"><SafeSection name="Skills"><SkillsPage/></SafeSection></div>
-      <div id="section-experience" className="scroll-mt-20"><SafeSection name="Experience"><ExperiencePage/></SafeSection></div>
-      <div id="section-services" className="scroll-mt-20"><SafeSection name="Services"><ServicesPage/></SafeSection></div>
-      <div id="section-projects" className="scroll-mt-20"><SafeSection name="Projects"><ProjectsPage/></SafeSection></div>
-      <div id="section-contact" className="scroll-mt-20"><SafeSection name="Contact"><Contact/></SafeSection></div>
-      <div id="section-resume" className="scroll-mt-20"><SafeSection name="Resume"><Suspense fallback={<SectionLoading />}><Resume/></Suspense></SafeSection></div>
+      <div id="main-content" tabIndex="-1">
+        <div id="section-home" className="scroll-mt-20"><SafeSection name="Home"><HomePage go={scrollToSection} setActive={scrollToSection}/></SafeSection></div>
+        <div id="section-about" className="scroll-mt-20"><SafeSection name="About"><AboutPage/></SafeSection></div>
+        <div id="section-skills" className="scroll-mt-20"><SafeSection name="Skills"><SkillsPage/></SafeSection></div>
+        <div id="section-experience" className="scroll-mt-20"><SafeSection name="Experience"><ExperiencePage/></SafeSection></div>
+        <div id="section-services" className="scroll-mt-20"><SafeSection name="Services"><ServicesPage/></SafeSection></div>
+        <div id="section-projects" className="scroll-mt-20"><SafeSection name="Projects"><ProjectsPage/></SafeSection></div>
+        <div id="section-contact" className="scroll-mt-20"><SafeSection name="Contact"><Contact/></SafeSection></div>
+        <div id="section-resume" className="scroll-mt-20"><SafeSection name="Resume"><Suspense fallback={<SectionLoading />}><Resume/></Suspense></SafeSection></div>
+      </div>
       <footer className="bg-black text-gray-600 text-center p-4 text-xs border-t border-gray-900">© 2026 Matiur Rahaman | <a href="#/admin" className="underline">Admin</a></footer>
     </div>
   );
