@@ -62,7 +62,7 @@ export function AboutPage(){
     ["Languages","Bangla, Hindi, English"],
   ];
   const stats=[
-    ["32","GitHub Repositories"],
+    ["31","Projects"],
     ["15+","Tech Skills"],
     ["Full Stack","Development Focus"],
     ["AI + MERN","Project Areas"],
