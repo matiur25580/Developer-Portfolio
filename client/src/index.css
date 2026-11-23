@@ -52,6 +52,24 @@ html.light-mode #root {
   to { transform: translateX(-50%); }
 }
 
+/* Keyboard users can jump past the sticky navigation directly to content. */
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1000;
+  transform: translateY(-180%);
+  border-radius: 0.75rem;
+  background: #4ade80;
+  color: #052e16;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .2);
+}
+.skip-link:focus { transform: translateY(0); }
+#main-content:focus { outline: none; }
+
 /* Shared layout, interaction and accessibility foundations. */
 * { box-sizing: border-box; }
 html {
@@ -135,6 +153,13 @@ html.light-mode [class~="text-gray-600"] {
 }
 /* Green text uses a darker accessible shade on light surfaces.
    Keep the original vivid greens unchanged in dark mode. */
+/* Yellow status and skill labels need a darker tone on light surfaces. */
+html.light-mode [class~="text-yellow-300"],
+html.light-mode [class~="text-yellow-400"],
+html.light-mode [class~="text-yellow-500"],
+html.light-mode [class~="hover:text-yellow-400"]:hover {
+  color: #854d0e !important;
+}
 html.light-mode [class~="text-green-300"],
 html.light-mode [class~="text-green-400"],
 html.light-mode [class~="text-green-500"],

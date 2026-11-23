@@ -29,7 +29,7 @@ export default function Navbar({ active, setActive }) {
           {open ? '×' : '☰'}
         </button>
         {open && (
-          <div id="mobile-navigation" className="absolute left-0 top-12 z-50 flex min-w-52 flex-col gap-1 rounded-2xl border border-gray-700 bg-gray-950 p-3 shadow-2xl shadow-black/40">
+          <div id="mobile-navigation" onKeyDown={(event) => { if (event.key === 'Escape') setOpen(false); }} className="absolute left-0 top-12 z-50 flex min-w-52 flex-col gap-1 rounded-2xl border border-gray-700 bg-gray-950 p-3 shadow-2xl shadow-black/40">
             {menu.map((item) => (
               <button
                 key={item}
@@ -41,7 +41,6 @@ export default function Navbar({ active, setActive }) {
                 {item}
               </button>
             ))}
-            <a href="#/admin" onClick={() => setOpen(false)} className="mt-1 border-t border-gray-800 px-3 pt-3 text-xs text-gray-500 hover:text-green-400">Admin</a>
           </div>
         )}
       </div>

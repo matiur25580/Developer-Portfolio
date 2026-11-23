@@ -6,6 +6,8 @@ export const applyTheme = (theme = 'dark') => {
   root.classList.add('theme-transition');
   root.classList.toggle('light-mode', isLight);
   root.style.colorScheme = isLight ? 'light' : 'dark';
+  const themeColor = document.querySelector('meta[name="theme-color"]');
+  if (themeColor) themeColor.setAttribute('content', isLight ? '#f4f7fb' : '#080b10');
   try {
     localStorage.setItem(THEME_KEY, isLight ? 'light' : 'dark');
   } catch (error) {
@@ -30,5 +32,7 @@ export const initTheme = () => {
   const isLight = savedTheme === 'light';
   document.documentElement.classList.toggle('light-mode', isLight);
   document.documentElement.style.colorScheme = isLight ? 'light' : 'dark';
+  const themeColor = document.querySelector('meta[name="theme-color"]');
+  if (themeColor) themeColor.setAttribute('content', isLight ? '#f4f7fb' : '#080b10');
   return !isLight;
 };

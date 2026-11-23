@@ -31,6 +31,9 @@ test("portfolio document includes canonical and social metadata", async () => {
   assert.match(html, /<title>Matiur Rahaman \| Full-Stack Developer Portfolio<\/title>/);
   assert.match(html, /name="description"/);
   assert.match(html, /rel="canonical"/);
+  assert.match(html, /rel="icon" type="image\/svg\+xml" href="\/favicon\.svg"/);
+  const favicon = await read("../public/favicon.svg");
+  assert.match(favicon, /<svg/);
   assert.match(html, /property="og:title"/);
   assert.match(html, /name="twitter:card"/);
 });
@@ -71,4 +74,38 @@ test("home hero My Works action receives the section navigation callback", async
   assert.match(app, /<HomePage\s+go={scrollToSection}\s+setActive={scrollToSection}\s*\/>/);
   assert.match(pages, /const _nav = props\.go \|\| props\.setPage \|\| props\.nav/);
   assert.match(pages, /onClick=\{\(\)=>_nav\('projects'\)\}/);
+});
+
+test("section navigation normalizes case and contact form fields have explicit labels", async () => {
+  const app = await read("../src/App.jsx");
+  const contact = await read("../src/components/Contact.jsx");
+
+  assert.match(app, /sections\.find\(item\s*=>\s*item\.toLowerCase\(\)===String\(name\)\.toLowerCase\(\)\)/);
+  for (const field of ["name", "email", "subject", "message"]) {
+    assert.ok(contact.includes('id="contact-' + field + '"'), "Missing contact field id: " + field);
+    assert.ok(contact.includes('htmlFor="contact-' + field + '"'), "Missing associated label: " + field);
+  }
+  assert.match(contact, /aria-live="polite"/);
+  assert.match(contact, /JSON\.stringify\(\{name:form\.name,email:form\.email,msg:form\.subject\+': '\+form\.msg\}\)/, "Preserve the existing contact submission payload");
+  assert.match(contact, /32 public projects/);
+});
+
+test("keyboard navigation, mobile admin separation and project discovery stay accessible", async () => {
+  const app = await read("../src/App.jsx");
+  const navbar = await read("../src/components/Navbar.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const projects = await read("../src/components/ProjectsShowcase.jsx");
+  const css = await read("../src/index.css");
+
+  assert.match(app, /href="#main-content"/);
+  assert.match(app, /id="main-content"/);
+  assert.match(app, /href="#\/admin"/, "Keep the protected admin route reachable from the footer");
+  assert.doesNotMatch(navbar, /href="#\/admin"/, "Keep Admin out of the public mobile menu");
+  assert.match(navbar, /event\.key === 'Escape'/);
+  assert.match(pages, /prefers-reduced-motion: reduce/);
+  assert.match(projects, /aria-pressed=\{active===f\}/);
+  assert.match(projects, /type="search"/);
+  assert.match(projects, /aria-live="polite"/);
+  assert.match(projects, /event\.key==="Escape"/);
+  assert.match(css, /\.skip-link:focus/);
 });

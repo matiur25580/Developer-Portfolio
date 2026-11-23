@@ -45,6 +45,8 @@ test("light theme uses accessible dark green text while dark theme keeps its ori
     'html.light-mode [class~="text-green-400"]',
     'html.light-mode [class~="text-green-500"]',
     'html.light-mode [class~="hover:text-green-300"]:hover',
+    'html.light-mode [class~="text-yellow-400"]',
+    "color: #854d0e !important",
     "color: #166534 !important",
     "--portfolio-accent: #4ade80",
   ]) {
@@ -63,4 +65,11 @@ test("theme update keeps every portfolio section and existing features wired", a
     assert.ok(app.includes(feature), "Missing existing feature: " + feature);
   }
   assert.match(navbar, /Home.*About.*Skills.*Experience.*Services.*Projects.*Contact.*Resume/);
+});
+
+test("browser theme color follows the selected light or dark palette", async () => {
+  const theme = await read("../src/utils/theme.js");
+  assert.match(theme, /meta\[name="theme-color"\]/);
+  assert.match(theme, /#f4f7fb/);
+  assert.match(theme, /#080b10/);
 });
