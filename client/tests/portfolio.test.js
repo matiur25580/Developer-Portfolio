@@ -72,3 +72,16 @@ test("home hero My Works action receives the section navigation callback", async
   assert.match(pages, /const _nav = props\.go \|\| props\.setPage \|\| props\.nav/);
   assert.match(pages, /onClick=\{\(\)=>_nav\('projects'\)\}/);
 });
+
+test("section navigation normalizes case and contact form fields have explicit labels", async () => {
+  const app = await read("../src/App.jsx");
+  const contact = await read("../src/components/Contact.jsx");
+
+  assert.match(app, /sections\.find\(item => item\.toLowerCase\(\)===String\(name\)\.toLowerCase\(\)\)/);
+  for (const field of ["name", "email", "subject", "message"]) {
+    assert.ok(contact.includes('id="contact-' + field + '"'), "Missing contact field id: " + field);
+    assert.ok(contact.includes('htmlFor="contact-' + field + '"'), "Missing associated label: " + field);
+  }
+  assert.match(contact, /aria-live="polite"/);
+  assert.match(contact, /32 public projects/);
+});
