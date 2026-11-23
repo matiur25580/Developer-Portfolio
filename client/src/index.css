@@ -11,30 +11,40 @@
   --portfolio-accent: #4ade80;
   --portfolio-bg: #080b10;
   --portfolio-surface: #101720;
+  --portfolio-card: #111820;
+  --portfolio-text: #f8fafc;
+  --portfolio-muted: #94a3b8;
   --portfolio-border: rgba(148, 163, 184, .16);
+  --portfolio-nav: rgba(3, 7, 18, .9);
+  background: var(--portfolio-bg);
 }
 
 html.light-mode {
   color-scheme: light;
+  --portfolio-bg: #f4f7fb;
+  --portfolio-surface: #ffffff;
+  --portfolio-card: #ffffff;
+  --portfolio-text: #172033;
+  --portfolio-muted: #596579;
+  --portfolio-border: #dce4ee;
+  --portfolio-nav: rgba(255, 255, 255, .92);
+  --portfolio-accent: #159653;
 }
 
+html, body, #root { min-height: 100%; }
 body {
   margin: 0;
   min-width: 320px;
   background: var(--portfolio-bg);
-  color: #f8fafc;
+  color: var(--portfolio-text);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  transition: background-color .25s ease, color .25s ease;
 }
-
-.light-mode body {
-  background: #f5f7f8 !important;
-  color: #111827 !important;
-}
-
-.light-mode nav {
-  background: rgba(255, 255, 255, .92) !important;
-  color: #111827 !important;
-  border-bottom: 1px solid #dbe2e8 !important;
+#root { background: var(--portfolio-bg); color: var(--portfolio-text); }
+html.light-mode body,
+html.light-mode #root {
+  background: var(--portfolio-bg) !important;
+  color: var(--portfolio-text) !important;
 }
 
 @keyframes marquee {
@@ -68,12 +78,12 @@ section, [id^="section-"] { scroll-margin-top: 5.5rem; }
 /* Subtle, consistent scrollbar styling. */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #334155 transparent;
+  scrollbar-color: #64748b transparent;
 }
 *::-webkit-scrollbar { width: 10px; height: 10px; }
 *::-webkit-scrollbar-track { background: transparent; }
 *::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #64748b;
   border: 3px solid transparent;
   border-radius: 999px;
   background-clip: padding-box;
@@ -82,7 +92,104 @@ section, [id^="section-"] { scroll-margin-top: 5.5rem; }
 /* Prevent long URLs and labels from breaking small screens. */
 p, a, h1, h2, h3, h4, li { overflow-wrap: anywhere; }
 
-/* Keep motion comfortable for visitors who request reduced motion. */
+/* A complete light palette for the existing Tailwind-based portfolio.
+   These overrides deliberately preserve all original content and layout. */
+html.light-mode .bg-black,
+html.light-mode [class~="bg-[#0a0a0a]"],
+html.light-mode [class~="bg-[#080b10]"],
+html.light-mode [class~="bg-[#0c0c0c]"] {
+  background-color: #f4f7fb !important;
+}
+html.light-mode [class~="bg-[#111]"],
+html.light-mode [class~="bg-[#101720]"],
+html.light-mode [class~="bg-gray-950"],
+html.light-mode [class~="bg-gray-900"] {
+  background-color: #ffffff !important;
+}
+html.light-mode [class~="bg-gray-800"],
+html.light-mode [class~="bg-gray-700"] {
+  background-color: #edf2f7 !important;
+}
+html.light-mode [class~="bg-black/40"] {
+  background-color: rgba(15, 23, 42, .42) !important;
+}
+html.light-mode nav {
+  background: var(--portfolio-nav) !important;
+  color: #172033 !important;
+  border-color: #dce4ee !important;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, .07) !important;
+}
+html.light-mode nav a,
+html.light-mode nav button { color: #344256; }
+html.light-mode nav button[aria-current="page"] { color: #15803d !important; }
+html.light-mode .text-white,
+html.light-mode [class~="text-gray-100"],
+html.light-mode [class~="text-gray-200"],
+html.light-mode [class~="text-gray-300"] {
+  color: #243247 !important;
+}
+html.light-mode [class~="text-gray-400"],
+html.light-mode [class~="text-gray-500"],
+html.light-mode [class~="text-gray-600"] {
+  color: #596579 !important;
+}
+html.light-mode [class~="border-gray-900"],
+html.light-mode [class~="border-gray-800"],
+html.light-mode [class~="border-gray-700"] {
+  border-color: #dce4ee !important;
+}
+html.light-mode [class~="bg-[#101625]"],
+html.light-mode [class~="bg-[#0b1220]"],
+html.light-mode [class~="bg-[#080b14]"] {
+  background-color: #f4f7fb !important;
+}
+html.light-mode [class~="from-[#101b2d]"] {
+  --tw-gradient-from: #ffffff var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position) !important;
+}
+html.light-mode [class~="via-[#111827]"] { --tw-gradient-stops: var(--tw-gradient-from), #f1f5f9 var(--tw-gradient-via-position), var(--tw-gradient-to) !important; }
+html.light-mode [class~="to-[#1d1640]"] { --tw-gradient-to: #e8eef8 var(--tw-gradient-to-position) !important; }
+html.light-mode [class~="text-slate-200"],
+html.light-mode [class~="text-slate-300"] { color: #26364d !important; }
+html.light-mode [class~="text-slate-400"],
+html.light-mode [class~="text-slate-500"] { color: #64748b !important; }
+html.light-mode [class~="text-cyan-100"],
+html.light-mode [class~="text-cyan-200"],
+html.light-mode [class~="text-cyan-300"],
+html.light-mode [class~="text-cyan-400"] { color: #087e8b !important; }
+html.light-mode [class~="text-white/70"] { color: #526176 !important; }
+html.light-mode [class~="border-white/10"],
+html.light-mode [class~="border-white/15"],
+html.light-mode [class~="border-white/30"] { border-color: #dce4ee !important; }
+html.light-mode [class~="bg-white/[.03]"],
+html.light-mode [class~="bg-white/[.04]"],
+html.light-mode [class~="bg-cyan-300/5"],
+html.light-mode [class~="bg-cyan-300/10"] {
+  background-color: rgba(8, 126, 139, .06) !important;
+}
+html.light-mode [class~="border-cyan-300/20"],
+html.light-mode [class~="border-cyan-300/30"],
+html.light-mode [class~="border-cyan-300/50"] { border-color: rgba(8, 126, 139, .22) !important; }
+html.light-mode [class~="bg-black/70"],
+html.light-mode [class~="bg-black/75"],
+html.light-mode [class~="bg-black/80"] { color: #ffffff !important; }
+html.light-mode input,
+html.light-mode textarea,
+html.light-mode select {
+  background-color: #ffffff;
+  color: #172033;
+  border-color: #cbd5e1;
+}
+html.light-mode input::placeholder,
+html.light-mode textarea::placeholder { color: #8491a3; }
+
+/* Keep the theme transition gentle and respect reduced-motion preferences. */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease, box-shadow .25s ease !important;
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {

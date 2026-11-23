@@ -1,14 +1,13 @@
 import { useState } from 'react';
+import { toggleTheme } from '../utils/theme';
 
 export default function Navbar({ active, setActive }) {
   const menu = ['Home', 'About', 'Skills', 'Experience', 'Services', 'Projects', 'Contact', 'Resume'];
   const [open, setOpen] = useState(false);
-  const [dark, setDark] = useState(() => localStorage.getItem('theme') !== 'light');
+  const [dark, setDark] = useState(() => !document.documentElement.classList.contains('light-mode'));
 
-  const toggleTheme = () => {
-    const nextDark = document.documentElement.classList.toggle('light-mode') === false;
-    localStorage.setItem('theme', nextDark ? 'dark' : 'light');
-    setDark(nextDark);
+  const handleThemeToggle = () => {
+    setDark(toggleTheme());
   };
 
   const navigate = (section) => {
@@ -37,7 +36,7 @@ export default function Navbar({ active, setActive }) {
                 type="button"
                 onClick={() => navigate(item)}
                 aria-current={active === item ? 'page' : undefined}
-                className={`rounded-lg px-3 py-2.5 text-left text-sm transition hover:bg-white/5 ${active === item ? 'bg-green-400/10 font-bold text-green-400' : 'text-gray-300'}`}
+                className={'rounded-lg px-3 py-2.5 text-left text-sm transition hover:bg-white/5 ' + (active === item ? 'bg-green-400/10 font-bold text-green-400' : 'text-gray-300')}
               >
                 {item}
               </button>
@@ -67,12 +66,13 @@ export default function Navbar({ active, setActive }) {
 
       <button
         type="button"
-        onClick={toggleTheme}
+        onClick={handleThemeToggle}
         aria-label={dark ? 'Switch to light theme' : 'Switch to dark theme'}
+        aria-pressed={!dark}
         title={dark ? 'Switch to light theme' : 'Switch to dark theme'}
         className="ml-3 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-gray-700 bg-gray-900 text-lg transition hover:border-green-400"
       >
-        {dark ? '🌙' : '☀️'}
+        <span aria-hidden="true">{dark ? '🌙' : '☀️'}</span>
       </button>
     </nav>
   );
