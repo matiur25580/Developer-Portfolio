@@ -53,7 +53,7 @@ function ProjectCard({ project, number, onExplore }) {
   };
   return (
     <article className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#101625] transition duration-300 hover:-translate-y-1 hover:border-cyan-300/50 hover:shadow-[0_18px_55px_rgba(34,211,238,.08)]">
-      <div className="relative h-[22rem] overflow-hidden border-b border-white/10 bg-[#0b1220] sm:h-[30rem] lg:h-[34rem]"
+      <div className="relative aspect-[16/9] w-full overflow-hidden border-b border-white/10 bg-[#0b1220]"
         onTouchStart={event => { touchStartX.current = event.touches[0].clientX; }}
         onTouchEnd={handleTouchEnd}>
         {project.gallery[imageIndex] ? <img key={project.gallery[imageIndex]} src={project.gallery[imageIndex]} alt={`${project.title} preview ${imageIndex + 1} of ${total}`} className="h-full w-full select-none object-contain p-2" draggable="false" loading="lazy" /> : <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-[#101b2d] via-[#111827] to-[#1d1640] p-8 text-center"><span className="grid h-24 w-24 place-items-center rounded-3xl border border-cyan-300/30 bg-cyan-300/10 text-5xl text-cyan-200">{project.icon}</span><p className="text-sm font-bold text-slate-200">{project.title}</p><p className="text-xs text-slate-400">Project preview not yet added · View repository for current implementation</p></div>}
@@ -123,7 +123,7 @@ export default function ProjectsShowcase(){
       </div>
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{focusedRepo ? "Viewing one selected project" : `Showing ${visible.length} of 31 projects`}</span>{focusedRepo ? <button type="button" onClick={()=>{setFocusedRepo("");window.location.hash="Projects";}} className="rounded-full border border-cyan-300/30 px-4 py-2 font-bold text-cyan-200 hover:bg-cyan-300/10">← Show all 31 projects</button> : <span>Source code available on GitHub ↗</span>}</div>
       {visible.length===0 ? <div className="rounded-2xl border border-white/10 bg-white/[.03] p-10 text-center text-slate-400">No projects match that search. Try another keyword or category.</div> :
-      <div className="grid grid-cols-1 gap-8">
+      <div className="grid grid-cols-1 items-stretch gap-6 md:grid-cols-2 xl:gap-8">
         {visible.map(project => <ProjectCard key={project.repo} project={project} number={projects.indexOf(project) + 1} onExplore={setSelected} />)}
       </div>}
     </div>
