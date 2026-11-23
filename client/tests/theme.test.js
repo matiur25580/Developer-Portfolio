@@ -32,7 +32,7 @@ test("light theme styles the full portfolio, including existing dark cards and p
     'class~="border-gray-800"',
     "html.light-mode nav",
   ]) {
-    assert.ok(css.includes(token), \`Missing full-page light theme rule: \${token}\`);
+    assert.ok(css.includes(token), "Missing full-page light theme rule: " + token);
   }
   assert.match(css, /prefers-reduced-motion/);
 });
@@ -45,7 +45,7 @@ test("theme update keeps every portfolio section and existing features wired", a
     "HomePage", "AboutPage", "SkillsPage", "ExperiencePage",
     "ServicesPage", "ProjectsPage", "Contact", "Resume", "Admin",
   ]) {
-    assert.ok(app.includes(feature), \`Missing existing feature: \${feature}\`);
+    assert.ok(app.includes(feature), "Missing existing feature: " + feature);
   }
   assert.match(navbar, /Home.*About.*Skills.*Experience.*Services.*Projects.*Contact.*Resume/);
 });
