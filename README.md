@@ -287,7 +287,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-contractsphere.svg" alt="ContractSphere — Contract Lifecycle Intelligence — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-contractsphere" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>LegalTech · Enterprise · Contract authoring, approvals, obligations and lifecycle intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -300,7 +299,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-finsight.svg" alt="FinSight — Cloud FinOps Intelligence — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-finsight" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Cloud · FinOps · Cloud cost visibility, resource insights and optimization workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -313,7 +311,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-privaops.svg" alt="PrivaOps — Privacy & Data Lifecycle — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-privaops" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Privacy · Governance · Privacy request operations, identity verification and data lifecycle controls. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -326,7 +323,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-gridpulse.svg" alt="GridPulse — Energy Intelligence — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-gridpulse" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Energy · Sustainability · Energy telemetry, grid flexibility and operational intelligence. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -339,7 +335,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-forgeops.svg" alt="ForgeOps — Asset Lifecycle & Maintenance — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-forgeops" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Industrial · Operations · Asset lifecycle management, maintenance planning and procurement workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -352,7 +347,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-signalforge.svg" alt="SignalForge — Product Intelligence — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-signalforge" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Product · Experimentation · Product analytics, experimentation and decision intelligence workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -365,7 +359,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-carbonledger.svg" alt="CarbonLedger — ESG & Carbon Accounting — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-carbonledger" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>ESG · Sustainability · Carbon accounting, emissions reporting and sustainability operations. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -378,7 +371,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-nexusid" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>Identity · Security · Identity lifecycle, access governance and enterprise security workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
@@ -391,7 +383,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-sentinelai.svg" alt="SentinelAI — AI Governance & Risk — project cover illustration" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-sentinelai" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</sub>
 
