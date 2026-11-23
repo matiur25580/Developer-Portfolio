@@ -1,0 +1,32 @@
+name: Generate responsive image variants
+
+on:
+  push:
+    branches:
+      - perf/generate-responsive-image-variants
+
+permissions:
+  contents: read
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install image optimizer
+        run: npm install --no-save --no-package-lock sharp@0.34.5
+        working-directory: client
+      - name: Generate responsive variants
+        run: node scripts/generate-image-variants.cjs
+        working-directory: client
+      - name: Upload optimized variants and report
+        uses: actions/upload-artifact@v4
+        with:
+          name: responsive-image-variants
+          path: |
+            client/public/projects/optimized/
+            client/image-optimization-report.json
+          if-no-files-found: error
