@@ -6,3 +6,21 @@ body{margin:0;background:#000;color:#fff;font-family:system-ui}
 .light-mode nav{background:#fff !important;color:#111 !important;border-bottom:1px solid #ddd !important}
 
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Portfolio-wide usability and accessibility refinements. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+img { max-width: 100%; }
+a, button { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid #4ade80; outline-offset: 3px; }
+::selection { background: rgba(74, 222, 128, .28); color: inherit; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
