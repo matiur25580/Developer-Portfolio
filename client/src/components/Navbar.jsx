@@ -1,22 +1,79 @@
 import { useState } from 'react';
-export default function Navbar({active,setActive}){
-  const menu=["Home","About","Skills","Experience","Services","Projects","Contact","Resume"];
-  const [open,setOpen]=useState(false);
-  const [dark,setDark]=useState(true);
+
+export default function Navbar({ active, setActive }) {
+  const menu = ['Home', 'About', 'Skills', 'Experience', 'Services', 'Projects', 'Contact', 'Resume'];
+  const [open, setOpen] = useState(false);
+  const [dark, setDark] = useState(() => localStorage.getItem('theme') !== 'light');
+
+  const toggleTheme = () => {
+    const nextDark = document.documentElement.classList.toggle('light-mode') === false;
+    localStorage.setItem('theme', nextDark ? 'dark' : 'light');
+    setDark(nextDark);
+  };
+
+  const navigate = (section) => {
+    setActive(section);
+    setOpen(false);
+  };
+
   return (
-    <nav className="bg-black text-white px-4 py-4 flex items-center sticky top-0 z-50 border-b border-green-500/30">
-      <div className="md:hidden mr-3">
-        <button onClick={()=>setOpen(!open)} className="text-2xl">☰</button>
-        {open && <div className="absolute top-16 left-4 bg-gray-900 border border-gray-700 rounded-xl p-4 flex flex-col gap-2 z-50 min-w-[150px]">
-          {menu.map(m=><button key={m} onClick={()=>{setActive(m);setOpen(false);}} className={`${active===m?'text-green-400 font-bold':'text-gray-300'} text-left text-sm`}>{m}</button>)}
-          <a href="#/admin" className="text-gray-500 text-xs mt-2">Admin</a>
-        </div>}
+    <nav aria-label="Main navigation" className="sticky top-0 z-50 flex items-center border-b border-green-500/20 bg-black/90 px-4 py-3 text-white shadow-lg shadow-black/10 backdrop-blur-xl md:px-6">
+      <div className="relative mr-3 lg:hidden">
+        <button
+          type="button"
+          onClick={() => setOpen((value) => !value)}
+          aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
+          className="grid h-10 w-10 place-items-center rounded-xl border border-gray-700 bg-gray-900 text-xl transition hover:border-green-400 hover:text-green-300"
+        >
+          {open ? '×' : '☰'}
+        </button>
+        {open && (
+          <div id="mobile-navigation" className="absolute left-0 top-12 z-50 flex min-w-52 flex-col gap-1 rounded-2xl border border-gray-700 bg-gray-950 p-3 shadow-2xl shadow-black/40">
+            {menu.map((item) => (
+              <button
+                key={item}
+                type="button"
+                onClick={() => navigate(item)}
+                aria-current={active === item ? 'page' : undefined}
+                className={`rounded-lg px-3 py-2.5 text-left text-sm transition hover:bg-white/5 ${active === item ? 'bg-green-400/10 font-bold text-green-400' : 'text-gray-300'}`}
+              >
+                {item}
+              </button>
+            ))}
+            <a href="#/admin" onClick={() => setOpen(false)} className="mt-1 border-t border-gray-800 px-3 pt-3 text-xs text-gray-500 hover:text-green-400">Admin</a>
+          </div>
+        )}
       </div>
-      <h1 className="text-2xl font-extrabold flex-1">MATIUR <span className="text-green-400">RAHAMAN</span></h1>
-      <div className="hidden md:flex gap-5 text-[13px] items-center">
-        {menu.map(m=><button key={m} onClick={()=>setActive(m)} className={active===m?'text-green-400 border-b-2 border-green-400 pb-1 font-bold':'hover:text-green-300 text-gray-300'}>{m}</button>)}
+
+      <a href="#section-home" onClick={(event) => { event.preventDefault(); navigate('Home'); }} className="min-w-0 flex-1 text-lg font-extrabold tracking-tight sm:text-xl md:flex-none">
+        MATIUR <span className="text-green-400">RAHAMAN</span>
+      </a>
+
+      <div className="ml-auto hidden items-center gap-3 lg:flex xl:gap-5">
+        {menu.map((item) => (
+          <button
+            key={item}
+            type="button"
+            onClick={() => navigate(item)}
+            aria-current={active === item ? 'page' : undefined}
+            className={active === item ? 'border-b-2 border-green-400 pb-1 font-bold text-green-400' : 'pb-1 text-gray-300 transition hover:text-green-300'}
+          >
+            {item}
+          </button>
+        ))}
       </div>
-      <button onClick={()=>{const d=document.documentElement.classList.toggle('light-mode');localStorage.setItem('theme',d?'light':'dark');setDark(!d);}} className="ml-3 text-lg bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center">{dark?'🌙':'☀️'}</button>
+
+      <button
+        type="button"
+        onClick={toggleTheme}
+        aria-label={dark ? 'Switch to light theme' : 'Switch to dark theme'}
+        title={dark ? 'Switch to light theme' : 'Switch to dark theme'}
+        className="ml-3 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-gray-700 bg-gray-900 text-lg transition hover:border-green-400"
+      >
+        {dark ? '🌙' : '☀️'}
+      </button>
     </nav>
   );
 }
