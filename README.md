@@ -119,7 +119,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-hireflow.svg" alt="01 · HireFlow — ATS Recruitment System — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-hireflow" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -131,7 +130,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p5.png" alt="03 · TrustShield — Banking Fraud Detection — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-trustshield" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -143,7 +141,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p4.png" alt="04 · FleetCommand — Logistics & Supply Chain — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-fleetcommand" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -155,7 +152,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-smartgadget.svg" alt="05 · SmartGadget Lifestyle MegaStore — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-smartgadget" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -167,7 +163,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p2.png" alt="06 · CityCare Hospital Management — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-citycare" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -179,7 +174,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-draftline.svg" alt="07 · Draftline AI Writing Studio — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-draftline" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -191,7 +185,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p3.png" alt="08 · Real Estate Management System — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-realestate" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -203,7 +196,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-chat.svg" alt="09 · Real-Time Chat & Collaboration Hub — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-chat" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -215,7 +207,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-trello.svg" alt="10 · Trello Clone — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-trello" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -227,7 +218,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-food-order.svg" alt="11 · Online Food Ordering System — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-foodorder" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -239,7 +229,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p1.webp" alt="12 · Smart HR & Payroll Management — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-hrpayroll" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -251,7 +240,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/p6.png" alt="13 · Multi-Vendor Marketplace Seller Ecosystem — Application Screenshot" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-marketplace" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -263,7 +251,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-fintech.svg" alt="14 · FinTech Smart Invoice & Expense System — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-fintech" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -275,7 +262,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/preview-cyber.svg" alt="15 · Cyber Security Operations Command Center — Overview" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-cyber" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 
 
@@ -289,7 +275,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/pulseops-overview.svg" alt="16 · PulseOps — Enterprise Developer Platform — Platform Overview UI concept" width="900"></a>
 
-<p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-pulseops" title="Open the interactive gallery and swipe through all six images">➡️</a></p>
 
 <sub>Gallery assets: Platform Overview, Service Catalog, Incident Command, SLO &amp; Error Budgets, Observability Explorer, and Alert Management. These are illustrative UI concepts sourced from the PulseOps repository, not screenshots of a live production deployment.</sub>
 

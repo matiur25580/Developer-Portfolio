@@ -74,7 +74,7 @@ function ProjectCard({ project, number, onExplore }) {
         <div className="mt-4 flex flex-wrap gap-2">{project.stack.map(technology => <span key={technology} className="rounded-md border border-white/10 bg-white/[.04] px-2 py-1 text-[10px] text-slate-300">{technology}</span>)}</div>
         <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-4">
           <button onClick={() => onExplore(project)} className="text-xs font-bold text-cyan-300 transition hover:text-white">Project details ↗</button>
-          <a className="ml-auto text-xs font-bold text-slate-300 transition hover:text-white" href={`https://github.com/matiur25580/${project.repo}`} rel="noreferrer">View repository ↗</a>
+          <a className="ml-auto text-xs font-bold text-slate-300 transition hover:text-white" href={`https://github.com/matiur25580/${project.repo}`} target="_blank" rel="noopener noreferrer">View repository ↗</a>
         </div>
       </div>
     </article>
