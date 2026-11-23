@@ -41,7 +41,7 @@ This repository contains my personal portfolio website and a curated overview of
 
 ## Project Gallery (1–31)
 
-The complete portfolio catalogue contains 31 projects. Projects 1–24 are presented in the primary gallery below, and projects 25–31 continue in the Additional Projects gallery further down this README. Open a repository to explore its source code, setup instructions, screenshots, and implementation notes.
+Browse all 31 projects in one continuous, consistently numbered visual gallery below. Each project links directly to its source repository and its dedicated preview artwork.
 
 | Project | Area | Technology / focus |
 |---|---|---|
@@ -409,10 +409,6 @@ All public projects in this GitHub account are listed below. This personal portf
 <p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-sentinelai" title="Open the interactive gallery and browse all six images">➡️</a></p>
 
 <sub>AI · Governance · AI governance, risk intelligence and model oversight workflows. This is project cover artwork, not a dashboard screenshot.</sub>
-
-## Additional Projects (25–31)
-
-The complete catalogue contains **31 projects**. These seven additions now include dedicated illustrative dashboard artwork in both the interactive project gallery and this README. The visuals are product UI concepts, not screenshots of a live production deployment.
 
 ### 25 · VerityGrid — Data Trust & Reliability
 [View repository](https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform)
