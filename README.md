@@ -405,42 +405,82 @@ All public projects in this GitHub account are listed below. This personal portf
 
 ## Additional Projects (25–31)
 
-These seven repositories are now included in the interactive project catalogue. Their previews are intentionally marked as pending until verified portfolio-specific artwork is available.
+The complete catalogue contains **31 projects**. These seven additions now include dedicated illustrative dashboard artwork in both the interactive project gallery and this README. The visuals are product UI concepts, not screenshots of a live production deployment.
 
 ### 25 · VerityGrid — Data Trust & Reliability
 [View repository](https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform)
 
-Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence. The current project status and deployment boundaries are documented in the source repository.
+<a href="https://developer-portfolio-client.vercel.app/#project-veritygrid" title="Open VerityGrid — Data Trust & Reliability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="VerityGrid — Data Trust & Reliability — illustrative dashboard preview" width="900"></a>
+
+Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 26 · ResilioX — Operational Resilience
 [View repository](https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform)
 
-Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response. Disaster recovery orchestration and third-party resilience remain planned.
+<a href="https://developer-portfolio-client.vercel.app/#project-resiliox" title="Open ResilioX — Operational Resilience in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="ResilioX — Operational Resilience — illustrative dashboard preview" width="900"></a>
+
+Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 27 · AegisFlow — AI AgentOps Orchestration
 [View repository](https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform)
 
-Multi-tenant AgentOps control-plane foundation for agent and workflow lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
+<a href="https://developer-portfolio-client.vercel.app/#project-aegisflow" title="Open AegisFlow — AI AgentOps Orchestration in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="AegisFlow — AI AgentOps Orchestration — illustrative dashboard preview" width="900"></a>
+
+Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 28 · ChainProof — Software Supply Chain Trust
 [View repository](https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform)
 
-Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports, policy-as-code and supplier risk. Verify individual capabilities against the selected source branch.
+<a href="https://developer-portfolio-client.vercel.app/#project-chainproof" title="Open ChainProof — Software Supply Chain Trust in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="ChainProof — Software Supply Chain Trust — illustrative dashboard preview" width="900"></a>
+
+Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports and policy-as-code.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 29 · CircuTrace — Digital Product Passport
 [View repository](https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform)
 
-Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows. Capabilities are under active development.
+<a href="https://developer-portfolio-client.vercel.app/#project-circutrace" title="Open CircuTrace — Digital Product Passport in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="CircuTrace — Digital Product Passport — illustrative dashboard preview" width="900"></a>
+
+Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 30 · CivicNexus — Smart City Intelligence
 [View repository](https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform)
 
-Urban operations foundation with tenant- and jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization. Live IoT and digital-twin integrations remain product directions.
+<a href="https://developer-portfolio-client.vercel.app/#project-civicnexus" title="Open CivicNexus — Smart City Intelligence in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-dashboard.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900"></a>
+
+Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
+
+---
 
 ### 31 · CareMesh — Healthcare Interoperability
 [View repository](https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform)
 
-Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent and purpose, FHIR-oriented exchange contracts, referrals, audit and provenance. This is not a production clinical system; use synthetic data only.
+<a href="https://developer-portfolio-client.vercel.app/#project-caremesh" title="Open CareMesh — Healthcare Interoperability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="CareMesh — Healthcare Interoperability — illustrative dashboard preview" width="900"></a>
+
+Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent, FHIR-oriented exchange contracts, referrals, audit and provenance.
+
+<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
