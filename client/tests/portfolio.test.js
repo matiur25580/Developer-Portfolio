@@ -176,3 +176,21 @@ test("project showcase code is deferred until the section approaches the viewpor
   assert.doesNotMatch(pages, /ProjectsShowcase/, "Keep the heavy project gallery out of the eager Pages module");
   assert.match(projectPage, /import ProjectsShowcase from ['"]\.\/ProjectsShowcase['"]/);
 });
+
+
+test("below-the-fold education images defer downloads and social icons stay first-party", async () => {
+  const pages = await read("../src/components/Pages.jsx");
+  const contact = await read("../src/components/Contact.jsx");
+  const css = await read("../src/index.css");
+  for (const image of ["/bitlogo.jpg", "/bit1.jpg", "/bit2.jpg", "/bit3.jpg", "/unilogo.svg", "/uni1.jpg", "/uni2.jpg", "/uni3.jpg"]) {
+    const escaped = image.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
+    const pattern = new RegExp("<img src=\"" + escaped + "\"[^>]*loading=\"lazy\"[^>]*decoding=\"async\"");
+    assert.match(pages, pattern, image + " should defer offscreen image loading");
+  }
+  assert.doesNotMatch(contact, /cdn\\.simpleicons\\.org/, "Contact social icons should not depend on a third-party image host");
+  assert.match(contact, /\\/social-github\\.svg/);
+  assert.match(contact, /\\/social-instagram-white\\.svg/);
+  assert.match(contact, /\\/social-x\\.svg/);
+  assert.match(css, /font-family:\\s*Inter, ui-sans-serif, system-ui/);
+  assert.doesNotMatch(css, /fonts\\.googleapis\\.com|fonts\\.gstatic\\.com/, "Keep typography on the local system-font stack");
+});
