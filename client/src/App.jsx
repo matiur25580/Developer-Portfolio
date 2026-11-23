@@ -32,8 +32,10 @@ export default function App(){
   const [isAdmin,setIsAdmin]=useState(window.location.hash==='#/admin');
   const [active,setActive]=useState(()=>{ const hash=window.location.hash.toLowerCase(); return hash==='#projects' || hash.startsWith('#project-') ? 'Projects' : 'Home'; });
   const scrollToSection=(name)=>{
-    setActive(name);
-    const target=document.getElementById('section-'+name.toLowerCase());
+    const sections=['Home','About','Skills','Experience','Services','Projects','Contact','Resume'];
+    const section=sections.find(item=>item.toLowerCase()===String(name).toLowerCase()) || 'Home';
+    setActive(section);
+    const target=document.getElementById('section-'+section.toLowerCase());
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
   };
   useEffect(()=>{
