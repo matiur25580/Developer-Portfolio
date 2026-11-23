@@ -52,13 +52,15 @@ test("crawler discovery files point to the canonical portfolio", async () => {
 test("core portfolio routes and admin/resume/contact features remain wired", async () => {
   const app = await read("../src/App.jsx");
   const pages = await read("../src/components/Pages.jsx");
+  const projectPage = await read("../src/components/ProjectsPage.jsx");
   const contact = await read("../src/components/Contact.jsx");
   const admin = await read("../src/pages/Admin.jsx");
   const resume = await read("../src/components/Resume.jsx");
 
-  for (const section of ["HomePage", "AboutPage", "SkillsPage", "ExperiencePage", "ServicesPage", "ProjectsPage"]) {
+  for (const section of ["HomePage", "AboutPage", "SkillsPage", "ExperiencePage", "ServicesPage"]) {
     assert.ok(pages.includes(`function ${section}`), `Missing ${section}`);
   }
+  assert.match(projectPage, /export default function ProjectsPage/);
   for (const feature of ["Contact", "Resume", "Admin"]) {
     assert.ok(app.includes(feature), `${feature} feature is no longer wired into the app`);
   }
