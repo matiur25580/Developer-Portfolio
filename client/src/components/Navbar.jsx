@@ -18,7 +18,7 @@ export default function Navbar({ active, setActive }) {
 
   return (
     <nav aria-label="Main navigation" className="sticky top-0 z-50 flex items-center border-b border-green-500/20 bg-black/90 px-4 py-3 text-white shadow-lg shadow-black/10 backdrop-blur-xl md:px-6">
-      <div className="relative mr-3 md:hidden">
+      <div className="relative mr-3 lg:hidden">
         <button
           type="button"
           onClick={() => setOpen((value) => !value)}
@@ -51,7 +51,7 @@ export default function Navbar({ active, setActive }) {
         MATIUR <span className="text-green-400">RAHAMAN</span>
       </a>
 
-      <div className="ml-auto hidden items-center gap-4 lg:flex xl:gap-5">
+      <div className="ml-auto hidden items-center gap-3 lg:flex xl:gap-5">
         {menu.map((item) => (
           <button
             key={item}
