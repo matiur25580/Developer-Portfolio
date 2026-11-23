@@ -100,19 +100,19 @@ export default function Resume() {
 
   const projects = [
     {
-      name: 'Developer Portfolio — Personal Portfolio & Project Showcase',
-      desc: 'Responsive developer portfolio presenting technical skills, selected work, project previews and contact information.',
+      name: 'Developer Portfolio — Matiur Rahaman',
+      desc: 'Responsive React portfolio presenting all 32 project repositories, technical skills, project details, visual previews and contact information.',
       tech: 'React · Vite · JavaScript · Tailwind CSS · Vercel',
       repo: 'https://github.com/matiur25580/Developer-Portfolio',
       featured: true,
     },
-    {
-      name: 'SmartGadget MegaStore — MERN E-commerce Platform',
-      desc: 'MERN e-commerce demo with JWT authentication, email OTP, role-protected catalog operations, API-backed product browsing and COD orders with server-side pricing and transactional stock reservation.',
-      tech: 'MongoDB · Express.js · React · Node.js · JWT · Email OTP',
-      repo: 'https://github.com/matiur25580/Enterprise-AI-Powered-SmartGadget-Lifestyle-MegaStore-Command-Center',
+    ...profile.projects.map((project) => ({
+      name: project.name,
+      desc: project.desc,
+      tech: project.tech,
+      repo: project.repo,
       featured: true,
-    },
+    })),
   ];
 
   const exp = [
@@ -151,8 +151,8 @@ export default function Resume() {
         </div>
 
         <div className="mb-3 mt-8 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="text-sm font-bold tracking-widest text-green-400">SELECTED PROJECTS</h2>
-          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">{projects.length} SELECTED PROJECTS</span>
+          <h2 className="text-sm font-bold tracking-widest text-green-400">PROJECT PORTFOLIO</h2>
+          <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-300">32 PROJECT REPOSITORIES + PORTFOLIO</span>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {projects.map((project, index) => (
