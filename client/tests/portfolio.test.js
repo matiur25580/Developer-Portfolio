@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 
 const read = (path) => readFile(new URL(path, import.meta.url), "utf8");
 
@@ -200,8 +200,16 @@ test("large project previews use responsive AVIF/WebP variants with original fal
   const responsiveImage = await read("../src/components/ResponsiveProjectImage.jsx");
   const pages = await read("../src/components/Pages.jsx");
   const showcase = await read("../src/components/ProjectsShowcase.jsx");
-  for (const name of ["p1", "p2", "p3", "p6"]) {
+  const variants = { p1: [360, 480, 720, 960, 1280, 1440], p2: [360, 480, 720], p3: [360, 480, 720], p6: [360, 480, 720, 960, 1280] };
+  for (const [name, widths] of Object.entries(variants)) {
     assert.ok(responsiveImage.includes("/projects/optimized/" + name + "-"));
+    for (const width of widths) {
+      for (const format of ["avif", "webp"]) {
+        const path = new URL("../public/projects/optimized/" + name + "-" + width + "." + format, import.meta.url);
+        const file = await stat(path);
+        assert.ok(file.size > 0 && file.size < 150_000, name + "-" + width + "." + format + " should be present and optimized");
+      }
+    }
   }
   assert.ok(responsiveImage.includes('type="image/avif"'));
   assert.ok(responsiveImage.includes('type="image/webp"'));
