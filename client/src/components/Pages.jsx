@@ -1,6 +1,5 @@
 import { profile } from '../data/profile';
 import Contact from './Contact';
-import ProjectsShowcase from './ProjectsShowcase';
 import { useState, useEffect } from 'react';
 const green="text-green-400";
 export function HomePage(props){
@@ -434,8 +433,3 @@ function LegacyProjectsPage(){
     </div>
   );
 }
-
-
-
-
-export function ProjectsPage(){ return <ProjectsShowcase />; }
