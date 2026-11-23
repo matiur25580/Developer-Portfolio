@@ -38,6 +38,52 @@ const projects = [
   { slug:"buildsphere", title:"BuildSphere — Enterprise Construction Intelligence Platform", category:"Enterprise", summary:"A multi-tenant construction delivery workspace spanning project controls, commercial records, field operations, quality and safety workflows, secure document control, BIM coordination and explainable rule-based project intelligence. Active engineering project; not a certified or production-ready construction system.", stack:["React 19","TypeScript","Node.js","Express 5","MongoDB","Zod","Docker"], repo:"BuildSphere-Enterprise-Construction-Intelligence-Platform", icon:"▦", image:"/projects/buildsphere-overview.svg", gallery:["/projects/buildsphere-overview.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/01-portfolio.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/02-projects.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/03-schedule.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/04-commercial.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/05-procurement.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/06-field-ops.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/07-quality.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/08-hse.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/09-documents.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/10-intelligence.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/11-collaboration.svg","https://raw.githubusercontent.com/matiur25580/BuildSphere-Enterprise-Construction-Intelligence-Platform/main/docs/screenshots/12-sustainability.svg"], features:["Tenant-scoped organizations, memberships and project roles","WBS, work items, milestones, commercial records and procurement visibility","Field reports, quality inspections, NCR/CAPA, HSE and coordination workflows","Private document uploads with malware scanning, SHA-256 integrity checks and authenticated downloads","IFC model registration and BCF-inspired coordination issues and viewpoints","Explainable schedule, commercial, quality, safety and coordination signals with linked evidence","TypeScript builds, API tests, MongoDB integration tests and Docker image CI"], featured:true },
 ];
 
+// Fill each project gallery to 12 screens. Existing repository screenshots stay first;
+// the additional screens are locally-rendered dashboard concept previews.
+const escapeSvgText = value => String(value).replace(/[&<>"']/g, char => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;"
+}[char]));
+
+const dashboardPages = [
+  "Overview", "Analytics", "Operations", "Activity", "Reports", "Workspace",
+  "Performance", "Team", "Workflow", "Insights", "Management", "Details"
+];
+
+function createDashboardPreview(project, screenIndex) {
+  const page = dashboardPages[screenIndex % dashboardPages.length];
+  const title = escapeSvgText(project.title.replace(/ — .*/, ""));
+  const pageLabel = escapeSvgText(page);
+  const category = escapeSvgText(project.category);
+  const bars = [38, 64, 48, 78, 56, 88, 69].map((height, i) =>
+    `<rect x="${190 + i * 31}" y="${330 - height}" width="17" height="${height}" rx="4" fill="${i === 5 ? "#67e8f9" : "#64748b"}" opacity="${i === 5 ? 1 : .65}"/>`
+  ).join("");
+  const rows = ["Primary workspace", "Recent activity", "Pending review", "Completed workflow"].map((label, i) =>
+    `<g transform="translate(0 ${i * 34})"><rect x="455" y="${185 + i * 34}" width="245" height="25" rx="6" fill="#182235"/><circle cx="469" cy="${197 + i * 34}" r="4" fill="${i === 2 ? "#fbbf24" : "#67e8f9"}"/><text x="481" y="${201 + i * 34}" fill="#cbd5e1" font-size="9">${label}</text><rect x="650" y="${193 + i * 34}" width="34" height="7" rx="3" fill="#475569"/></g>`
+  ).join("");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506">
+    <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1425"/><stop offset="1" stop-color="#151b35"/></linearGradient><linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
+    <rect width="900" height="506" rx="18" fill="url(#bg)"/><rect x="0" y="0" width="900" height="54" fill="#111c30"/><circle cx="28" cy="27" r="9" fill="url(#accent)"/>
+    <text x="48" y="31" fill="#f8fafc" font-size="15" font-weight="700">${title}</text><rect x="690" y="16" width="112" height="22" rx="11" fill="#1e3448"/><text x="746" y="31" text-anchor="middle" fill="#a5f3fc" font-size="9">${category}</text><circle cx="840" cy="27" r="11" fill="#334155"/><text x="840" y="31" text-anchor="middle" fill="#e2e8f0" font-size="9">MR</text>
+    <rect x="0" y="54" width="150" height="452" fill="#0c1526"/><text x="22" y="91" fill="#64748b" font-size="9" letter-spacing="2">WORKSPACE</text>
+    ${["Dashboard", "Projects", "Tasks", "Analytics", "Reports", "Settings"].map((label,i)=>`<rect x="13" y="${108+i*39}" width="124" height="29" rx="7" fill="${(i === screenIndex % 6) ? "#18344a" : "transparent"}"/><circle cx="28" cy="${122+i*39}" r="4" fill="${(i === screenIndex % 6) ? "#67e8f9" : "#475569"}"/><text x="41" y="${126+i*39}" fill="${(i === screenIndex % 6) ? "#cffafe" : "#94a3b8"}" font-size="10">${label}</text>`).join("")}
+    <text x="178" y="91" fill="#f8fafc" font-size="20" font-weight="700">${pageLabel}</text><text x="178" y="111" fill="#64748b" font-size="10">A focused view of your ${category.toLowerCase()} workspace</text>
+    ${[["Total records","2,480","+12.8%"],["Active items","184","+8.2%"],["In progress","36","Live"],["Completion","94.6%","+4.1%"]].map((m,i)=>`<rect x="${178+i*137}" y="132" width="124" height="70" rx="9" fill="#121f32" stroke="#26364b"/><text x="${190+i*137}" y="153" fill="#94a3b8" font-size="9">${m[0]}</text><text x="${190+i*137}" y="177" fill="#f8fafc" font-size="17" font-weight="700">${m[1]}</text><text x="${190+i*137}" y="191" fill="#67e8f9" font-size="8">${m[2]}</text>`).join("")}
+    <rect x="178" y="218" width="260" height="170" rx="10" fill="#111e30" stroke="#26364b"/><text x="194" y="242" fill="#e2e8f0" font-size="11" font-weight="700">Performance trend</text><path d="M190 330H423" stroke="#334155"/><path d="M190 290H423M190 250H423" stroke="#253449" stroke-dasharray="3 5"/>${bars}
+    <rect x="455" y="218" width="245" height="170" rx="10" fill="#111e30" stroke="#26364b"/><text x="471" y="242" fill="#e2e8f0" font-size="11" font-weight="700">Recent workspace updates</text>${rows}
+    <rect x="718" y="218" width="160" height="170" rx="10" fill="#111e30" stroke="#26364b"/><text x="734" y="242" fill="#e2e8f0" font-size="11" font-weight="700">Quick insights</text><circle cx="798" cy="302" r="38" fill="none" stroke="#334155" stroke-width="9"/><path d="M798 264 A38 38 0 1 1 765 321" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round"/><text x="798" y="307" text-anchor="middle" fill="#f8fafc" font-size="16" font-weight="700">94%</text><text x="798" y="358" text-anchor="middle" fill="#94a3b8" font-size="9">Health score</text>
+    <rect x="178" y="405" width="700" height="76" rx="10" fill="#111e30" stroke="#26364b"/><text x="194" y="429" fill="#e2e8f0" font-size="11" font-weight="700">Dashboard snapshot · ${pageLabel}</text><text x="194" y="450" fill="#94a3b8" font-size="9">Illustrative interface preview · Explore the repository for implementation details</text><rect x="740" y="435" width="118" height="24" rx="12" fill="#123548"/><text x="799" y="451" text-anchor="middle" fill="#a5f3fc" font-size="9">SCREEN ${screenIndex + 1} / 12</text>
+  </svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+projects.forEach(project => {
+  const existing = [...project.gallery];
+  while (existing.length < 12) {
+    existing.push(createDashboardPreview(project, existing.length));
+  }
+  project.gallery = existing.slice(0, 12);
+});
+
 const filters = ["All","Featured","AI & Automation","Enterprise","FinTech","E-commerce","Healthcare","Developer Tools","Cybersecurity"];
 
 function ProjectCard({ project, number, onExplore }) {
