@@ -1,10 +1,11 @@
 import React, { lazy, Suspense, useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
-import { HomePage, AboutPage, SkillsPage, ExperiencePage, ServicesPage, ProjectsPage } from './components/Pages';
+import { HomePage, AboutPage, SkillsPage, ExperiencePage, ServicesPage } from './components/Pages';
 import Contact from './components/Contact';
 
 const Admin = lazy(() => import('./pages/Admin'));
 const Resume = lazy(() => import('./components/Resume'));
+const ProjectsPage = lazy(() => import('./components/ProjectsPage.jsx'));
 
 const SectionLoading = () => <div className="min-h-[40vh] bg-[#0a0a0a] text-gray-400 flex items-center justify-center text-sm" role="status">Loading section…</div>;
 
@@ -31,6 +32,7 @@ const SafeSection = ({ name, children }) => <SectionErrorBoundary name={name}>{c
 export default function App(){
   const [isAdmin,setIsAdmin]=useState(window.location.hash==='#/admin');
   const [active,setActive]=useState(()=>{ const hash=window.location.hash.toLowerCase(); return hash==='#projects' || hash.startsWith('#project-') ? 'Projects' : 'Home'; });
+  const [projectsReady,setProjectsReady]=useState(false);
   const scrollToSection=(name)=>{
     const sections=['Home','About','Skills','Experience','Services','Projects','Contact','Resume'];
     const section=sections.find(item=>item.toLowerCase()===String(name).toLowerCase()) || 'Home';
@@ -38,6 +40,21 @@ export default function App(){
     const target=document.getElementById('section-'+section.toLowerCase());
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
   };
+  useEffect(()=>{
+    const section=document.getElementById('section-projects');
+    if(!section || !('IntersectionObserver' in window)){
+      setProjectsReady(true);
+      return;
+    }
+    const observer=new IntersectionObserver(([entry])=>{
+      if(entry.isIntersecting){
+        setProjectsReady(true);
+        observer.disconnect();
+      }
+    },{rootMargin:'1000px 0px'});
+    observer.observe(section);
+    return ()=>observer.disconnect();
+  },[]);
   useEffect(()=>{
     const h=()=>{
       const hash=window.location.hash;
@@ -62,7 +79,7 @@ export default function App(){
         <div id="section-skills" className="scroll-mt-20"><SafeSection name="Skills"><SkillsPage/></SafeSection></div>
         <div id="section-experience" className="scroll-mt-20"><SafeSection name="Experience"><ExperiencePage/></SafeSection></div>
         <div id="section-services" className="scroll-mt-20"><SafeSection name="Services"><ServicesPage/></SafeSection></div>
-        <div id="section-projects" className="scroll-mt-20"><SafeSection name="Projects"><ProjectsPage/></SafeSection></div>
+        <div id="section-projects" className="scroll-mt-20">{projectsReady ? <Suspense fallback={<SectionLoading />}><SafeSection name="Projects"><ProjectsPage/></SafeSection></Suspense> : <div className="min-h-[40vh] bg-[#080b14] text-gray-400 flex items-center justify-center px-6 text-center text-sm" role="status" aria-live="polite">Projects will load as you approach this section…</div>}</div>
         <div id="section-contact" className="scroll-mt-20"><SafeSection name="Contact"><Contact/></SafeSection></div>
         <div id="section-resume" className="scroll-mt-20"><SafeSection name="Resume"><Suspense fallback={<SectionLoading />}><Resume/></Suspense></SafeSection></div>
       </div>
