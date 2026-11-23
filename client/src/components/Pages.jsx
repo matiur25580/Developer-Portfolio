@@ -7,7 +7,12 @@ export function HomePage(props){
   const _nav = props.go || props.setPage || props.nav || props.navigate || props.onNavigate || function(){};
   const roles = ["MERN Full Stack Developer","React.js Specialist","Node.js + Express.js Developer","MongoDB Database Designer","REST API Architect"];
   const [ri,setRi] = useState(0);
-  useEffect(()=>{ const id=setInterval(()=>setRi(v=>(v+1)%roles.length),2200); return ()=>clearInterval(id); },[]);
+  useEffect(()=>{
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (motionPreference.matches) return;
+    const id=setInterval(()=>setRi(v=>(v+1)%roles.length),2200);
+    return ()=>clearInterval(id);
+  },[]);
   const techs = ["React.js","Node.js","Express.js","MongoDB","JavaScript","TypeScript","Tailwind CSS","JWT Auth","Mongoose","Git & GitHub","Postman","Vercel","Render","Docker"];
   return (
     <div className="bg-[#0a0a0a] text-white min-h-screen flex flex-col">
@@ -17,7 +22,7 @@ export function HomePage(props){
         </span>
         <p className="text-gray-400 text-sm tracking-[0.25em] mb-2">HELLO, I'M</p>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">MATIUR <span className="text-green-400">RAHAMAN</span></h1>
-        <p className="text-lg md:text-2xl mt-4 text-gray-300 h-8">I build <span className="text-green-400 font-bold">{roles[ri]}</span><span className="animate-pulse text-green-400 font-bold">|</span></p>
+        <p aria-live="off" className="text-lg md:text-2xl mt-4 text-gray-300 h-8">I build <span className="text-green-400 font-bold">{roles[ri]}</span><span className="animate-pulse text-green-400 font-bold">|</span></p>
         <p className="text-[13px] md:text-[14px] text-gray-500 max-w-xl mt-4 leading-relaxed">I build full-stack products with secure authentication, role-based workflows, responsive interfaces and practical integrations across AI, commerce, healthcare and business operations.</p>
         <div className="flex flex-wrap justify-center gap-3 mt-8">
           <button onClick={()=>_nav('about')} className="bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-3 rounded-full text-[14px] transition">About Me</button>
@@ -40,7 +45,7 @@ export function HomePage(props){
         </div>
       </div>
       <div className="border-t border-gray-900 py-4 overflow-hidden">
-        <div className="flex gap-3 w-max whitespace-nowrap" style={{animation:'marquee 25s linear infinite'}}>
+        <div aria-hidden="true" className="flex gap-3 w-max whitespace-nowrap" style={{animation:'marquee 25s linear infinite'}}>
           {techs.concat(techs).map((x,k)=>(
             <span key={k} className="text-[11px] font-bold bg-[#111] border border-gray-800 text-gray-400 px-4 py-2 rounded-full">{x}</span>
           ))}
