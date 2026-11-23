@@ -159,3 +159,18 @@ test("project gallery covers inline-generated slides, remote previews and image 
   assert.match(source, /role="img" aria-label=/);
   assert.match(source, /Preview could not load/);
 });
+
+
+test("project showcase code is deferred until the section approaches the viewport", async () => {
+  const app = await read("../src/App.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const projectPage = await read("../src/components/ProjectsPage.jsx");
+
+  assert.match(app, /lazy\(\(\) => import\('\.\/components\/ProjectsPage\.jsx'\)\)/);
+  assert.match(app, /new IntersectionObserver/);
+  assert.match(app, /rootMargin:'1000px 0px'/);
+  assert.match(app, /!\('IntersectionObserver' in window\)/, "Load immediately when IntersectionObserver is unavailable");
+  assert.match(app, /Projects will load as you approach this section/);
+  assert.doesNotMatch(pages, /ProjectsShowcase/, "Keep the heavy project gallery out of the eager Pages module");
+  assert.match(projectPage, /import ProjectsShowcase from ['"]\.\/ProjectsShowcase['"]/);
+});
