@@ -18,8 +18,8 @@ test("portfolio keeps all 32 project repositories plus its own featured entry", 
   assert.equal(portfolioEntries.length, 1, "Keep the portfolio itself featured exactly once");
   assert.equal(repositoryProjects.length, 32, "Keep all 32 external project repositories");
   for (const project of projects) {
-    assert.ok(project.title.trim(), `Missing title for ${project.slug}`);
-    assert.ok(project.repo.trim(), `Missing repository for ${project.slug}`);
+    assert.ok(project.title.trim(), \`Missing title for \${project.slug}\`);
+    assert.ok(project.repo.trim(), \`Missing repository for \${project.slug}\`);
   }
 
   const profile = await read("../src/data/profile.js");
@@ -42,8 +42,8 @@ test("crawler discovery files point to the canonical portfolio", async () => {
 
   assert.match(robots, /User-agent:\s*\*/);
   assert.match(robots, /Allow:\s*\//);
-  assert.ok(robots.includes(`${canonical}sitemap.xml`));
-  assert.ok(sitemap.includes(`<loc>${canonical}</loc>`));
+  assert.ok(robots.includes(\`\${canonical}sitemap.xml\`));
+  assert.ok(sitemap.includes(\`<loc>\${canonical}</loc>\`));
 });
 
 test("core portfolio routes and admin/resume/contact features remain wired", async () => {
@@ -54,12 +54,21 @@ test("core portfolio routes and admin/resume/contact features remain wired", asy
   const resume = await read("../src/components/Resume.jsx");
 
   for (const section of ["HomePage", "AboutPage", "SkillsPage", "ExperiencePage", "ServicesPage", "ProjectsPage"]) {
-    assert.ok(pages.includes(`function ${section}`), `Missing ${section}`);
+    assert.ok(pages.includes(\`function \${section}\`), \`Missing \${section}\`);
   }
   for (const feature of ["Contact", "Resume", "Admin"]) {
-    assert.ok(app.includes(feature), `${feature} feature is no longer wired into the app`);
+    assert.ok(app.includes(feature), \`\${feature} feature is no longer wired into the app\`);
   }
   assert.match(contact, /Send Message/);
   assert.match(admin, /Delete All/);
   assert.match(resume, /Save PDF/);
+});
+
+test("home hero My Works action receives the section navigation callback", async () => {
+  const app = await read("../src/App.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+
+  assert.match(app, /<HomePage\s+go={scrollToSection}\s+setActive={scrollToSection}\s*\/>/);
+  assert.match(pages, /const _nav = props\.go \|\| props\.setPage \|\| props\.nav/);
+  assert.match(pages, /onClick=\{\(\)=>_nav\('projects'\)\}/);
 });
