@@ -202,7 +202,8 @@ test("large project previews use responsive AVIF/WebP variants with original fal
   const showcase = await read("../src/components/ProjectsShowcase.jsx");
   const variants = { p1: [360, 480, 720, 960, 1280, 1440], p2: [360, 480, 720], p3: [360, 480, 720], p6: [360, 480, 720, 960, 1280] };
   for (const [name, widths] of Object.entries(variants)) {
-    assert.ok(responsiveImage.includes("/projects/optimized/" + name + "-"));
+    const extension = name === "p1" ? "webp" : "png";
+    assert.ok(responsiveImage.includes('"/projects/' + name + "." + extension + '":'));
     for (const width of widths) {
       for (const format of ["avif", "webp"]) {
         const path = new URL("../public/projects/optimized/" + name + "-" + width + "." + format, import.meta.url);
