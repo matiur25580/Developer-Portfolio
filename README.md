@@ -393,7 +393,6 @@ All public projects in this GitHub account are listed below. This personal portf
 
 Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -404,7 +403,6 @@ Multi-tenant data catalog, profiling, quality validation, lineage, freshness obj
 
 Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -415,7 +413,6 @@ Service-centric resilience workspace for business impact analysis, dependency ma
 
 Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -426,7 +423,6 @@ Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gate
 
 Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports and policy-as-code.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -437,7 +433,6 @@ Software supply-chain security foundation for SBOM inventory, vulnerability inte
 
 Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -448,7 +443,6 @@ Early MERN foundation for digital product passports, bills of materials, supplie
 
 Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
@@ -459,7 +453,6 @@ Urban operations foundation with jurisdiction-scoped geospatial incident managem
 
 Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent, FHIR-oriented exchange contracts, referrals, audit and provenance.
 
-<sub>Illustrative dashboard concept · Not live production data.</sub>
 
 ---
 
