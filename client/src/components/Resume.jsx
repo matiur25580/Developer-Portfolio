@@ -9,21 +9,75 @@ export default function Resume() {
   const savePDF = async () => {
     const el = cardRef.current;
     if (!el) return;
-    const canvas = await html2canvas(el, { scale: 2, backgroundColor: '#111111' });
-    const img = canvas.toDataURL('image/png');
-    const pdf = new jsPDF('p', 'mm', 'a4');
+
+    const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
     const pageW = pdf.internal.pageSize.getWidth();
     const pageH = pdf.internal.pageSize.getHeight();
-    const imgW = pageW;
-    const imgH = (canvas.height * imgW) / canvas.width;
-    let pos = 0;
-    pdf.addImage(img, 'PNG', 0, 0, imgW, imgH);
-    pos += pageH;
-    while (imgH > pos) {
-      pdf.addPage();
-      pdf.addImage(img, 'PNG', 0, -pos, imgW, imgH);
-      pos += pageH;
+    const margin = 12;
+    const contentW = pageW - margin * 2;
+    const contentH = pageH - margin * 2;
+
+    // Render a desktop-width, paper-style copy so mobile screen dimensions
+    // never determine the downloaded document layout.
+    const canvas = await html2canvas(el, {
+      scale: 2,
+      backgroundColor: '#ffffff',
+      windowWidth: 900,
+      onclone: (clonedDoc) => {
+        const clonedResume = clonedDoc.querySelector('[data-resume-export]');
+        if (!clonedResume) return;
+        clonedResume.style.width = '794px';
+        clonedResume.style.maxWidth = 'none';
+        clonedResume.style.margin = '0';
+        clonedResume.style.padding = '42px';
+        clonedResume.style.border = '0';
+        clonedResume.style.borderRadius = '0';
+        clonedResume.style.background = '#ffffff';
+        clonedResume.style.color = '#17202a';
+        clonedResume.querySelectorAll('.print\\:hidden').forEach((node) => { node.style.display = 'none'; });
+        clonedResume.querySelectorAll('*').forEach((node) => {
+          const tag = node.tagName;
+          if (tag === 'A') {
+            node.style.color = '#167a45';
+            node.style.textDecoration = 'none';
+          } else if (/^H[1-6]$/.test(tag)) {
+            node.style.color = '#16834b';
+          } else if (tag === 'SPAN' || tag === 'P') {
+            node.style.color = '#263238';
+          }
+          if (node.tagName === 'ARTICLE') {
+            node.style.background = '#f7faf8';
+            node.style.borderColor = '#d9e3dc';
+            node.style.breakInside = 'avoid';
+          }
+          if (node.tagName === 'SPAN' && node.className?.includes('rounded-md')) {
+            node.style.background = '#eef5f0';
+            node.style.borderColor = '#d5e3d9';
+          }
+        });
+      },
+    });
+
+    // Slice the long resume into true A4 pages with consistent print margins.
+    const pageCanvasHeight = Math.floor(canvas.width * contentH / contentW);
+    let pageIndex = 0;
+    for (let y = 0; y < canvas.height; y += pageCanvasHeight) {
+      const sliceHeight = Math.min(pageCanvasHeight, canvas.height - y);
+      const pageCanvas = document.createElement('canvas');
+      pageCanvas.width = canvas.width;
+      pageCanvas.height = sliceHeight;
+      const context = pageCanvas.getContext('2d');
+      if (!context) throw new Error('Unable to prepare the PDF page.');
+      context.fillStyle = '#ffffff';
+      context.fillRect(0, 0, pageCanvas.width, pageCanvas.height);
+      context.drawImage(canvas, 0, y, canvas.width, sliceHeight, 0, 0, canvas.width, sliceHeight);
+
+      if (pageIndex > 0) pdf.addPage();
+      const renderedH = sliceHeight * contentW / canvas.width;
+      pdf.addImage(pageCanvas.toDataURL('image/jpeg', 0.96), 'JPEG', margin, margin, contentW, renderedH, undefined, 'FAST');
+      pageIndex += 1;
     }
+
     pdf.save('Matiur_Rahaman_Resume.pdf');
   };
 
@@ -53,7 +107,7 @@ export default function Resume() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] px-4 py-8 text-white sm:px-6 sm:py-10">
-      <div ref={cardRef} className="mx-auto max-w-3xl rounded-2xl border border-gray-800 bg-[#111] p-5 sm:p-8">
+      <div ref={cardRef} data-resume-export className="mx-auto max-w-3xl rounded-2xl border border-gray-800 bg-[#111] p-5 sm:p-8">
         <div className="flex items-start justify-between gap-2 sm:gap-4">
           <div className="min-w-0 flex-1">
             <h1 className="text-xl font-extrabold leading-tight sm:text-3xl">MATIUR RAHAMAN</h1>
