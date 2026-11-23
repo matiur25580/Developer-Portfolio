@@ -5,7 +5,7 @@ const sharp = require("sharp");
 const root = path.resolve(__dirname, "../public/projects");
 const output = path.join(root, "optimized");
 const sources = ["p1.webp", "p2.png", "p3.png", "p6.png"];
-const widths = [360, 480, 768, 1024, 1440];
+const widths = [360, 480, 720, 960, 1280, 1440];
 
 async function main() {
   fs.mkdirSync(output, { recursive: true });
