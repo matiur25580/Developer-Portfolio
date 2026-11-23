@@ -101,18 +101,25 @@ export default function Resume() {
   const projects = [
     {
       name: 'Developer Portfolio — Matiur Rahaman',
-      desc: 'Responsive React portfolio presenting all 32 project repositories, technical skills, project details, visual previews and contact information.',
+      desc: 'Responsive React portfolio showcasing selected projects, technical skills, visual previews and contact information.',
       tech: 'React · Vite · JavaScript · Tailwind CSS · Vercel',
       repo: 'https://github.com/matiur25580/Developer-Portfolio',
       featured: true,
     },
-    ...profile.projects.map((project) => ({
-      name: project.name,
-      desc: project.desc,
-      tech: project.tech,
-      repo: project.repo,
+    {
+      name: 'FleetCommand — Logistics & Supply Chain',
+      desc: 'Enterprise logistics and supply-chain command center for fleet, trip, warehouse and operational workflows.',
+      tech: 'React · Node.js · Express · MongoDB · Socket.IO',
+      repo: 'https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center',
       featured: true,
-    })),
+    },
+    {
+      name: 'CityCare Hospital Management',
+      desc: 'Full-stack hospital management platform for patient care, appointments and hospital operations.',
+      tech: 'MERN · JWT · OTP',
+      repo: 'https://github.com/matiur25580/hospital-management-system',
+      featured: true,
+    },
   ];
 
   const exp = [
