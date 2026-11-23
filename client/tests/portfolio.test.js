@@ -130,3 +130,32 @@ test("project showcase references only existing local gallery assets", async () 
 
   assert.deepEqual(missing, [], `Missing local project gallery assets: ${missing.join(", ")}`);
 });
+
+
+test("project gallery covers inline-generated slides, remote previews and image fallbacks", async () => {
+  const source = await read("../src/components/ProjectsShowcase.jsx");
+  const { readdir } = await import("node:fs/promises");
+  const available = new Set(await readdir(new URL("../public/projects/", import.meta.url)));
+
+  // Newer project entries generate slides from an inline slug template.
+  const inlineGeneratedSlugs = [...source.matchAll(/\/projects\/([a-z0-9-]+)-0\$\{index\+2\}\.svg/g)]
+    .map(([, slug]) => slug);
+  assert.ok(inlineGeneratedSlugs.length > 0, "Expected inline-generated gallery entries to remain covered");
+
+  const missingGenerated = [...new Set(inlineGeneratedSlugs)]
+    .flatMap((slug) => Array.from({ length: 5 }, (_, index) => \`\${slug}-0\${index + 2}.svg\`))
+    .filter((asset) => !available.has(asset));
+  assert.deepEqual(missingGenerated, [], \`Missing inline-generated gallery slides: \${missingGenerated.join(", ")}\`);
+
+  // BuildSphere screenshots are intentionally hosted in their source repository.
+  const remoteAssets = [...new Set(source.match(/https:\/\/raw\.githubusercontent\.com\/[^"'\s]+/g) || [])];
+  assert.equal(remoteAssets.length, 12, "Keep all twelve BuildSphere gallery screenshots");
+  for (const url of remoteAssets) {
+    assert.match(url, /^https:\/\/raw\.githubusercontent\.com\/matiur25580\/BuildSphere-Enterprise-Construction-Intelligence-Platform\/main\/docs\/screenshots\/\d{2}-[a-z-]+\.svg$/);
+  }
+
+  // A failed image must retain an accessible, visible project-card fallback.
+  assert.match(source, /onError=\{\(\)\s*=>\s*setImageFailed\(true\)\}/);
+  assert.match(source, /role="img" aria-label=/);
+  assert.match(source, /Preview could not load/);
+});
