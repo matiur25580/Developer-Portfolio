@@ -66,3 +66,10 @@ test("theme update keeps every portfolio section and existing features wired", a
   }
   assert.match(navbar, /Home.*About.*Skills.*Experience.*Services.*Projects.*Contact.*Resume/);
 });
+
+test("browser theme color follows the selected light or dark palette", async () => {
+  const theme = await read("../src/utils/theme.js");
+  assert.match(theme, /meta\[name="theme-color"\]/);
+  assert.match(theme, /#f4f7fb/);
+  assert.match(theme, /#080b10/);
+});
