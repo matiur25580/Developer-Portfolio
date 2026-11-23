@@ -195,3 +195,19 @@ test("below-the-fold education images defer downloads and social icons stay firs
   assert.ok(css.includes("font-family: Inter, ui-sans-serif, system-ui"));
   assert.ok(!css.includes("fonts.googleapis.com") && !css.includes("fonts.gstatic.com"), "Keep typography on the local system-font stack");
 });
+
+test("large project previews use responsive AVIF/WebP variants with original fallbacks", async () => {
+  const responsiveImage = await read("../src/components/ResponsiveProjectImage.jsx");
+  const pages = await read("../src/components/Pages.jsx");
+  const showcase = await read("../src/components/ProjectsShowcase.jsx");
+  for (const name of ["p1", "p2", "p3", "p6"]) {
+    assert.ok(responsiveImage.includes("/projects/optimized/" + name + "-"));
+  }
+  assert.ok(responsiveImage.includes('type="image/avif"'));
+  assert.ok(responsiveImage.includes('type="image/webp"'));
+  assert.ok(responsiveImage.includes("src={src}"), "Keep the original image as a compatibility fallback");
+  assert.ok(responsiveImage.includes("width={image.width}") && responsiveImage.includes("height={image.height}"), "Reserve intrinsic image dimensions");
+  assert.ok(pages.includes("<ResponsiveProjectImage"));
+  assert.ok(showcase.includes("<ResponsiveProjectImage"));
+  assert.ok(showcase.includes("onError={() => setImageFailed(true)}"), "Preserve the existing gallery fallback behavior");
+});
