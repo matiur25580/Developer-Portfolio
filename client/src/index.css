@@ -52,6 +52,24 @@ html.light-mode #root {
   to { transform: translateX(-50%); }
 }
 
+/* Keyboard users can jump past the sticky navigation directly to content. */
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1000;
+  transform: translateY(-180%);
+  border-radius: 0.75rem;
+  background: #4ade80;
+  color: #052e16;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .2);
+}
+.skip-link:focus { transform: translateY(0); }
+#main-content:focus { outline: none; }
+
 /* Shared layout, interaction and accessibility foundations. */
 * { box-sizing: border-box; }
 html {
