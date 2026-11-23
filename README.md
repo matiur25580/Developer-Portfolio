@@ -99,6 +99,13 @@ All public projects in this GitHub account are listed below. This personal portf
 | 22 | **Real-Time Chat & Collaboration Hub** | Authenticated chat, online presence and realtime messaging. | [Source](https://github.com/matiur25580/Enterprise-Real-Time-Chat-Collaboration-Hub) |
 | 23 | **Trello Clone** | Kanban-inspired boards and task organization. | [Source](https://github.com/matiur25580/Trello-Clone) |
 | 24 | **Online Food Ordering System** | Restaurant, menu and food-ordering academic team project. | [Source](https://github.com/matiur25580/Online-Food-Ordering-System-main) |
+| 25 | **VerityGrid — Data Trust & Reliability** | Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents and governance approvals. | [Source](https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform) |
+| 26 | **ResilioX — Operational Resilience** | Service-centric business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response. | [Source](https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform) |
+| 27 | **AegisFlow — AI AgentOps Orchestration** | Agent and workflow lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces. | [Source](https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform) |
+| 28 | **ChainProof — Software Supply Chain Trust** | SBOM inventory, vulnerability intelligence, build provenance, release trust passports, policy-as-code and supplier risk. | [Source](https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform) |
+| 29 | **CircuTrace — Digital Product Passport** | Digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows. | [Source](https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform) |
+| 30 | **CivicNexus — Smart City Intelligence** | Geospatial urban incident management, incident timelines, hotspot intelligence and explainable prioritization. | [Source](https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform) |
+| 31 | **CareMesh — Healthcare Interoperability** | Healthcare identity, consent, FHIR-oriented exchange contracts, referrals, audit and provenance for care coordination. | [Source](https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform) |
 
 > **Transparency note:** These repositories represent projects at different stages of implementation. The descriptions above summarize their focus; they do not imply that every planned feature or integration is complete or production-deployed. Please refer to each repository's README and source code for its current status. The Online Food Ordering System was an academic team project; my documented contribution was frontend UI work. The Cyber Security Command Center is an evolving project, so its broader SOC/SIEM/SOAR/GRC direction should not be mistaken for a fully implemented feature set.
 
@@ -628,6 +635,82 @@ The following projects also open their six-image interactive galleries on the po
 <a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/gallery-nexusid.svg" alt="NexusID — Identity Security Governance — illustrative project cover" width="900"></a>
 
 <p align="right"><a href="https://developer-portfolio-client.vercel.app/#project-nexusid" title="Open the interactive gallery and browse all six images">➡️</a></p>
+
+<h3>25 · VerityGrid — Data Trust & Reliability</h3>
+
+<a href="https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="VerityGrid — Data Trust & Reliability — illustrative dashboard concept" width="900"></a>
+
+<sub>Multi-tenant data catalog, profiling, quality, lineage, freshness and governance. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>26 · ResilioX — Operational Resilience</h3>
+
+<a href="https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="ResilioX — Operational Resilience — illustrative dashboard concept" width="900"></a>
+
+<sub>Service resilience, business impact, dependencies, continuity and incident response. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>27 · AegisFlow — AI AgentOps Orchestration</h3>
+
+<a href="https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="AegisFlow — AI AgentOps Orchestration — illustrative dashboard concept" width="900"></a>
+
+<sub>Agent lifecycle, evaluation gates, promotion evidence, cost intelligence and audit. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>28 · ChainProof — Software Supply Chain Trust</h3>
+
+<a href="https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="ChainProof — Software Supply Chain Trust — illustrative dashboard concept" width="900"></a>
+
+<sub>SBOM inventory, vulnerability intelligence, build provenance and release trust. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>29 · CircuTrace — Digital Product Passport</h3>
+
+<a href="https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="CircuTrace — Digital Product Passport — illustrative dashboard concept" width="900"></a>
+
+<sub>Digital product passports, supplier declarations, traceability and circularity. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>30 · CivicNexus — Smart City Intelligence</h3>
+
+<a href="https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-dashboard.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard concept" width="900"></a>
+
+<sub>Geospatial urban incidents, timelines, hotspots and explainable prioritization. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
+
+
+<h3>31 · CareMesh — Healthcare Interoperability</h3>
+
+<a href="https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform"><strong>View repository</strong></a>
+
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="CareMesh — Healthcare Interoperability — illustrative dashboard concept" width="900"></a>
+
+<sub>Healthcare interoperability, consent, FHIR-oriented exchange, referrals and audit. This is illustrative project artwork, not a live application screenshot.</sub>
+
+---
 
 <p align="center">
   <strong>Designed and maintained by Matiur Rahaman</strong><br>
