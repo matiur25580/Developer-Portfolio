@@ -45,6 +45,8 @@ test("light theme uses accessible dark green text while dark theme keeps its ori
     'html.light-mode [class~="text-green-400"]',
     'html.light-mode [class~="text-green-500"]',
     'html.light-mode [class~="hover:text-green-300"]:hover',
+    'html.light-mode [class~="text-yellow-400"]',
+    "color: #854d0e !important",
     "color: #166534 !important",
     "--portfolio-accent: #4ade80",
   ]) {
