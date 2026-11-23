@@ -346,7 +346,7 @@ const projectDetails = [
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Tailwind CSS"],
     features: ["Rent tracking + lease/booking/maintenance modules","Tenant reviews + agent commission tracking","PDF receipts for every transaction","Full audit logging","Success messages for every action","Vercel frontend + Render backend"],
     github: "https://github.com/matiur25580/realestate-management-system", live: "" },
-  { img: "/projects/p4.png", overview: "Enterprise logistics platform with six roles (Fleet Manager, Warehouse Manager, Driver, Client and more), trip and warehouse management, booking workflows, analytics dashboards and 6-box OTP auth. Built to a 95+ quality bar.",
+  { img: "/projects/p4.png", overview: "Enterprise logistics platform with six roles (Fleet Manager, Warehouse Manager, Driver, Client and more), trip and warehouse management, booking workflows, analytics dashboards and 6-box OTP auth. Built with an emphasis on clear operational workflows, secure access and iterative quality improvements.",
     stack: ["React.js","Node.js","Express.js","Mon"+"goDB","JWT","Brevo","Tailwind CSS"],
     features: ["6 distinct role dashboards","Trip, vehicle, warehouse + booking management","Driver dashboards with live trip updates","Fleet performance analytics","6-box OTP professional auth pages","Auto-deploy pipeline to Vercel/Render"],
     github: "https://github.com/matiur25580/Enterprise-AI-Powered-Logistics-Fleet-Supply-Chain-Command-Center", live: "" },
