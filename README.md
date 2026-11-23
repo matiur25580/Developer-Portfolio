@@ -389,7 +389,7 @@ All public projects in this GitHub account are listed below. This personal portf
 <h3>25 · VerityGrid — Data Trust & Reliability</h3>
 <a href="https://github.com/matiur25580/VerityGrid-Enterprise-Data-Trust-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-veritygrid" title="Open VerityGrid — Data Trust & Reliability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="VerityGrid — Data Trust & Reliability — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" title="Open VerityGrid — Data Trust & Reliability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/veritygrid-dashboard.svg" alt="VerityGrid — Data Trust & Reliability — illustrative dashboard preview" width="900"></a>
 
 Multi-tenant data catalog, profiling, quality validation, lineage, freshness objectives, incidents, governance approvals and audit evidence.
 
@@ -400,7 +400,7 @@ Multi-tenant data catalog, profiling, quality validation, lineage, freshness obj
 <h3>26 · ResilioX — Operational Resilience</h3>
 <a href="https://github.com/matiur25580/ResilioX-Enterprise-Operational-Resilience-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-resiliox" title="Open ResilioX — Operational Resilience in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="ResilioX — Operational Resilience — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" title="Open ResilioX — Operational Resilience in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/resiliox-dashboard.svg" alt="ResilioX — Operational Resilience — illustrative dashboard preview" width="900"></a>
 
 Service-centric resilience workspace for business impact analysis, dependency mapping, operational risk, control assurance, continuity plans and incident response.
 
@@ -411,7 +411,7 @@ Service-centric resilience workspace for business impact analysis, dependency ma
 <h3>27 · AegisFlow — AI AgentOps Orchestration</h3>
 <a href="https://github.com/matiur25580/AegisFlow-Enterprise-AI-AgentOps-Orchestration-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-aegisflow" title="Open AegisFlow — AI AgentOps Orchestration in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="AegisFlow — AI AgentOps Orchestration — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" title="Open AegisFlow — AI AgentOps Orchestration in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/aegisflow-dashboard.svg" alt="AegisFlow — AI AgentOps Orchestration — illustrative dashboard preview" width="900"></a>
 
 Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gates, promotion evidence, cost intelligence, approvals and audit workspaces.
 
@@ -422,7 +422,7 @@ Multi-tenant AgentOps control plane for agent lifecycle, evaluation quality gate
 <h3>28 · ChainProof — Software Supply Chain Trust</h3>
 <a href="https://github.com/matiur25580/Enterprise-Software-Supply-Chain-Security-Trust-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-chainproof" title="Open ChainProof — Software Supply Chain Trust in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="ChainProof — Software Supply Chain Trust — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" title="Open ChainProof — Software Supply Chain Trust in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/chainproof-dashboard.svg" alt="ChainProof — Software Supply Chain Trust — illustrative dashboard preview" width="900"></a>
 
 Software supply-chain security foundation for SBOM inventory, vulnerability intelligence, build provenance, release trust passports and policy-as-code.
 
@@ -433,7 +433,7 @@ Software supply-chain security foundation for SBOM inventory, vulnerability inte
 <h3>29 · CircuTrace — Digital Product Passport</h3>
 <a href="https://github.com/matiur25580/CircuTrace-Enterprise-Digital-Product-Passport-Circular-Lifecycle-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-circutrace" title="Open CircuTrace — Digital Product Passport in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="CircuTrace — Digital Product Passport — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" title="Open CircuTrace — Digital Product Passport in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/circutrace-dashboard.svg" alt="CircuTrace — Digital Product Passport — illustrative dashboard preview" width="900"></a>
 
 Early MERN foundation for digital product passports, bills of materials, supplier declarations, lifecycle traceability, evidence management and circularity workflows.
 
@@ -444,7 +444,7 @@ Early MERN foundation for digital product passports, bills of materials, supplie
 <h3>30 · CivicNexus — Smart City Intelligence</h3>
 <a href="https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-civicnexus" title="Open CivicNexus — Smart City Intelligence in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" title="Open CivicNexus — Smart City Intelligence in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900"></a>
 
 Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.
 
@@ -455,7 +455,7 @@ Urban operations foundation with jurisdiction-scoped geospatial incident managem
 <h3>31 · CareMesh — Healthcare Interoperability</h3>
 <a href="https://github.com/matiur25580/CareMesh-Enterprise-Healthcare-Interoperability-Care-Coordination-Platform"><strong>View repository</strong></a>
 
-<a href="https://developer-portfolio-client.vercel.app/#project-caremesh" title="Open CareMesh — Healthcare Interoperability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="CareMesh — Healthcare Interoperability — illustrative dashboard preview" width="900"></a>
+<a href="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" title="Open CareMesh — Healthcare Interoperability in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/caremesh-dashboard.svg" alt="CareMesh — Healthcare Interoperability — illustrative dashboard preview" width="900"></a>
 
 Privacy-first healthcare interoperability and care-coordination foundation covering organization trust, identity and access, consent, FHIR-oriented exchange contracts, referrals, audit and provenance.
 
