@@ -109,3 +109,24 @@ test("keyboard navigation, mobile admin separation and project discovery stay ac
   assert.match(projects, /event\.key==="Escape"/);
   assert.match(css, /\.skip-link:focus/);
 });
+
+
+test("project showcase references only existing local gallery assets", async () => {
+  const source = await read("../src/components/ProjectsShowcase.jsx");
+  const { readdir } = await import("node:fs/promises");
+  const available = new Set(await readdir(new URL("../public/projects/", import.meta.url)));
+
+  // Check every literal local project image, including cover images and explicit galleries.
+  const literalAssets = [...source.matchAll(/["'`](\/projects\/[^"'`]+)["'`]/g)]
+    .map(([, asset]) => asset.slice("/projects/".length))
+    .filter((asset) => !asset.includes("${") && !asset.startsWith("http"));
+
+  // makeGallery generates five additional local slides from each supplied project slug.
+  const generatedAssets = [...source.matchAll(/makeGallery\("([^"]+)"/g)]
+    .flatMap(([, slug]) => Array.from({ length: 5 }, (_, index) => `${slug}-0${index + 2}.svg`));
+
+  const missing = [...new Set([...literalAssets, ...generatedAssets])]
+    .filter((asset) => !available.has(asset));
+
+  assert.deepEqual(missing, [], `Missing local project gallery assets: ${missing.join(", ")}`);
+});
