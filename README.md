@@ -468,7 +468,7 @@ Early MERN foundation for digital product passports, bills of materials, supplie
 <h3>30 · CivicNexus — Smart City Intelligence</h3>
 [View repository](https://github.com/matiur25580/CivicNexus-Enterprise-Smart-City-Urban-Intelligence-Platform)
 
-<a href="https://developer-portfolio-client.vercel.app/#project-civicnexus" title="Open CivicNexus — Smart City Intelligence in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-dashboard.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900"></a>
+<a href="https://developer-portfolio-client.vercel.app/#project-civicnexus" title="Open CivicNexus — Smart City Intelligence in the interactive project gallery"><img src="https://raw.githubusercontent.com/matiur25580/Developer-Portfolio/main/client/public/projects/civicnexus-city-operations.svg" alt="CivicNexus — Smart City Intelligence — illustrative dashboard preview" width="900"></a>
 
 Urban operations foundation with jurisdiction-scoped geospatial incident management, GeoJSON/WGS84 handling, incident timelines, hotspot intelligence and explainable prioritization.
 
