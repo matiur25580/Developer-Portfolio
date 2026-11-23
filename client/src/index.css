@@ -1,20 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{margin:0;background:#000;color:#fff;font-family:system-ui}
-.light-mode body{background:#f5f5f5 !important;color:#111 !important}
-.light-mode nav{background:#fff !important;color:#111 !important;border-bottom:1px solid #ddd !important}
 
-@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --portfolio-accent: #4ade80;
+  --portfolio-bg: #080b10;
+  --portfolio-surface: #101720;
+  --portfolio-border: rgba(148, 163, 184, .16);
+}
 
-/* Portfolio-wide usability and accessibility refinements. */
+html.light-mode {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--portfolio-bg);
+  color: #f8fafc;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.light-mode body {
+  background: #f5f7f8 !important;
+  color: #111827 !important;
+}
+
+.light-mode nav {
+  background: rgba(255, 255, 255, .92) !important;
+  color: #111827 !important;
+  border-bottom: 1px solid #dbe2e8 !important;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Shared layout, interaction and accessibility foundations. */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
-img { max-width: 100%; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  scrollbar-gutter: stable;
+}
+body { overflow-x: hidden; }
+img, video, svg { max-width: 100%; }
+img { height: auto; }
 a, button { -webkit-tap-highlight-color: transparent; }
-:focus-visible { outline: 2px solid #4ade80; outline-offset: 3px; }
-::selection { background: rgba(74, 222, 128, .28); color: inherit; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+:focus-visible {
+  outline: 2px solid var(--portfolio-accent);
+  outline-offset: 3px;
+}
+::selection {
+  background: rgba(74, 222, 128, .28);
+  color: inherit;
+}
+section, [id^="section-"] { scroll-margin-top: 5.5rem; }
 
+/* Subtle, consistent scrollbar styling. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: #334155;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+/* Prevent long URLs and labels from breaking small screens. */
+p, a, h1, h2, h3, h4, li { overflow-wrap: anywhere; }
+
+/* Keep motion comfortable for visitors who request reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
