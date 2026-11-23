@@ -31,7 +31,7 @@ export function HomePage(props){
   <a href="mailto:rahamanmatiur397@gmail.com" target="_blank" rel="noreferrer" title="Email" className="w-11 h-11 rounded-full bg-[#111] border border-gray-800 hover:border-green-500 hover:scale-110 flex items-center justify-center transition"><img src="/social-gmail.svg" alt="Email" className="w-5 h-5"/></a>
 </div>
         <div className="flex gap-8 mt-10">
-          {[["31","Projects"],["15+","Technologies"],["Full Stack","Focus"]].map((s,k)=>(
+          {[["32","Projects"],["15+","Technologies"],["Full Stack","Focus"]].map((s,k)=>(
             <div key={k} className="text-center">
               <p className="text-2xl font-extrabold text-green-400">{s[0]}</p>
               <p className="text-[11px] text-gray-500">{s[1]}</p>
@@ -62,13 +62,13 @@ export function AboutPage(){
     ["Languages","Bangla, Hindi, English"],
   ];
   const stats=[
-    ["31","Projects"],
+    ["32","Projects"],
     ["15+","Tech Skills"],
     ["Full Stack","Development Focus"],
     ["AI + MERN","Project Areas"],
   ];
   const points=[
-    ["Full-stack product development","Built and documented 31 projects spanning web applications, enterprise-style workflows and product concepts using a range of frontend, backend and database technologies."],
+    ["Full-stack product development","Built and documented 32 projects spanning web applications, enterprise-style workflows and product concepts using a range of frontend, backend and database technologies."],
     ["Real authentication","6-digit OTP (Brevo/Gmail), JWT, bcrypt hashing, role-based dashboards. No demo logins."],
     ["Live deployments","Vercel (frontend) + Render (backend) CI/CD with 【entity-GitHub¦canonical_name=GitHub】 workflow and Postman-tested APIs."],
     ["Enterprise UI/UX","Tailwind CSS, dark/light themes, fully responsive dashboards for Admin, HR, Doctor, Driver and more."],
@@ -260,7 +260,7 @@ export function ExperiencePage(){
 }
 export function ServicesPage(){
   const s=[
-    ["R","bg-green-500","🚀 MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 31 documented projects across multiple domains, with implementation status varying by repository.",["React","Node.js","Express","MongoDB"]],
+    ["R","bg-green-500","🚀 MERN Full-Stack Development","Complete enterprise web apps from scratch. React + Vite frontend, Node + Express backend. 32 documented projects across multiple domains, with implementation status varying by repository.",["React","Node.js","Express","MongoDB"]],
     ["A","bg-blue-500","🔌 REST API Development","Secure scalable APIs. JWT + 6-digit OTP auth, role-based access, Postman tested.",["Express","JWT","OTP","Postman"]],
     ["S","bg-purple-500","🛡️ Authentication & Security","Real auth systems, no demo logins. Brevo/Gmail OTP, bcrypt hashing, protected routes.",["JWT","Bcrypt","Brevo"]],
     ["D","bg-orange-500","🗄️ Database Design","Efficient NoSQL modeling. Atlas + Mongoose, schema design, audit logging.",["MongoDB","Mongoose","Atlas"]],
