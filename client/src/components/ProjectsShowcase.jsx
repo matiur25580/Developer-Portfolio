@@ -164,20 +164,21 @@ export default function ProjectsShowcase(){
       </div>
       <div className="mb-6 flex flex-col gap-4">
         <label className="relative block max-w-xl">
-          <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">⌕</span>
-          <input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search projects, technologies or categories…" className="w-full rounded-xl border border-white/10 bg-[#101625] py-3 pl-11 pr-4 text-sm text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400/60" />
+          <span className="sr-only">Search projects, technologies or categories</span>
+          <span aria-hidden="true" className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">⌕</span>
+          <input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search projects, technologies or categories…" className="w-full rounded-xl border border-white/10 bg-[#101625] py-3 pl-11 pr-4 text-sm text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400/60" />
         </label>
         <div className="flex gap-2 overflow-x-auto pb-2">
-          {filters.map(f=><button key={f} onClick={()=>setActive(f)} className={`shrink-0 rounded-full border px-4 py-2 text-xs font-semibold transition ${active===f?"border-cyan-300 bg-cyan-300 text-slate-950":"border-white/10 bg-white/[.04] text-slate-400 hover:border-cyan-300/50 hover:text-white"}`}>{f}</button>)}
+          {filters.map(f=><button key={f} type="button" aria-pressed={active===f} onClick={()=>setActive(f)} className={`shrink-0 rounded-full border px-4 py-2 text-xs font-semibold transition ${active===f?"border-cyan-300 bg-cyan-300 text-slate-950":"border-white/10 bg-white/[.04] text-slate-400 hover:border-cyan-300/50 hover:text-white"}`}>{f}</button>)}
         </div>
       </div>
-      <div className="mb-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{focusedRepo ? "Viewing one selected project" : `${visible.filter(item => !item.isPortfolio).length} of 32 projects · portfolio featured first`}</span>{focusedRepo ? <button type="button" onClick={()=>{setFocusedRepo("");window.location.hash="Projects";}} className="rounded-full border border-cyan-300/30 px-4 py-2 font-bold text-cyan-200 hover:bg-cyan-300/10">← Show all 32 projects</button> : <span>Source code available on GitHub ↗</span>}</div>
+      <div aria-live="polite" className="mb-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500"><span>{focusedRepo ? "Viewing one selected project" : `${visible.filter(item => !item.isPortfolio).length} of 32 projects · portfolio featured first`}</span>{focusedRepo ? <button type="button" onClick={()=>{setFocusedRepo("");window.location.hash="Projects";}} className="rounded-full border border-cyan-300/30 px-4 py-2 font-bold text-cyan-200 hover:bg-cyan-300/10">← Show all 32 projects</button> : <span>Source code available on GitHub ↗</span>}</div>
       {visible.length===0 ? <div className="rounded-2xl border border-white/10 bg-white/[.03] p-10 text-center text-slate-400">No projects match that search. Try another keyword or category.</div> :
       <div className="grid grid-cols-1 items-stretch gap-6 md:grid-cols-2 xl:gap-8">
         {visible.map(project => <ProjectCard key={project.repo} project={project} number={project.isPortfolio ? "PORTFOLIO" : projects.filter(item => !item.isPortfolio).indexOf(project) + 1} onExplore={setSelected} />)}
       </div>}
     </div>
-    {selected && <div role="dialog" aria-modal="true" aria-label={selected.title} className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm" onClick={()=>setSelected(null)}>
+    {selected && <div role="dialog" aria-modal="true" aria-label={selected.title} tabIndex="-1" onKeyDown={event=>{if(event.key==="Escape")setSelected(null);}} className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm" onClick={()=>setSelected(null)}>
       <div className="max-h-[88vh] w-full max-w-2xl overflow-y-auto rounded-2xl border border-white/10 bg-[#101625] p-6 shadow-2xl sm:p-8" onClick={e=>e.stopPropagation()}>
         <div className="flex items-start justify-between gap-4"><div><p className="text-[10px] font-bold tracking-[.3em] text-cyan-300">{selected.category.toUpperCase()}</p><h2 className="mt-2 text-2xl font-black">{selected.title}</h2></div><button onClick={()=>setSelected(null)} aria-label="Close project details" className="rounded-full border border-white/10 px-3 py-1 text-xl text-slate-400 hover:text-white">×</button></div>
         <p className="mt-5 text-sm leading-7 text-slate-300">{selected.summary}</p>
