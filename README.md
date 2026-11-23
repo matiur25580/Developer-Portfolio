@@ -13,6 +13,20 @@
 
 ---
 
+## Quick Navigation
+
+- [About](#about)
+- [Portfolio at a Glance](#portfolio-at-a-glance)
+- [Featured Project Snapshot](#featured-project-snapshot)
+- [Complete List — All 31 Projects](#all-31-projects)
+- [Complete Project Visual Gallery](#complete-project-visual-gallery)
+- [Technology Stack](#technology-stack)
+- [Education](#education)
+- [Run Locally](#run-this-portfolio-locally)
+- [Connect](#connect)
+
+> **Portfolio focus:** full-stack engineering, secure application workflows, responsive product interfaces, API development and AI-assisted features. The project directory intentionally preserves all **31 projects**; each repository remains the source of truth for its implementation status.
+
 ## Screenshots
 
 Capture the actual deployed portfolio after the latest production deployment. The [screenshot capture guide](docs/screenshots/README.md) lists the exact sections to capture. Only screenshots of this portfolio belong in this gallery; do not reuse images from the other projects.
@@ -39,9 +53,9 @@ This repository contains my personal portfolio website and a curated overview of
 | **Data** | MongoDB, Mongoose, MySQL |
 | **Interests** | AI-assisted products, secure workflows, dashboards, real-time apps |
 
-## Project Gallery (1–31)
+## Featured Project Snapshot
 
-Browse all 31 projects in one continuous, consistently numbered visual gallery below. Each project links directly to its source repository and its dedicated preview artwork.
+A quick look at selected projects across the portfolio. The complete, numbered directory of all 31 projects follows below, and every project remains represented in the visual gallery.
 
 | Project | Area | Technology / focus |
 |---|---|---|
