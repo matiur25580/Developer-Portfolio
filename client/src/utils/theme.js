@@ -1,5 +1,6 @@
 const THEME_KEY = 'theme';
 
+// Applies the selected theme consistently to the document, browser color scheme, and saved preference.
 export const applyTheme = (theme = 'dark') => {
   const isLight = theme === 'light';
   const root = document.documentElement;
