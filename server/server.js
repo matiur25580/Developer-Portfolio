@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 
+// Configure the portfolio API, restrict browser origins, and expose the contact endpoint.
 const app = express();
 const allowedOrigins = (process.env.FRONTEND_ORIGINS || 'https://developer-portfolio-client.vercel.app')
   .split(',')
