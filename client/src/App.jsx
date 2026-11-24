@@ -9,6 +9,7 @@ const ProjectsPage = lazy(() => import('./components/ProjectsPage.jsx'));
 
 const SectionLoading = () => <div className="min-h-[40vh] bg-[#0a0a0a] text-gray-400 flex items-center justify-center text-sm" role="status">Loading section…</div>;
 
+// Isolates rendering failures so one unavailable portfolio section does not take down the whole page.
 class SectionErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { failed: false }; }
   static getDerivedStateFromError() { return { failed: true }; }
