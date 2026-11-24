@@ -46,6 +46,7 @@ function submissionRateLimit(ip) {
   return 0;
 }
 
+// Admin inbox access is enabled only when both credentials are configured securely.
 function configuredSecrets() {
   return Boolean(process.env.ADMIN_PASS && process.env.ADMIN_SESSION_SECRET && process.env.ADMIN_SESSION_SECRET.length >= 32);
 }
